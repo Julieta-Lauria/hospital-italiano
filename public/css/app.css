@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* INICIO VERSION MOBILE */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #cccccc;
+}
+
+.navbar{
+  background-color: white;
+  height: 100px;
+}
+
+.navbar-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-fundacion,
+.logo-hospital{
+  height:50px;
+}
+
+.active a{
+  font-size: 1em;
+  text-align: center;
+  background-color: #003366 !important;
+}
+
+.container{
+  width:100%;
+  padding-right:0;
+  padding-left:0;
+  background-color: #eee;
+}
+
+.jumbotron{
+  margin-top: 45%;
+  border-radius: 0 !important;
+  margin-bottom:15%;
+}
+
+.jumbotron-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 7%;
+  margin-left:5%;
+}
+
+.ribbon{
+  height:50px;
+}
+
+.ribbon-100{
+  display: none;
+}
+
+.jumbotron h1{
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top:-1px;
+}
+
+.jumbotron h2{
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 7%;
+}
+
+.jumbotron p{
+  font-size: 1.1em;
+  margin-bottom:5%;
+}
+
+.button {
+  margin-top:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button button{
+  line-height: 3;
+  width:40%;
+  background-color: #003366;
+  color:white;
+  letter-spacing: 2px;
+  border:1px solid #003366;
+  border-radius:4%;
+  font-size:0.9em;
+  margin:0 auto;
+  margin-bottom: 7%;
+  margin-top:7%;
+}
+
+.button :hover{
+  background-color: white;
+  color: black;
+  border:1px solid black;
+}
+
+.button button a{
+  text-decoration: none;
+  border: none;
+}
+.button button a :hover{
+  text-decoration: none;
+  border: none;
+}
+
+footer{
+  height:50px;
+}
+
+footer p{
+  margin-top:5px;
+}
+
+/*------------------------------------------------ FIN MOBILE------------------------------------------------*/
+
+
+
+/* INICIO VERSION TABLET */
+
+@media (min-width:500px){
+
+.navbar-header{
+  padding-top:25px;
+}
+
+.logo-hospital{
+  border-right: 1px solid black;
+}
+
+.active a{
+  font-size: 1.5em !important;
+  font-weight: bold;
+  background-color: white !important;
+  color: black !important;
+  margin-top:5%;
+}
+
+.jumbotron{
+  margin-top:20%;
+  margin-bottom:10%;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.jumbotron-header-questions{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.jumbotron-header{
+  margin-right: 2%;
+  margin-bottom:0;
+  margin-left:0;
+  margin-top:2%;
+  align-self: center;
+}
+
+.jumbotron h1{
+  margin-top:0;
+  font-size: 2em;
+}
+
+.jumbotron h2{
+  margin-bottom:5%;
+}
+
+.ribbon{
+  display: none;
+}
+
+.ribbon-100{
+  display: inline;
+  height: 100px;
+}
+
+.button button{
+  line-height: 3.5;
+  width:20%;
+  letter-spacing: 2px;
+  border:1px solid #003366;
+  border-radius:4%;
+  font-size:1.1em;
+  margin:0 auto;
+}
+
+}
+
+/*------------------------------------------------ FIN TABLET------------------------------------------------*/
+
+/*------------------------------------------------ INICIO MIN WIDTH 1200PX------------------------------------------------*/
+
+@media (min-width:1200px) {
+
+.jumbotron{
+    width:80%;
+    margin:0 auto;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+.jumbotron h1{
+  font-size: 2.5em;
+  margin-top:10px;
+}
+
+.jumbotron h2{
+  font-size: 1.8em;
+}
+
+.jumbotron p{
+  font-size: 1.3em;
+}
+
+
+.navbar-header{
+  padding-top:12px;
+}
+
+
+.logo-fundacion,
+.logo-hospital{
+  height:70px;
+}
+
+.active a{
+  margin-top:4%;
+}
+
+.container{
+  background-color: #eee;
+}
+
+.button{
+  margin-top:5%;
+}
+
+}
