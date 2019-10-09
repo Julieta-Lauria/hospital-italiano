@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/drag', function () {
+    return view('drag');
+});
+Route::post('/pdf', function () {
+    return view('pdfprint');
+});

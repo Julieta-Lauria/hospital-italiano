@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="button">
-      <button type="submit" name="send">INGRESAR</button>
+      <button type="submit" name="send"><a href="{{url('drag')}}">INGRESAR</a></button>
     </div>
   </div>
 
