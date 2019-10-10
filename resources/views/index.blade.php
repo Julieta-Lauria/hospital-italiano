@@ -9,8 +9,8 @@
   <div class="jumbotron">
     <div class="jumbotron-header-questions">
       <div class="jumbotron-header">
-        <img src="img/pink-ribbon-48.png" alt="" class="ribbon">
-        <img src="img/pink-ribbon-100.png" alt="" class="ribbon-100">
+        <img src="img/ribbon-50.png" alt="" class="ribbon">
+        <img src="img/ribbon-100.png" alt="" class="ribbon-100">
         <h1>Detección precoz del cáncer de mama</h1>
       </div>
       <div class="jumbotron-questions">
@@ -20,9 +20,14 @@
         <p>¿Con qué frecuencia se presentan los posibles beneficios y desventajas de cada una de ellas?</p>
       </div>
     </div>
-    <div class="button">
-      <button type="submit" name="send"><a href="{{url('drag')}}">INGRESAR</a></button>
-    </div>
+
+    <form class="" action="" method="get">
+      <div>
+        <a href="{{ url('/tabs')}}" class="button" ><button type="button" name="send">INGRESAR</button></a>
+
+      </div>
+    </form>
+      <a href="{{url('drag')}}">link al drag&drop</a>
   </div>
 
 </div>

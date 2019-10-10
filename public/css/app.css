@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
 
 /* INICIO VERSION MOBILE */
 
+/* html {
+    overflow: hidden;
+} */
+
 body{
   font-family: 'Open Sans', sans-serif;
-  background-color: #cccccc;
+  height: 90vh;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.container-fluid-tablet,
+.container-fluid-desktop{
+  display:none;
 }
 
 .navbar{
@@ -27,27 +41,34 @@ body{
 .active a{
   font-size: 1em;
   text-align: center;
-  background-color: #003366 !important;
 }
 
 .container{
   width:100%;
   padding-right:0;
   padding-left:0;
-  background-color: #eee;
+
 }
 
 .jumbotron{
-  margin-top: 45%;
+  margin-top: 30%;
   border-radius: 0 !important;
-  margin-bottom:15%;
+  margin-bottom:0%;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .jumbotron-header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top:5%;
   margin-bottom: 7%;
+  margin-left:5%;
+}
+
+.jumbotron-questions{
   margin-left:5%;
 }
 
@@ -86,10 +107,10 @@ body{
 .button button{
   line-height: 3;
   width:40%;
-  background-color: #003366;
+  background-color: black;
   color:white;
   letter-spacing: 2px;
-  border:1px solid #003366;
+  border:1px solid black;
   border-radius:4%;
   font-size:0.9em;
   margin:0 auto;
@@ -107,33 +128,224 @@ body{
   text-decoration: none;
   border: none;
 }
-.button button a :hover{
+.button button a:hover{
   text-decoration: none;
   border: none;
 }
 
 footer{
-  height:50px;
+  height:200px;
+  background-color: #CCCCCC;
 }
 
 footer p{
-  margin-top:5px;
+  padding-top:5px;
+  font-size: 0.7em;
+}
+
+hr{
+  border-top: 1px solid black;
+  margin: 0;
+  background-color: #CCCCCC;
+}
+
+/********************** TABS **********************************/
+
+.mdl-cell--2-col{
+  width:80% !important;
+  margin: 0 auto !important;
+  margin-top:30% !important;
+}
+
+.mdl-cell--10-col{
+  width:100% !important;
+}
+
+.mdl-tabs__panel {
+  display: none;
+}
+.vertical-mdl-tabs {
+    margin-top: 30px;
+    line-height: 2;
+}
+.vertical-mdl-tabs .mdl-tabs__tab-bar {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 35px;
+    height: inherit;
+    border-bottom: none;
+    border-right: 1px solid rgba(10, 11, 49, 0.20);
+}
+
+.vertical-mdl-tabs .mdl-tabs__tab {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+}
+
+.vertical-mdl-tabs .mdl-tabs__tab:hover {
+  background: rgba(158, 158, 158, 0.34);
+  color: black;
+}
+
+.vertical-mdl-tabs.mdl-tabs.is-upgraded a.mdl-tabs__tab.is-active {
+    border-right: 3px solid #826a82;
+}
+.vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+    content: inherit;
+    height: 0;
+}
+
+.vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__panel.is-active, .mdl-tabs__panel {
+    padding: 0 30px;
+}
+
+.vertical-mdl-tabs.mdl-tabs .mdl-tabs__tab {
+    text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+   color: #826a82;
+}
+
+.vertical-mdl-tabs .mdl-tabs__tab {
+    text-decoration: none;
+
+}
+
+/******************** CONTENIDO TABS *****************************/
+.alert-container{
+  background-color: #ba98b9;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+#tab8-panel a{
+  color:#826a82;
+}
+
+
+/******************** GRAFICO 2 *******************************/
+.container-grafico2{
+  width:80%;
+  margin:0 auto;
+}
+
+.container-grafico2-superior{
+  border-bottom: 3px dotted #826a82;
+}
+
+.container-grafico2 h1{
+  font-size: 2.2em;
+  color:#826a82;
+  font-weight: bold;
+}
+
+.container-grafico2 h3{
+  font-size: 1.5em;
+  color:#826a82;
+  line-height:1;
+}
+
+.beneficios-riesgos{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.beneficios,
+.riesgos{
+  width:50%;
+}
+
+.riesgos h2{
+  font-size: 1.5em;
+  color: #ba98b9;
+  font-weight: bold;
+}
+
+.beneficios h2{
+  font-size: 1.5em;
+  color: #98ba99;
+  font-weight: bold;
+}
+
+.riesgo p,
+.beneficio p{
+  color:#826a82;
+}
+
+.riesgo,
+.beneficio{
+  width:80%;
+  display: flex;
+  flex-direction: row;
+}
+
+i{
+  font-size: 25px;
+}
+
+.fa-pills{
+  color:#ba98b9;
+  padding-top:8px;
+  margin-right: 10px;
+}
+
+.fa-star{
+  color:#98ba99;
+  padding-top:8px;
+  margin-right: 10px;
+}
+
+.pregunta{
+  width:90%;
+  margin:0 auto;
+  margin-top: 5%;
+  margin-bottom:5%;
+  padding-top: 2%;
+  padding-left:2%;
+  display: flex;
+  flex-direction: row;
+  background-color: #826a82;
+  color: white;
+}
+
+.fa-question-circle{
+  padding-right: 10px;
 }
 
 /*------------------------------------------------ FIN MOBILE------------------------------------------------*/
 
 
 
-/* INICIO VERSION TABLET */
+/********************* INICIO MIN 768PX ***********************/
 
-@media (min-width:500px){
+@media (min-width:768px){
 
-.navbar-header{
-  padding-top:25px;
+.container-fluid,
+.container-fluid-desktop{
+  display: none;
 }
 
-.logo-hospital{
-  border-right: 1px solid black;
+.container-fluid-tablet{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content: space-around;
+}
+
+.navbar-header{
+  width:100%;
+  padding-top:20px !important;
 }
 
 .active a{
@@ -141,12 +353,12 @@ footer p{
   font-weight: bold;
   background-color: white !important;
   color: black !important;
-  margin-top:5%;
+  margin-top:1%;
 }
 
 .jumbotron{
-  margin-top:20%;
-  margin-bottom:10%;
+  margin-top:5%;
+  margin-bottom:-1%;
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
@@ -163,17 +375,29 @@ footer p{
   margin-right: 2%;
   margin-bottom:0;
   margin-left:0;
-  margin-top:2%;
+  margin-top:12%;
   align-self: center;
+}
+
+.jumbotron-questions{
+  margin-top:10%;
+  margin-left:2%;
+  border-left: 2px solid black;
 }
 
 .jumbotron h1{
   margin-top:0;
   font-size: 2em;
+  line-height: 1.5;
 }
 
 .jumbotron h2{
   margin-bottom:5%;
+  margin-left: 7%;
+}
+
+.jumbotron p{
+    margin-left: 7%;
 }
 
 .ribbon{
@@ -183,36 +407,76 @@ footer p{
 .ribbon-100{
   display: inline;
   height: 100px;
+  padding-top:15px;
 }
+
 
 .button button{
   line-height: 3.5;
   width:20%;
   letter-spacing: 2px;
-  border:1px solid #003366;
+  border:1px solid black;
   border-radius:4%;
   font-size:1.1em;
   margin:0 auto;
 }
 
+
+/* TABS */
+
+.mdl-cell--2-col{
+  width:30% !important;
+  margin-top:12% !important;
 }
 
-/*------------------------------------------------ FIN TABLET------------------------------------------------*/
+.mdl-cell--10-col{
+  width:70% !important;
+  margin-top:12% !important;
+}
+
+.vertical-mdl-tabs .mdl-tabs__tab {
+    letter-spacing: 1px;
+    font-size: 0.7em !important;
+
+}
+
+
+
+}
+
+
+/*------------------------------------------------ FIN MIN 768PX------------------------------------------------*/
 
 /*------------------------------------------------ INICIO MIN WIDTH 1200PX------------------------------------------------*/
 
 @media (min-width:1200px) {
 
 .jumbotron{
-    width:80%;
-    margin:0 auto;
-    margin-top:10%;
-    margin-bottom:10%;
+    width:100%;
+    /* margin:0 auto; */
+    margin-top:5%;
+    margin-bottom:-1%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.jumbotron-header-questions{
+  width:80%;
+  margin: 0 auto;
+}
+
+.jumbotron-header{
+  margin-top:3%;
+}
+
+.jumbotron-questions{
+  margin-top:5%;
+
 }
 
 .jumbotron h1{
   font-size: 2.5em;
-  margin-top:10px;
+  margin-top:5px;
 }
 
 .jumbotron h2{
@@ -223,27 +487,64 @@ footer p{
   font-size: 1.3em;
 }
 
-
-.navbar-header{
-  padding-top:12px;
+.container-fluid-tablet{
+  display: none;
 }
 
+.container-fluid-desktop{
+  display: flex;
+  flex-direction: row;
+}
 
-.logo-fundacion,
+.navbar-header{
+  margin-left: 20px;
+  padding-top:10px !important;
+  padding-bottom:10px !important;
+  width:100%;
+  /* align-self: flex-start; */
+  justify-content: flex-start;
+}
+
+.logo-fundacion{
+  align-self:flex-end;
+  margin-right:20px;
+  padding-bottom:10px !important;
+  height:85px;
+}
+
 .logo-hospital{
+  border-right: 1px solid black;
   height:70px;
 }
 
-.active a{
+/* .active a{
   margin-top:4%;
-}
+} */
 
-.container{
+.index-container{
   background-color: #eee;
 }
 
 .button{
   margin-top:5%;
 }
+
+/* tabs */
+
+.mdl-cell--2-col{
+  width:20% !important;
+  margin-top:10% !important;
+}
+
+.mdl-cell--10-col{
+  width:80% !important;
+  margin-top:10% !important;
+}
+
+.vertical-mdl-tabs .mdl-tabs__tab {
+    letter-spacing: 1px;
+    font-size: 0.75em !important;
+}
+
 
 }
