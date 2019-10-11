@@ -23,7 +23,3 @@ Route::post('/pdf', function () {
 Route::get("/tabs", function(){
   return view("tabs");
 });
-
-Route::get("/grafico2", function(){
-  return view("grafico2");
-});

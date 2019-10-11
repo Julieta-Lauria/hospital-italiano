@@ -37,7 +37,7 @@
 											          </a>
                                 <a href="#tab7-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
-											            	Grafico 2
+											            	TRH - Riegos y beneficios
 											          </a>
                                 <a href="#tab8-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
@@ -48,6 +48,7 @@
 											   <div class="mdl-cell mdl-cell--10-col">
 												      <div class="mdl-tabs__panel is-active" id="tab1-panel">
                                 <section>
+                                  <h3 class="tab-h3">Se puede elegir</h3>
                                   <p>Frecuentemente las mujeres nos enfrentamos con la decisión de optar por un estudio para detectar precozmente el cáncer de mama:<strong> la mamografía.</strong> Puede ser porque nos lo recomienda un profesional de la salud, porque lo vimos en una publicidad o porque nos lo contó un/a amigo/a o familiar. A veces ya lo tenemos incorporado como un chequeo de “rutina” y lo hacemos por costumbre. Como toda decisión médica, tiene opciones, con sus beneficios y desventajas, y es importante que los conozcas para que puedas decidir cuál es la mejor opción para vos.</p>
                                   <p class="strong"><strong>Tanto realizar como no realizar un estudio de detección precoz del cáncer de mama son opciones razonables.</strong></p>
                                   <div class="alert-container">
@@ -59,6 +60,7 @@
 												      </div>
 												      <div class="mdl-tabs__panel" id="tab2-panel">
                                 <section>
+                                  <h3 class="tab-h3">¿Qué es el cáncer de mama?</h3>
                                   <p>Es una enfermedad causada por el crecimiento anormal de células de la mama que forman un tumor maligno. Las posibilidades de que aparezca aumentan con la edad, principalmente a partir de los 50 años.</p>
                                   <p class="strong"><strong>¿Se puede prevenir?</strong></p>
                                   <p>Hay factores que aumentan el riesgo de tener cáncer de mama que se pueden modificar:</p>
@@ -79,6 +81,7 @@
                                 </section>
       												</div>
       												<div class="mdl-tabs__panel" id="tab3-panel">
+                                <h3 class="tab-h3">Mamografía</h3>
                                 <section>
                                   <p>El <strong>único</strong> método recomendado y que demostró ser efectivo para la detección precoz del cáncer de mama es la <strong>mamografía.</strong>
                                     Durante la prueba la mama se comprime entre dos placas planas y se saca una radiografía. Algunas mujeres experimentan molestia o dolor según la sensibilidad de sus mamas.
@@ -102,6 +105,7 @@
 												      </div>
                               <div class="mdl-tabs__panel" id="tab6-panel">
                                 <section>
+                                  <h3 class="tab-h3">Glosario</h3>
                                   <p><strong>Falsas alarmas:</strong></p>
                                   <p>Cuando la mamografía muestra una anomalía que podría ser cáncer, hay que hacer otros estudios para aclarar. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Si se demuestra que la anomalía era benigna, decimos que fue una falsa alarma.</p>
                                   <p><strong>Un diagnóstico de cáncer que no daña o “tumores inofensivos” (también llamado “sobrediagnóstico”):</strong></p>
@@ -110,12 +114,70 @@
 												      </div>
                               <div class="mdl-tabs__panel" id="tab7-panel">
                                 <section>
-                                  @yield("grafico2")
-                                  <!-- <p>Poner grafico referencia 2</p> -->
+                                  <div class="container-grafico2">
+                                    <div class="container-grafico2-superior">
+                                        <h1>TERAPIA DE REEMPLAZO HORMONAL (TRH) - RIESGOS Y BENEFICIOS</h1>
+                                        <h3>La TRH es un efectivo tratamiento de corto plazo para los síntomas de la menopausia, que tiene tanto beneficios como riesgos</h3>
+                                        <div class="beneficios-riesgos">
+                                          <div class="riesgos">
+                                            <h2>LOS RIESGOS</h2>
+                                            <div class="riesgo">
+                                              <i class="fas fa-pills"></i>
+                                              <p>La TRH aumenta el riesgo de cáncer de mama y de ovarios. Estos riesgos disminuyen cuando la mujer deja de realizar la TRH.</p>
+                                            </div>
+                                            <div class="riesgo">
+                                              <i class="fas fa-pills"></i>
+                                              <p> La TRH también puede afectar el riesgo de tener cáncer de útero, pero esto depende de diversos factores, incluido el tipo de TRH</p>
+                                            </div>
+                                            <div class="riesgo">
+                                              <i class="fas fa-pills"></i>
+                                              <p>También puede aumentar el riesgo de enfermedades cardíacas e infartos</p>
+                                            </div>
+                                          </div>
+                                          <div class="beneficios">
+                                            <h2>LOS BENEFICIOS</h2>
+                                            <div class="beneficio">
+                                              <i class="fas fa-star"></i>
+                                              <p>La TRH reduce los síntomas de la menopausia</p>
+                                            </div>
+                                            <div class="beneficio">
+                                              <i class="fas fa-star"></i>
+                                              <p>También puede mejorar significativamente la calidad de vida de la mujer</p>
+                                            </div>
+                                            <div class="beneficio">
+                                              <i class="fas fa-star"></i>
+                                              <p>Puede levemente disminuir el riesgo de cáncer intestinal y otras enfermedades</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="pregunta">
+                                          <i class="far fa-question-circle"></i>
+                                          <p>Si tenes alguna pregunta o preocupación sobre realizar TRH, debes consultarlo con tu médico</p>
+                                        </div>
+                                    </div>
+                                    <div class="container-grafico2-inferior">
+                                      <h2>¿CON QUÉ SE PUEDE COMPARAR?</h2>
+                                      <h3>El aumento en el riesgo de tener cáncer es pequeño comparado con otros de riesgo de la vida cotidiana, por ejemplo...</h3>
+                                      <div class="comparaciones">
+                                        <div class="iconos">
+                                          <i class="fas fa-pills" id="pills"></i>
+                                          <i class="fas fa-weight"></i>
+                                          <i class="fas fa-smoking-ban"></i>
+                                        </div>
+                                        <div class="comparaciones-textos">
+                                          <p class="comparacion1">Minimizar la TRH podría prevenir <strong>1.400 casos de cáncer </strong>al año</p>
+                                          <p class="comparacion2">Mantener un peso saludable podría prevenir <strong>13.200 casos de cáncer </strong>al año</p>
+                                          <p class="comparacion3">No fumar podría prevenir <strong>22.000 casos de cáncer </strong>al año</p>
+                                        </div>
+                                          </div>
+                                      </div>
+                                      <p class="fuente">Fuente: Brown et al, British Journal of cancer, 2018.</p>
+                                    </div>
                                 </section>
 												      </div>
                               <div class="mdl-tabs__panel" id="tab8-panel">
                                 <section>
+                                  <h3 class="tab-h3">Fuente</h3>
                                   <p><strong>Links:</strong></p>
                                   <p><a href="http://www.msal.gob.ar/images/stories/bes/graficos/0000001138cnt-20180321-efectividad-tamizaje-mamografico-mortalidaden-cm.pdf">Efectividad del tamizaje mamográfico en la reducción de la mortalidad por cáncer de mama</a></p>
                                   <p><a href="https://www.harding-center.mpg.de/en/fact-boxes/early-detection-of-cancer/breast-cancer-early-detection">Early detection of breast cancer by mammography screening</a></p>
