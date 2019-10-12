@@ -1,4 +1,4 @@
-@extends("plantilla")
+@extends("plantilla-1")
 
 @section("titulo")
   Inicio
@@ -23,7 +23,7 @@
 
     <form class="" action="" method="get">
       <div>
-        <a href="{{ url('/tabs')}}" class="button" ><button type="button" name="send">INGRESAR</button></a>
+        <a href="{{ url('/principal')}}" class="button" ><button type="button" name="send">INGRESAR</button></a>
 
       </div>
     </form>
