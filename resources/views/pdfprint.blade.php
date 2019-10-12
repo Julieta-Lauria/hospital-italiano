@@ -3,7 +3,6 @@
 <?php $options_columns = ['Afirmaciones', 'Nada identificada', 'Poco identificada', 'Muy identificada'] ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>Reporte para entrega</title>
-
 </head>
 <body>
 
@@ -34,10 +33,15 @@
         <div class="">
           <h2>Grafico de ayuda:</h2>
             <div class="grafico2pdf">
+              <img src="img/graf2.png" style = "width: 480px;">
+            </div>
+        </div>
 
 
-
-
+        <div class="">
+          <h2>Grafico de ayuda:</h2>
+            <div class="grafico3pdf">
+              <img src="img/graf3.png" style = "width: 480px;">
             </div>
         </div>
 
