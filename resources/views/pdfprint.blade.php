@@ -7,14 +7,42 @@
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" type="text/css" href="./css/print.min.css">
 <?php $options_columns = ['Afirmaciones', 'Nada identificada', 'Poco identificada', 'Muy identificada'] ?>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Reporte para entrega</title>
+{!! Html::style('./css/style.css') !!}
+{!! Html::style('./css/app.css') !!}
 
 </head>
 <body>
 
+      <main>
+        <div id="details" class="clearfix">
+          <div id="invoice">
+            <h1>Reporte {{ $invoice }}</h1>
+            <div class="date">Fecha: {{ $date }}</div>
+          </div>
+        </div>
 
-  <?php
-      echo $_POST['form_html'];
-    ?>
+        <div class="">
+          <h2>Grafico de ayuda:</h2>
+            <div class="grafico2pdf">
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="">
+          <h2>Tabla de desiciones:</h2>
+            <div class="dragpdf">
+              <?php echo $_POST['form_html'];  ?>
+            </div>
+        </div>
 
 
 </body>

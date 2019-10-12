@@ -55,8 +55,8 @@ a{
   border-radius: 0 !important;
   margin-bottom:0%;
   background-image: url(../img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .jumbotron-header{
