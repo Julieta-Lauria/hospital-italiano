@@ -27,10 +27,6 @@
 											      	      <span class="hollow-circle"></span>
 											            	Algunos números
 											          </a>
-                                <a href="#tab5-panel" class="mdl-tabs__tab">
-											      	      <span class="hollow-circle"></span>
-											            	Lo más importante para vos
-											          </a>
                                 <a href="#tab6-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
 											            	Glosario
@@ -43,6 +39,10 @@
 											      	      <span class="hollow-circle"></span>
 											            	Fuente
 											          </a>
+                                <a href="#tab5-panel" class="mdl-tabs__tab">
+                                  <span class="hollow-circle"></span>
+                                  Lo más importante para vos
+                                </a>
 											     </div>
 											   </div>
 											   <div class="mdl-cell mdl-cell--10-col">
@@ -100,7 +100,7 @@
 												      </div>
                               <div class="mdl-tabs__panel" id="tab5-panel">
                                 <section>
-                                  <p>Drag and drop :)</p>
+                                  @yield("drag")
                                 </section>
 												      </div>
                               <div class="mdl-tabs__panel" id="tab6-panel">

@@ -17,9 +17,9 @@ Route::get('/', function () {
 Route::get('/drag', function () {
     return view('drag');
 });
-Route::post('/pdf', function () {
-    return view('pdfprint');
-});
-Route::get("/principal", function(){
-  return view("principal");
+
+Route::post('/pdf', 'ReportController@showpdf');
+
+Route::get('/principal', function(){
+  return view('principal');
 });

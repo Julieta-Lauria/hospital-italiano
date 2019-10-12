@@ -1,5 +1,12 @@
 @extends("plantilla-2")
 
+@section("drag")
+
+  @include('drag')
+
+@endsection
+
+
 @section("grafico-2")
 <div class="container-grafico2">
   <div class="container-grafico2-superior">

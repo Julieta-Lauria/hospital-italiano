@@ -1,3 +1,6 @@
+
+
+
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
@@ -35,7 +38,7 @@
   <h2>¿Con cuál de estas afirmaciones te sentirías más identificada? </h2>
 </section>
 
-<form class="" action="{{url('pdf')}}" id="printJS-form" method="post" onsubmit="myFunction()">
+<form class="" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()">
 @csrf
 <div class="drag-container" id="divform">
 	<ul class="drag-list">
@@ -47,13 +50,13 @@
 			</span>
 			<div class="drag-options" id="options1"></div>
       <ul class="drag-inner-list <?php echo $options_columns[0]; ?>" id="1">
-        <li class="drag-item">Item 1</li>
-        <li class="drag-item">Item 2</li>
-        <li class="drag-item">Item 3</li>
-        <li class="drag-item">Item 4</li>
-        <li class="drag-item">Item 5</li>
-        <li class="drag-item">Item 6</li>
-        <li class="drag-item">Item 7 </li>
+        <li class="drag-item">Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
+        <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio.</li>
+        <li class="drag-item">El beneficio de la mamografía me parece bajo</li>
+        <li class="drag-item">El beneficio de la mamografía me parece alto</li>
+        <li class="drag-item">La desventaja de la mamografía me parece baja</li>
+        <li class="drag-item">La desventaja de la mamografía me parece alta</li>
+        <li class="drag-item">Prefiero que esta decisión la tome mi médico/a</li>
       </ul>
 		</li>
 
@@ -105,18 +108,10 @@
 
 
 
-
-
-
-
 <!-- partial -->
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/dragula.min.js'></script>
 <script  src="./js/script.js"></script>
-<script src="./js/print.min.js"></script>
 
-<button type="button" onclick="printJS({ printable: 'printJS-form', type: 'html', header: 'PrintJS - Perros' })">
-   Print Form with Header
-</button>
 
 </body>
 </html>
