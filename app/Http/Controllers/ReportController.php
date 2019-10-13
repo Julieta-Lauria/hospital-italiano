@@ -10,7 +10,7 @@ class ReportController extends Controller
         public function showpdf(){
            $data = $this->getData();
            $date = date('d-m-Y');
-           $invoice = "2222";
+           $invoice = "Nombre del Paciente";
            $view =  \View::make('pdfprint', compact('data', 'date', 'invoice'))->render();
            $pdf = \App::make('dompdf.wrapper');
            $pdf->loadHTML($view);
