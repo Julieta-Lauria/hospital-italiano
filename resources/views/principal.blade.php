@@ -10,7 +10,7 @@
 @section("grafico-2")
 <div class="container-grafico2">
   <div class="container-grafico2-superior">
-      <h1>TERAPIA DE REEMPLAZO HORMONAL (TRH) - RIESGOS Y BENEFICIOS</h1>
+      <h1>Terapia de reemplazo hormonal (TRH) <br> Riesgos y Beneficios</h1>
       <h3>La TRH es un efectivo tratamiento de corto plazo para los síntomas de la menopausia, que tiene tanto beneficios como riesgos</h3>
       <div class="beneficios-riesgos">
         <div class="riesgos">
@@ -68,3 +68,405 @@
     <p class="fuente">Fuente: Brown et al, British Journal of cancer, 2018.</p>
   </div>
   @endsection
+
+  @section("grafico-1-version-1")
+  <h2 class="grafico1-h2">¿Con qué frecuencia ocurren los beneficios y las desventajas en mujeres de 50 años o más que participan o no del tamizaje de cáncer de mama? </h2>
+  <div class="titulos">
+  <span>De cada 1000 mujeres que NO se realizan tamizaje a lo largo de 11 años:</span>
+  <span>De cada 1000 mujeres que se realizan tamizaje a lo largo de 11 años:</span>
+  </div>
+  <div class="dosmil">
+    <div class="mil" id="division">
+      <div class="doscientos">
+        <div class="cien">
+          <div class="veinte">
+            <i class="fas fa-female" style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+        </div>
+        <div class="cien">
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+      </div>
+    </div>
+    <div class="doscientos">
+      <div class="cien">
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+      </div>
+      <div class="cien">
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+    </div>
+  </div>
+  <div class="doscientos">
+    <div class="cien">
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+    </div>
+    <div class="cien">
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+  </div>
+  </div>
+  <div class="doscientos">
+  <div class="cien">
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+  </div>
+  <div class="cien">
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+  </div>
+  </div>
+  <div class="doscientos">
+  <div class="cien">
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  </div>
+  <div class="cien">
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+  </div>
+  </div>
+  </div>
+    </div>
+    <div class="mil">
+      <div class="doscientos">
+        <div class="cien">
+          <div class="veinte">
+            <i class="fas fa-female" style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:#6b1111"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"style="color:red"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female" style="color:red"></i><i class="fas fa-female"style="color:red"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+        </div>
+        <div class="cien">
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+          <div class="veinte">
+            <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+          </div>
+      </div>
+    </div>
+    <div class="doscientos">
+      <div class="cien">
+        <div class="veinte">
+          <i class="fas fa-female" style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female" style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female" style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female" style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female" style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i><i class="fas fa-female"style="color:green"></i>
+        </div>
+      </div>
+      <div class="cien">
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+        <div class="veinte">
+          <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+        </div>
+    </div>
+    </div>
+    <div class="doscientos">
+    <div class="cien">
+      <div class="veinte">
+        <i class="fas fa-female" style="color:blue"></i><i class="fas fa-female" style="color:blue"></i><i class="fas fa-female" style="color:blue"></i><i class="fas fa-female" style="color:blue"></i><i class="fas fa-female" style="color:blue"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+    </div>
+    <div class="cien">
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+      <div class="veinte">
+        <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+      </div>
+    </div>
+    </div>
+    <div class="doscientos">
+    <div class="cien">
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    </div>
+    <div class="cien">
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+      <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    </div>
+    </div>
+    <div class="doscientos">
+    <div class="cien">
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    </div>
+    <div class="cien">
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    <div class="veinte">
+    <i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i><i class="fas fa-female"></i>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div class="cifras">
+  <div class="sin-tamizaje">
+    <div class="comentario">
+      <i id="icono-muertes" class="fas fa-female"></i><p>5 mueren por cáncer de mama</p>
+    </div>
+    <div class="comentario">
+    <i id="icono-otras-muertes" class="fas fa-female"></i><p>22 mueren por cualquier tipo de cáncer</p>
+  </div>
+</div>
+  <div class="con-tamizaje">
+    <div class="comentario">
+      <i id="icono-muertes" class="fas fa-female"></i><p>4 mueren por cáncer de mama</p>
+    </div>
+    <div class="comentario">
+    <i id="icono-otras-muertes" class="fas fa-female"></i><p>22 mueren por cualquier tipo de cáncer</p>
+    </div>
+    <div class="comentario">
+    <i id="icono-falsa-alarma" class="fas fa-female"></i><p>100 tienen falsas alarmas</p>
+    </div>
+    <div class="comentario">
+    <i id="icono-sobrediagnostico" class="fas fa-female"></i><p id="p-sobrediagnostico">5 se les diagnostica y trata un cáncer de mama que no hubiera producido daño durante su vida (sobrediagnóstico).</p>
+    </div>
+  </div>
+  </div>
+  <div class="conclusion">
+    <p><strong>Conclusión:</strong> 1 de cada 1000 mujeres sobrevive gracias a haberse realizado la mamografia</p>
+  </div>
+
+@endsection
