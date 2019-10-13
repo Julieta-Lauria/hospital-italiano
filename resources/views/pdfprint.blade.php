@@ -40,18 +40,33 @@
 
 
           <div class="">
-            <h2>Grafico de ayuda:</h2>
+            <!-- <h2>Grafico de ayuda:</h2> -->
               <div class="grafico3pdf">
                 <img src="img/graf3.png" style = "width: 550px;">
               </div>
           </div>
 
-
-
+          <div class="">
+            <h2>Infografia con riesgos y beneficios</h2>
+              <div class="grafico1pdf">
+                <img src="img/grafico1.png" style = "width: 700px;" style = "height: 400px;">
+              </div>
+          </div>
 
 
           <div class="">
-            <h2>Tabla de desiciones:</h2>
+            <h2>Glosario</h2>
+              <div div="glosario">
+              <h4>Falsas alarmas:</h4>
+              <p>Cuando la mamografía muestra una anomalía que podría ser cáncer, hay que hacer otros estudios para aclarar. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Si se demuestra que la anomalía era benigna, decimos que fue una falsa alarma.</p>
+              <h4>Sobrediagnóstico</h4>
+              <p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por los que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
+              </div>
+          </div>
+
+
+          <div class="">
+            <h2>Tabla de decisiones:</h2>
               <div class="dragpdf">
               <?php echo $data ?>
               </div>
