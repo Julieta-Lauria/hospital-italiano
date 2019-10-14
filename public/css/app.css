@@ -512,7 +512,12 @@ i{
   letter-spacing: 3px;
 }
 
-
+/************** GRAFICO 1- VERSION 2 **********/
+.grafico1-version2{
+  width:100%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
 
 /*------------------------------------------------ FIN MOBILE------------------------------------------------*/
 

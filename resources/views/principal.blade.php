@@ -470,3 +470,7 @@
   </div>
 
 @endsection
+
+@section("grafico1-version2")
+<img class="grafico1-version2" src="img/grafico1-version2.png" alt="">
+@endsection
