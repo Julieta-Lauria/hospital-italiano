@@ -25,7 +25,7 @@
 											          </a>
                                 <a href="#tab4-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
-											            	Algunos números
+											            	Algunos números (v1)
 											          </a>
                                 <a href="#tab6-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
@@ -35,14 +35,14 @@
 											      	      <span class="hollow-circle"></span>
 											            	TRH - Riegos y beneficios
 											          </a>
-                                <a href="#tab8-panel" class="mdl-tabs__tab">
-											      	      <span class="hollow-circle"></span>
-											            	Fuente
-											          </a>
                                 <a href="#tab5-panel" class="mdl-tabs__tab">
                                   <span class="hollow-circle"></span>
                                   Lo más importante para vos
                                 </a>
+                                <a href="#tab8-panel" class="mdl-tabs__tab">
+											      	      <span class="hollow-circle"></span>
+											            	Fuente
+											          </a>
 											     </div>
 											   </div>
 											   <div class="mdl-cell mdl-cell--10-col">
@@ -95,7 +95,7 @@
 												      </div>
                               <div class="mdl-tabs__panel" id="tab4-panel">
                                 <section>
-                                  <p>Poner grafico referencia 1</p>
+                                  @yield("grafico-1-version-1")
                                 </section>
 												      </div>
                               <div class="mdl-tabs__panel" id="tab5-panel">

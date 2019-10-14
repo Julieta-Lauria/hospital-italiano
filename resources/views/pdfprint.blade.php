@@ -37,15 +37,21 @@
 
 
           <div class="">
-            <h2>Grafico de ayuda:</h2>
+            <!-- <h2>Grafico de ayuda:</h2> -->
               <div class="grafico3pdf">
                 <img src="img/graf3.png" class="graf3impresion">
               </div>
           </div>
 
+          <div class="">
+            <h2>Infografia con riesgos y beneficios</h2>
+              <div class="grafico1pdf">
+                <img src="img/grafico1.png" style = "width: 700px;" style = "height: 400px;">
+              </div>
+          </div>
 
           <div class="">
-            <h2>Tabla de desiciones:</h2>
+            <h2>Tabla de decisiones:</h2>
               <div class="dragpdf">
               <?php echo $data ?>
               </div>

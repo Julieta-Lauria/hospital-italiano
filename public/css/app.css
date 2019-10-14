@@ -252,12 +252,14 @@ hr{
   font-size: 2.2em;
   color:#826a82;
   font-weight: bold;
+  text-align: center;
 }
 
 .container-grafico2 h3{
   font-size: 1.5em;
   color:#826a82;
   line-height:1;
+  text-align: center;
 }
 
 .beneficios-riesgos{
@@ -392,6 +394,125 @@ i{
   font-size: 70px;
   color:#826a82;
 }
+
+
+/********************** GRAFICO 1- VERSION 1 *******************************/
+.titulos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2%;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #826a82;
+  text-align: center;
+}
+
+.grafico1-h2{
+  font-size: 1.2em;
+  line-height: normal;
+  text-align: center;
+  font-weight: bold;
+  color: #826a82;
+}
+
+.dosmil{
+  display: none;
+}
+
+.cifras{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sin-tamizaje,
+.con-tamizaje{
+  width:47%;
+  background-color:#ba98b9;
+  height:400px;
+  margin-bottom: 5%;
+  margin-top: 4%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.comentario{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.comentario p{
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.conclusion{
+  display: none;
+  width:98%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ba98b9;
+  margin-bottom: 5%;
+}
+
+.conclusion p{
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#icono-muertes{
+  font-size:20px;
+  color:#6b1111;
+}
+
+#icono-otras-muertes{
+  font-size:20px;
+  color:red;
+}
+
+#icono-falsa-alarma{
+  font-size:20px;
+  color:green;
+}
+
+#icono-sobrediagnostico{
+  font-size:20px;
+  color:blue;
+}
+
+#p-sobrediagnostico{
+  margin-left: 0px;
+}
+
+.mil{
+  width:50%;
+}
+
+#division{
+  border-right: 1px solid grey;
+}
+
+.doscientos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cien{
+  margin-bottom: 2.5%;
+}
+
+
+i{
+  font-size: 16px;
+  color:grey;
+  letter-spacing: 3px;
+}
+
+
 
 /*------------------------------------------------ FIN MOBILE------------------------------------------------*/
 
@@ -546,7 +667,41 @@ i{
   width: 30%;
   font-size: 0.8em;
 }
+
+/****************** GRAFICO 1- VERSION 1 ****************/
+.grafico1-h2{
+  font-size: 1.4em;
 }
+
+.dosmil,
+.cifras{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:98%;
+  margin:0 auto;
+}
+
+.sin-tamizaje,
+.con-tamizaje{
+  height:260px;
+}
+
+.conclusion{
+  width:95%;
+}
+
+i{
+  font-size: 9px;
+  color:grey;
+  letter-spacing: 1px;
+}
+
+.titulos{
+  font-size: 0.8em;
+}
+}
+
 
 
 /*------------------------------------------------ FIN MIN 768PX------------------------------------------------*/
@@ -687,7 +842,27 @@ i{
   padding-right: 0;
 }
 
+/****************** GRAFICO 1- VERSION 1 ****************/
 
+.grafico1-h2{
+  font-size: 1.8em;
+}
+.sin-tamizaje,
+.con-tamizaje{
+  height:200px;
+}
+
+i{
+  font-size: 16px;
+  color:grey;
+  letter-spacing: 3px;
+}
+
+.titulos{
+  width: 98%;
+  font-size: 0.9em;
+  justify-content: space-around;
+}
 
 /******************* -----------------------------********************/
 
