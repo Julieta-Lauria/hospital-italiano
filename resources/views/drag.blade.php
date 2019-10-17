@@ -31,8 +31,8 @@
   <body>
   <!-- partial:index.partial.html -->
   <section class="section">
-  	<h1>Lo más importante para vos</h1>
-    <h2>¿Con cuál de estas afirmaciones te sentirías más identificada? </h2>
+    <h2 class="drag-h2">Lo más importante para vos: ¿Con cuál de estas afirmaciones te sentirías más identificada? </h2>
+    <p>Arrastrá cada afirmación debajo de alguna de las 3 columnas</p>
   </section>
 
   <form class="" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()">
@@ -92,6 +92,11 @@
 
 
     </ul>
+    <section class="comentarios-medico">
+    <p>Comentarios del médico</p>
+      <textarea id="textarea" name="name" rows="8" cols="100"></textarea>
+    </section>
+
   </div>
 
   <button type="button" class="btn-comment" name="btn-comment" onclick="addcomment()">Agregar comentario</button>
@@ -101,9 +106,11 @@
 
   <input id="form_html" name="form_html" type="hidden">
 
+
   <section class="section">
-    <input name="enviar" type="submit" value='Generar Reporte' id="enviar">
+    <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
   </section>
+
 
 
   </form>
