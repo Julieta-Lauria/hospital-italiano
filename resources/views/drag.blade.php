@@ -10,22 +10,22 @@
 
 
   <script type="text/javascript">
-
       function myFunction() {
       //  var  z = document.forms[0];
         var  z = document.getElementById("divform");
         var  y = z.innerHTML;
           //console.log(y)
-
   // ---------
         document.getElementById("form_html").value=y;
-
   // ---------
-
       }
-
   </script>
 
+  <script type="text/javascript">
+        function addcomment() {
+            document.getElementById("comment").style.display = "none";
+        }
+  </script>
 
   </head>
   <body>
@@ -92,6 +92,11 @@
 
 
     </ul>
+  </div>
+
+  <button type="button" class="btn-comment" name="btn-comment" onclick="addcomment()">Agregar comentario</button>
+  <div  id="addcomment" class="addcomment">
+    <textarea id="comment" name="comment" class="comment" rows="5" cols="100" placeholder="Ingresar cometarios.."></textarea>
   </div>
 
   <input id="form_html" name="form_html" type="hidden">
