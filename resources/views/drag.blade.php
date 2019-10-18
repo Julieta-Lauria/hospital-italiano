@@ -14,7 +14,8 @@
       //  var  z = document.forms[0];
         var  z = document.getElementById("divform");
         var  y = z.innerHTML;
-          //console.log(y)
+        var c = document.getElementById('comment').value;
+        //console.log(c)
   // ---------
         document.getElementById("form_html").value=y;
   // ---------
@@ -43,7 +44,7 @@
 
       <li class="drag-column drag-column-on-hold">
         <span class="drag-column-header">
-  				<h2>Afirmaciones</h2>
+  				<h2 class="afirmaciones">Afirmaciones</h2>
   			</span>
   			<div class="drag-options" id="options1"></div>
         <ul class="drag-inner-list <?php echo $options_columns[0]; ?>" id="1">
@@ -91,12 +92,12 @@
   		</li>
     </ul>
 
-    <section class="comentarios-medico">
-      <p><button type="button" class="btn-comment" name="btn-comment" onclick="addcomment()">Agregar comentario..</button></p>
-      <textarea id="comment" name="comment" class="comment" rows="5" cols="100" placeholder="Escriba sus comentarios.."></textarea>
-    </section>
 
   </div>
+  <section class="comentarios-medico">
+    <p class="btn-comment">Comentarios del Medico</p>
+    <textarea id="comment" name="comment" class="comment" rows="5" cols="100" placeholder="Escriba sus comentarios.."></textarea>
+  </section>
 
   <input id="form_html" name="form_html" type="hidden">
 

@@ -9,7 +9,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  height: 100vh;
+  height: 20vh;
 }
 
 a{
@@ -556,7 +556,7 @@ ul {
   flex: 1;
   margin: 0 10px;
   position: relative;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.45);
   overflow: hidden;
 }
 @media (max-width: 690px) {
@@ -607,11 +607,11 @@ ul {
 .drag-item {
   text-align: center;
   padding-top: 5px;
-  font-size: 12px;
+  font-size: 13px;
   line-height:20px;
   margin: 10px;
   height: 70px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255,255, 255, 0.8);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .drag-item.is-moving {
@@ -725,9 +725,9 @@ ul {
 /******************* ----- DRAG & DROP ----------********************/
 /*------------------------------------------------ FIN MOBILE------------------------------------------------*/
 .btn-comment{
-  text-align: center;
+  text-align: left;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   border: none;
   background-color: rgba(0, 0, 0, 0.0);
 }
@@ -744,7 +744,6 @@ textarea{
   padding-left: 10px;
   padding-top: 10px;
   /*border: none;*/
-  display: none;
 }
 
 /********************* INICIO MIN 768PX ***********************/

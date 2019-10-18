@@ -27,7 +27,7 @@
 
       </div>
     </form>
-      <a href="{{url('drag')}}">link al drag&drop</a>
+    
   </div>
 
 </div>

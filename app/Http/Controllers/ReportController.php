@@ -9,9 +9,10 @@ class ReportController extends Controller
 
         public function showpdf(){
            $data = $this->getData();
+           $comment = $this->getComment();
            $date = date('d-m-Y');
            $invoice = "Nombre del Paciente";
-           $view =  \View::make('pdfprint', compact('data', 'date', 'invoice'))->render();
+           $view =  \View::make('pdfprint', compact('data', 'date', 'invoice', 'comment' ))->render();
            $pdf = \App::make('dompdf.wrapper');
            $pdf->loadHTML($view);
            //dd($pdf);
@@ -23,6 +24,11 @@ class ReportController extends Controller
            $data = $_POST['form_html'];
            //dd($data);
            return $data;
+        }
+        public function getComment(){
+           $comment = $_POST['comment'];
+           //dd($data);
+           return $comment;
         }
 
 

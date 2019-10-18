@@ -27,39 +27,31 @@ li {
   margin: 0;
   padding: 0;
 }
-
-.navbar-header{
-  display: inline;
+.divtitulo{
+    display: flex;
+    margin: 0 auto;
 }
 
-.logo-fundacion,
-.logo-hospital{
-  height: 80px;
+.titulopdf{
+  width: 680px;
 }
+
 
 h2{
-  color: blue;
-}
-.headertitle{
-  color: red;
+  color: black;
+  font-size: 18px;
 }
 
 h3 {
   color: green;
 }
 
-#details {
-
-}
 .date {
-  font-size: 9px;
+  font-size: 12px;
   color: grey;
+ margin-top: 85px;
 }
 
-.graf2impresion,
-.graf3impresion{
-  width: 540px;
-}
 
 /* .jumbotron{
   margin-top: 30%;
@@ -375,11 +367,12 @@ i{
   background: #ba9b98;
 }
 
+
 .drag-column-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0px;
 }
 
 .drag-inner-list {
