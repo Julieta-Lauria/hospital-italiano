@@ -9,7 +9,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
-  height: 90vh;
+  height: 100vh;
 }
 
 a{
@@ -696,6 +696,7 @@ ul {
   font-weight: 600;
 }
 
+
 .boton-reporte {
   margin-top:10%;
   display: flex;
@@ -723,14 +724,27 @@ ul {
 
 /******************* ----- DRAG & DROP ----------********************/
 /*------------------------------------------------ FIN MOBILE------------------------------------------------*/
+.btn-comment{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+.btn-comment:active{
+  border: none !important;
+  background-color: rgba(0, 0, 0, 0.0);
+}
 
 .comentarios-medico{
   margin-top: 5%;
 }
 
-#textarea{
+textarea{
   padding-left: 10px;
   padding-top: 10px;
+  /*border: none;*/
+  display: none;
 }
 
 /********************* INICIO MIN 768PX ***********************/

@@ -23,7 +23,7 @@
 
   <script type="text/javascript">
         function addcomment() {
-            document.getElementById("comment").style.display = "none";
+            document.getElementById("comment").style.display = "block";
         }
   </script>
 
@@ -89,19 +89,13 @@
   				<!-- <li class="drag-item"></li> -->
   			</ul>
   		</li>
-
-
     </ul>
+
     <section class="comentarios-medico">
-    <p>Comentarios del médico</p>
-      <textarea id="textarea" name="name" rows="8" cols="100"></textarea>
+      <p><button type="button" class="btn-comment" name="btn-comment" onclick="addcomment()">Agregar comentario..</button></p>
+      <textarea id="comment" name="comment" class="comment" rows="5" cols="100" placeholder="Escriba sus comentarios.."></textarea>
     </section>
 
-  </div>
-
-  <button type="button" class="btn-comment" name="btn-comment" onclick="addcomment()">Agregar comentario</button>
-  <div  id="addcomment" class="addcomment">
-    <textarea id="comment" name="comment" class="comment" rows="5" cols="100" placeholder="Ingresar cometarios.."></textarea>
   </div>
 
   <input id="form_html" name="form_html" type="hidden">
