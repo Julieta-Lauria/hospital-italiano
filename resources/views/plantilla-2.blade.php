@@ -139,5 +139,4 @@
 									</div>
 <!-- partial -->
   <script src='https://storage.googleapis.com/code.getmdl.io/1.1.0/material.min.js'></script>
-
 @endsection

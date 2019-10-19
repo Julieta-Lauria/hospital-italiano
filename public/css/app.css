@@ -243,6 +243,9 @@ hr{
   color:#826a82;
 }
 
+.tab2-ul{
+  margin-bottom: 16px !important;
+}
 
 /******************** GRAFICO 2 *******************************/
 .container-grafico2{
@@ -703,7 +706,7 @@ ul {
   justify-content: center;
   align-items: center;
   line-height: 4;
-  width:25%;
+  width:70%;
   background-color: black;
   color:white;
   letter-spacing: 2px;
@@ -721,6 +724,7 @@ ul {
   color: black;
   border:1px solid black;
 }
+
 
 /******************* ----- DRAG & DROP ----------********************/
 /*------------------------------------------------ FIN MOBILE------------------------------------------------*/
@@ -740,9 +744,18 @@ ul {
   margin-top: 5%;
 }
 
+.btn-comment{
+  margin-left: 10%;
+}
+
 textarea{
   padding-left: 10px;
   padding-top: 10px;
+  height: 100px;
+  width:80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   /*border: none;*/
 }
 
@@ -928,10 +941,34 @@ i{
 .titulos{
   font-size: 0.8em;
 }
+
+
+.drag-item {
+  font-size: 10px;
+  height:140px;
+  vertical-align: middle;
 }
 
+.boton-reporte {
+  /* margin-top:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 4; */
+  width:40%;
+  /* background-color: black;
+  color:white;
+  letter-spacing: 2px;
+  border:1px solid black;
+  border-radius:4%;
+  font-size:0.9em;
+  margin:0 auto;
+  margin-bottom: 7%;
+  margin-top:7%;
+  text-transform: uppercase; */
+}
 
-
+}
 /*------------------------------------------------ FIN MIN 768PX------------------------------------------------*/
 
 /*------------------------------------------------ INICIO MIN WIDTH 1200PX------------------------------------------------*/
@@ -1092,6 +1129,15 @@ i{
   justify-content: space-around;
 }
 
+
+.drag-item {
+  font-size: 13px;
+  height:70px;
+}
+
+.boton-reporte {
+  width:25%;
+}
 /******************* -----------------------------********************/
 
 

@@ -95,8 +95,8 @@
 
   </div>
   <section class="comentarios-medico">
-    <p class="btn-comment">Comentarios del Medico</p>
-    <textarea id="comment" name="comment" class="comment" rows="5" cols="100" placeholder="Escriba sus comentarios.."></textarea>
+    <p class="btn-comment">Comentarios del Médico</p>
+    <textarea id="comment" name="comment" class="comment" placeholder="Escriba sus comentarios.."></textarea>
   </section>
 
   <input id="form_html" name="form_html" type="hidden">
