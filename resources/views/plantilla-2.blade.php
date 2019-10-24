@@ -23,13 +23,13 @@
 											      	      <span class="hollow-circle"></span>
 											            	Mamografía
 											          </a>
-                                <a href="#tab4-panel" class="mdl-tabs__tab">
+                                <!-- <a href="#tab4-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
 											            	Algunos números (v1)
-											          </a>
+											          </a> -->
                                 <a href="#tab9-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
-											            	Algunos números (v2)
+											            	Algunos números
 											          </a>
                                 <a href="#tab6-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
@@ -97,14 +97,14 @@
                                   <p>Actualmente, el Programa Nacional de Control de Cáncer de Mama del Instituto Nacional del Cáncer de Argentina recomienda realizar una mamografía cada 2 años en mujeres de 50 a 69 años.</p>
                                 </section>
 												      </div>
-                              <div class="mdl-tabs__panel" id="tab4-panel">
+                              <!-- <div class="mdl-tabs__panel" id="tab4-panel">
                                 <section>
                                   @yield("grafico-1-version-1")
                                 </section>
-												      </div>
+												      </div> -->
                               <div class="mdl-tabs__panel" id="tab9-panel">
                                 <section>
-                                  @yield("grafico1-version2")
+                                  @yield("diagram")
                                 </section>
 												      </div>
                               <div class="mdl-tabs__panel" id="tab5-panel">
