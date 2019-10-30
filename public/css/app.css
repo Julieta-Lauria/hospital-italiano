@@ -3,10 +3,6 @@
 
 /* INICIO VERSION MOBILE */
 
-/* html {
-    overflow: hidden;
-} */
-
 body{
   font-family: 'Open Sans', sans-serif;
   height: 20vh;
@@ -14,6 +10,10 @@ body{
 
 a{
   text-decoration: none !important;
+}
+
+p{
+  font-size: 13px;
 }
 
 .container-fluid-tablet,
@@ -134,13 +134,22 @@ a{
 }
 
 footer{
-  height:200px;
+  height:50px;
   background-color: #CCCCCC;
 }
 
 footer p{
   padding-top:5px;
   font-size: 0.7em;
+}
+
+.flaticon{
+  color:black;
+  font-size: 8px;
+}
+
+.flaticon a {
+  color:black;
 }
 
 hr{
@@ -223,9 +232,11 @@ hr{
 }
 
 .tab-h3{
-  font-size: 1.8em;
+  font-size: 1.6em;
   color:#826a82;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .drag-h2{
@@ -237,39 +248,72 @@ hr{
 .alert-container{
   background-color: #ba98b9;
   margin-bottom: 15px;
-  margin-top: 30px;
 }
 
 #tab8-panel a{
   color:#826a82;
 }
 
-.tab2-ul{
-  margin-bottom: 16px !important;
+.tab1,
+.tab2{
+  margin-bottom: 16px;
 }
 
-/******************** GRAFICO 2 *******************************/
-.container-grafico2{
-  width:80%;
-  margin:0 auto;
+.tab1-cuadro{
+  width:100%;
+  height:200px;
+  margin: 0 auto;
+  background-color: #ba98b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
 }
+
+.tab1-cuadro p{
+  width: 80%;
+  font-weight: bold;
+  margin-top: 7%;
+  margin-bottom: 0;
+}
+
+.tab2-cuadro{
+  width:100%;
+  height:100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.tab2-cuadro p{
+  vertical-align: middle;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.claro{
+  background-color: #d9c6d8;
+}
+
+.oscuro{
+  background-color: #ba98b9;
+}
+
+.tab3{
+  display: flex;
+  flex-direction: row;
+  word-wrap: wrap;
+}
+
+/******************** TAB MAMOGRAFIA *******************************/
 
 .container-grafico2-superior{
   border-bottom: 3px dotted #826a82;
-}
-
-.container-grafico2 h1{
-  font-size: 2.2em;
-  color:#826a82;
-  font-weight: bold;
-  text-align: center;
-}
-
-.container-grafico2 h3{
-  font-size: 1.5em;
-  color:#826a82;
-  line-height:1;
-  text-align: center;
 }
 
 .beneficios-riesgos{
@@ -295,218 +339,84 @@ hr{
   font-weight: bold;
 }
 
-.riesgo p,
-.beneficio p{
-  color:#826a82;
+
+.benef{
+  font-weight: bold;
+  color:#98ba99;
+  margin-bottom: 0px;
 }
 
-.riesgo,
-.beneficio{
-  width:80%;
-  display: flex;
-  flex-direction: row;
+.risk{
+  font-weight: bold;
+  color:#ba98b9;
+  margin-bottom: 0px;
 }
 
 i{
   font-size: 25px;
 }
 
-.fa-pills{
+.fa-thumbs-down{
   color:#ba98b9;
   padding-top:8px;
   margin-right: 10px;
 }
 
-.fa-star{
+.fa-thumbs-up{
   color:#98ba99;
   padding-top:8px;
   margin-right: 10px;
 }
 
-.pregunta{
-  width:90%;
-  margin:0 auto;
-  margin-top: 5%;
-  margin-bottom:5%;
-  padding-top: 2%;
-  padding-left:2%;
-  padding-right: 5%;
-  display: flex;
-  flex-direction: row;
-  background-color: #826a82;
-  color: white;
-}
 
-.fa-question-circle{
-  padding-right: 10px;
-  /* padding-top: 5px; */
-  color: white;
-  font-size: 24px;
-}
-
-
-.iconos{
-  width:90%;
-  margin: 0 auto;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.comparaciones-textos{
-  width:100%;
-  margin:0 auto;
-  margin-top:20px;
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items:flex-start;
-}
-
-.fuente{
-  margin-top:5%;
-  color:#826a82;
-}
-.comparaciones-textos p{
-  width: 25%;
-  color:#826a82;
-  justify-content: space-between;
-}
-
-.comparaciones-textos strong{
-  color:#98ba99;
-}
-
-.comparacion1{
-  margin-right:15px;
-}
-.comparacion2{
-  margin-left:0px;
-  margin-right:30px;
-}
-
-
-.container-grafico2-inferior h2{
-  font-size: 2em;
-  color:#826a82;
-  font-weight: bold;
-}
-
-#pills{
+.display-3 span {
+  display: none;
+  position: absolute;
+  color: #fff;
+  background: #000;
+  padding: 3px;
+  width:400px;
   font-size: 10px;
-  color:#826a82;
 }
 
-.fa-weight{
-  font-size: 40px;
-  color:#826a82;
+.underline{
+  border-bottom: 2px solid currentColor;
 }
 
-.fa-smoking-ban{
-  font-size: 70px;
-  color:#826a82;
+.display-3 {
+  position: relative;
+  bottom: 3px;
+  left: 3px;
 }
 
-
-/********************** GRAFICO 1- VERSION 1 *******************************/
-/* .titulos{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 2%;
-  font-size: 0.9em;
-  font-weight: bold;
-  color: #826a82;
+.display-3:hover  span {
+  display: block;
   text-align: center;
 }
-.grafico1-h2{
-  font-size: 1.2em;
-  line-height: normal;
-  text-align: center;
-  font-weight: bold;
-  color: #826a82;
-}
-.dosmil{
+
+.display-4 span {
   display: none;
+  position: absolute;
+  color: #fff;
+  background: #000;
+  padding: 3px;
+  width:400px;
+  font-size: 10px;
 }
-.cifras{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.sin-tamizaje,
-.con-tamizaje{
-  width:47%;
-  background-color:#ba98b9;
-  height:400px;
-  margin-bottom: 5%;
-  margin-top: 4%;
-  padding-left: 2%;
-  padding-top: 2%;
-}
-.comentario{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-.comentario p{
-  display: inline-block;
-  font-size: 0.9em;
-}
-.conclusion{
-  display: none;
-  width:98%;
-  margin: 0 auto;
-  text-align: center;
-  background-color: #ba98b9;
-  margin-bottom: 5%;
-}
-.conclusion p{
-  font-size: 1em;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#icono-muertes{
-  font-size:20px;
-  color:#6b1111;
-}
-#icono-otras-muertes{
-  font-size:20px;
-  color:red;
-}
-#icono-falsa-alarma{
-  font-size:20px;
-  color:green;
-}
-#icono-sobrediagnostico{
-  font-size:20px;
-  color:blue;
-}
-#p-sobrediagnostico{
-  margin-left: 0px;
-}
-.mil{
-  width:50%;
-}
-#division{
-  border-right: 1px solid grey;
-}
-.doscientos{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.cien{
-  margin-bottom: 2.5%;
-}
-i{
-  font-size: 16px;
-  color:grey;
-  letter-spacing: 3px;
-} */
 
-/************** GRAFICO 1- VERSION 2 **********/
+.display-4 {
+  position: relative;
+  bottom: 3px;
+  left: 3px;
+}
+
+.display-4:hover  span {
+  display: block;
+  text-align: center;
+}
+
+
+/************** TAB 50 a 69 **********/
 .grafico1-version2{
   width:100%;
   margin: 0 auto;
@@ -523,7 +433,7 @@ i{
   font-size: 6px;
 }
 
-.fa-search-plus{
+.fa-info-circle{
   font-size: 10px;
   color: grey !important;
 }
@@ -903,7 +813,56 @@ textarea{
 
 }
 
-/********************** GRAFICO 2 ****************************/
+.tab1{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tab1-cuadro{
+  width:49%;
+  height:200px;
+}
+
+.tab2{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tab2-fila1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab2-fila2{
+  width:100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tab2-cuadro{
+  width:49%;
+  height:100px;
+}
+
+.tab3{
+  padding:16px;
+  margin: 0 auto;
+  background-color:#ba98b9;
+  justify-content: center;
+}
+
+.tab3 p{
+  margin-bottom: 0;
+}
+
+/********************** TAB MAMOGRAFIA ****************************/
 .beneficios-riesgos{
   width:100%;
   display: flex;
@@ -940,59 +899,12 @@ textarea{
   font-size: 0.8em;
 }
 
-/****************** GRAFICO 1- VERSION 1 ****************/
-/* .grafico1-h2{
-  font-size: 1.4em;
-}
-.dosmil,
-.cifras{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width:98%;
-  margin:0 auto;
-}
-.sin-tamizaje,
-.con-tamizaje{
-  height:260px;
-}
-.conclusion{
-  width:95%;
-}
-i{
-  font-size: 9px;
-  color:grey;
-  letter-spacing: 1px;
-}
-.titulos{
-  font-size: 0.8em;
-}
-.drag-item {
-  font-size: 10px;
-  height:140px;
-  vertical-align: middle;
-} */
 
 .boton-reporte {
-  /* margin-top:10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 4; */
   width:40%;
-  /* background-color: black;
-  color:white;
-  letter-spacing: 2px;
-  border:1px solid black;
-  border-radius:4%;
-  font-size:0.9em;
-  margin:0 auto;
-  margin-bottom: 7%;
-  margin-top:7%;
-  text-transform: uppercase; */
 }
 
-.fa-search-plus{
+.fa-info-circle{
   font-size: 16px;
 }
 
@@ -1123,46 +1035,50 @@ i{
     font-size: 0.75em !important;
 }
 
-
-/******************* GRAFICO 2 ********************/
-#pills{
-  font-size: 40px;
+.tab1-cuadro{
+  width:24.5%;
+  height:200px;
+}
+.tab1{
+  margin-bottom: 16px;
 }
 
-.fa-weight{
-  font-size: 170px;
+.tab2-fila1{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
 }
 
-.fa-smoking-ban{
-  font-size: 270px;
+.tab2-fila2{
+  width:50%;
+  display: flex;
+  flex-direction: row;
 }
 
-.comparacion1{
-  margin-right:0px;
-}
-.comparacion2{
-  margin-left:-5px;
-  margin-right:100px;
+/******************* TAB MAMOGRAFIA ********************/
+.beneficios-riesgos{
+  width:90%;
+  margin-left:10%;
 }
 
-.comparaciones-textos p{
-  width: 25%;
-  color:#826a82;
-  font-size: 1em;
-  justify-content: space-between;
+.beneficios,
+.riesgos{
+  width:50%;
 }
 
-.iconos{
-  justify-content: space-around;
+.descripcion{
+  width:80%;
 }
 
-.pregunta{
-  padding-right: 0;
+#benef-2,
+#benef-3{
+  margin-top:40px;
 }
 
-/****************** GRAFICO 1****************/
 
-.fa-search-plus{
+/****************** TAB ALGUNOS NUMEROS****************/
+
+.fa-info-circle{
   font-size: 16px;
 }
 
@@ -1191,25 +1107,6 @@ i{
   left: 230px;
 }
 
-
-/* .grafico1-h2{
-  font-size: 1.8em;
-}
-.sin-tamizaje,
-.con-tamizaje{
-  height:200px;
-}
-i{
-  font-size: 16px;
-  color:grey;
-  letter-spacing: 3px;
-}
-.titulos{
-  width: 98%;
-  font-size: 0.9em;
-  justify-content: space-around;
-} */
-
 /*********************** DRAG *************************/
 .drag-item {
   font-size: 13px;
@@ -1220,7 +1117,5 @@ i{
   width:25%;
 }
 /******************* -----------------------------********************/
-
-
 
 }/* ******** CIERRE MAIN

@@ -10,12 +10,12 @@
 @section("diagram")
 
 <img class="grafico1-version2" src="img/grafico1-version2.svg" height="480px" alt="">
-<a class="display-1" href="#"><i class="fas fa-search-plus"></i><span class="">Cuando la mamografía muestra una anomalía que podría ser cáncer, hay que hacer otros estudios para aclarar. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Si se demuestra que la anomalía era benigna, decimos que fue una falsa alarma.</span></a>
-<a class="display-2" href="#"><i class="fas fa-search-plus"></i><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por los que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
+<a class="display-1" href="#"><i class="fas fa-info-circle"></i><span class="">Cuando la mamografía muestra una anomalía que podría ser cáncer, hay que hacer otros estudios para aclarar. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Si se demuestra que la anomalía era benigna, decimos que fue una falsa alarma.</span></a>
+<a class="display-2" href="#"><i class="fas fa-info-circle"></i><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por los que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
 @endsection
 
 @section("grafico-2")
-<div class="container-grafico2">
+<!-- <div class="container-grafico2">
   <div class="container-grafico2-superior">
       <h1>Terapia de reemplazo hormonal (TRH) <br> Riesgos y Beneficios</h1>
       <h3>La TRH es un efectivo tratamiento de corto plazo para los síntomas de la menopausia, que tiene tanto beneficios como riesgos</h3>
