@@ -165,15 +165,16 @@
                                 <section>
                                   @yield("grafico-2")
                                 </section> -->
+                                <div class="mdl-tabs__panel" id="tab8-panel">
+                                  <section>
+                                    <h3 class="tab-h3">Fuente</h3>
+                                    <p><strong>Links:</strong></p>
+                                    <p><a href="http://www.msal.gob.ar/images/stories/bes/graficos/0000001138cnt-20180321-efectividad-tamizaje-mamografico-mortalidaden-cm.pdf">Efectividad del tamizaje mamográfico en la reducción de la mortalidad por cáncer de mama</a></p>
+                                    <p><a href="https://www.harding-center.mpg.de/en/fact-boxes/early-detection-of-cancer/breast-cancer-early-detection">Early detection of breast cancer by mammography screening</a></p>
+                                  </section>
+  												      </div>
 												      </div>
-                              <div class="mdl-tabs__panel" id="tab8-panel">
-                                <section>
-                                  <h3 class="tab-h3">Fuente</h3>
-                                  <p><strong>Links:</strong></p>
-                                  <p><a href="http://www.msal.gob.ar/images/stories/bes/graficos/0000001138cnt-20180321-efectividad-tamizaje-mamografico-mortalidaden-cm.pdf">Efectividad del tamizaje mamográfico en la reducción de la mortalidad por cáncer de mama</a></p>
-                                  <p><a href="https://www.harding-center.mpg.de/en/fact-boxes/early-detection-of-cancer/breast-cancer-early-detection">Early detection of breast cancer by mammography screening</a></p>
-                                </section>
-												      </div>
+
 											    </div>
 										  </div>
 									</div>
