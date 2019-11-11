@@ -49,11 +49,14 @@
   			<div class="drag-options" id="options1"></div>
         <ul class="drag-inner-list <?php echo $options_columns[0]; ?>" id="1">
           <li class="drag-item">Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
-          <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio.</li>
-          <li class="drag-item">El beneficio de la mamografía me parece bajo</li>
-          <li class="drag-item">El beneficio de la mamografía me parece alto</li>
-          <li class="drag-item">La desventaja de la mamografía me parece baja</li>
-          <li class="drag-item">La desventaja de la mamografía me parece alta</li>
+          <li class="drag-item">No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
+          <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
+          <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
+          <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
+          <li class="drag-item">Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
+          <li class="drag-item">Me genera ansiedad o miedo repetirme estudios</li>
+          <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
+          <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
           <li class="drag-item">Prefiero que esta decisión la tome mi médico/a</li>
         </ul>
   		</li>
