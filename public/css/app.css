@@ -9,6 +9,7 @@ body{
 
 a{
   text-decoration: none !important;
+  color: #f86641;
 }
 
 p{
@@ -68,8 +69,9 @@ p{
 }
 
 .jumbotron-header img{
-  width:100%;
-  height:300px;
+  /* width:100%;
+  height:300px; */
+  display: none;
 }
 
 .jumbotron-questions{
@@ -77,6 +79,7 @@ p{
   margin: 0 auto;
   text-align: center;
   margin-left:5%;
+  margin-top: 15%;
 }
 
 .jumbotron h1{
@@ -160,7 +163,7 @@ footer p{
 hr{
   border-top: 1px solid black;
   margin: 0;
-  background-color: #CCCCCC;
+  /* background-color: #CCCCCC; */
 }
 
 /********************** TABS **********************************/
@@ -237,7 +240,7 @@ hr{
 }
 
 .tab-h3{
-  font-size: 1.6em;
+  font-size: 23px;
   color:#F86641;
   text-align: left;
   margin-top: 0;
@@ -245,15 +248,39 @@ hr{
 }
 
 .drag-h2{
-  font-size: 1.8em;
+  font-size: 23px;
   color:#F86641;
+  margin-top: 0;
 }
+
 
 /******************** CONTENIDO TABS *****************************/
 .alert-container{
-  background-color: #F8DBDF;
-  margin-bottom: 15px;
+  margin-top: 40%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.alerta{
+  width:90%;
+  align-items: center;
+  background-color: #F8DBDF;
+  padding:5%;
+}
+
+.alert-container-tab1{
+  align-items: center;
+  background-color: #F8DBDF;
+  margin-top:16px;
+}
+
+.boton-alerta{
+  width:35%;
+}
+
 
 #tab8-panel a{
   color:#F86641;
@@ -301,6 +328,19 @@ hr{
   padding-top: 5%;
 }
 
+.tab2-alerta{
+  background-color: #fba792;
+  font-weight: bold;
+}
+
+.tab2-alerta p{
+  font-weight: bold;
+}
+
+.tab2-alert-container{
+  margin-top: 16px;
+}
+
 .claro{
   background-color: #f8dbdf;
 }
@@ -314,6 +354,7 @@ hr{
   flex-direction: row;
   word-wrap: wrap;
 }
+
 
 /******************** TAB MAMOGRAFIA *******************************/
 
@@ -423,15 +464,154 @@ i{
   text-align: center;
 }
 
+/*************TAB PREVENIR ***********/
+.tab7-cuadro{
+  height:300px;
+}
+
 
 /************** TAB 50 a 69 **********/
-.grafico1-version2{
+.grafico50-69{
   width:100%;
-  margin: 0 auto;
   margin-bottom: 5%;
 }
 
-.display-1 span {
+.container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.con-tamizaje,
+.sin-tamizaje{
+  width:90%;
+  margin: 0 auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parlamento-imagen{
+  height:180px;
+}
+
+.titulo-color-naranja{
+  text-align: center;
+  color: #f86641;
+  font-size: 1.3em;
+}
+
+.titulo-color-turquesa{
+  text-align: center;
+  color: #2ad3ce;
+  font-size: 1.3em;
+}
+
+.panel-item{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+.panel-subtitle{
+  padding-left: 15px;
+  margin-top: 15px;
+}
+
+.panel-item i{
+  align-self: baseline;
+}
+
+.panel-item p{
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-self: baseline;
+}
+
+.panel-title{
+  font-size: 1.1em;
+  border-bottom: 1px solid #d3dce5;
+  background-color: #d3dce5;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px
+}
+
+.fa-circle{
+  font-size: 13px;
+}
+
+.circle-1{
+  color: #FCCE78;
+}
+
+.circle-3{
+  margin-left: 10%;
+  color: #2AD3CE;
+
+}
+
+.circle-4{
+  margin-left: 10%;
+  color:#FE9CC3;
+}
+
+.circle-5{
+  margin-left: 10%;
+  color:#3555dc;
+}
+
+.circle-6{
+  color:#893737;
+  }
+
+.circle-7{
+  color:#FF6666;
+}
+
+.panel-1,
+.panel-2{
+  border: 1px solid #d3dce5;
+  margin-top: 10%;
+  padding-bottom: 15px;
+}
+
+.panel-fuente{
+  font-size: 0.7em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.btn-danger{
+  margin-bottom: 3%;
+  margin-top: 3%;
+  line-height: 2;
+  letter-spacing: 2px;
+  border-radius:5px;
+  font-size:1em;
+  text-transform: uppercase;
+  background-color: #f86641;
+  border: 1px solid #f86641;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.btn-danger:hover{
+  background-color: white;
+  color: black;
+  border:1px solid black;
+}
+
+.panel-1{
+  height: 270px;
+}
+
+
+/* .display-1 span {
   display: none;
   position: absolute;
   color: #fff;
@@ -476,7 +656,7 @@ i{
 .display-2:hover  span {
   display: block;
   text-align: center;
-}
+} */
 
 /******************* ----- DRAG & DROP ----------********************/
 
@@ -489,7 +669,7 @@ ul {
 }
 
 .drag-container {
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -560,9 +740,9 @@ ul {
   text-align: center;
   padding-top: 5px;
   font-size: 13px;
-  line-height:20px;
+  line-height:18px;
   margin: 10px;
-  height: 70px;
+  height: 110px;
   background: rgba(255,255, 255, 0.8);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -636,6 +816,11 @@ ul {
   padding: 20px;
   text-align: center;
 }
+
+.drag-title{
+  padding-top: 0;
+}
+
 .section a {
   color: white;
   text-decoration: none;
@@ -650,7 +835,6 @@ ul {
 
 
 .boton-reporte {
-  margin-top:10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -660,11 +844,11 @@ ul {
   color:white;
   letter-spacing: 2px;
   border:1px solid black;
-  border-radius:4%;
+  border-radius:5px;
   font-size:0.9em;
   margin:0 auto;
   margin-bottom: 7%;
-  margin-top:7%;
+  margin-top:4%;
   text-transform: uppercase;
 }
 
@@ -674,9 +858,221 @@ ul {
   border:1px solid black;
 }
 
+/************TAB LO MAS IMPORTANTE PARA VOS **************/
+/************formulario**************/
+
+.multisteps-form__title{
+  font-size: 1.5em;
+  margin-left: 1.8%;
+  margin-top: 7.5%;
+}
+
+.form-control{
+  height:40px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.multisteps-form__progress{
+  margin-top: 5%;
+}
+
+.btn-primary{
+  background-color: #f86641;
+  border: #f86641;
+}
+
+.header__btn {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #2c2c2c;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+.header__btn:last-child {
+  margin-right: 0;
+}
+.header__btn:hover, .header__btn.js-active {
+  color: #fff;
+  background-color: #2c2c2c;
+}
+
+.header {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.header__title {
+  margin-bottom: 30px;
+  font-size: 2.1rem;
+}
+
+.content {
+  width: 95%;
+  margin: 0 auto 50px;
+}
+
+.content__title {
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.content__title--m-sm {
+  margin-bottom: 10px;
+}
+
+.multisteps-form__progress {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+.multisteps-form__progress-btn {
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  position: relative;
+  padding-top: 20px;
+  color: rgba(108, 117, 125, 0.7);
+  text-indent: -9999px;
+  border: none;
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+}
+@media (min-width: 500px) {
+  .multisteps-form__progress-btn {
+    text-indent: 0;
+  }
+}
+.multisteps-form__progress-btn:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 13px;
+  height: 13px;
+  content: '';
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  transition: all 0.15s linear 0s, -webkit-transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s;
+  transition: all 0.15s linear 0s, transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s;
+  transition: all 0.15s linear 0s, transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s, -webkit-transform 0.15s cubic-bezier(0.05, 1.09, 0.16, 1.4) 0s;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background-color: #fff;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.multisteps-form__progress-btn:after {
+  position: absolute;
+  top: 5px;
+  left: calc(-50% - 13px / 2);
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  display: block;
+  width: 100%;
+  height: 2px;
+  content: '';
+  background-color: currentColor;
+  z-index: 1;
+}
+.multisteps-form__progress-btn:first-child:after {
+  display: none;
+}
+.multisteps-form__progress-btn.js-active {
+  color: #f86641;
+}
+.multisteps-form__progress-btn.js-active:before {
+  -webkit-transform: translateX(-50%) scale(1.2);
+          transform: translateX(-50%) scale(1.2);
+  background-color: currentColor;
+}
+
+.multisteps-form__form {
+  position: relative;
+}
+
+.multisteps-form__panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.multisteps-form__panel.js-active {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+}
+.multisteps-form__panel[data-animation="scaleOut"] {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.multisteps-form__panel[data-animation="scaleOut"].js-active {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.multisteps-form__panel[data-animation="slideHorz"] {
+  left: 50px;
+}
+.multisteps-form__panel[data-animation="slideHorz"].js-active {
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.2, 1.13, 0.38, 1.43);
+  transition-delay: 0s;
+  left: 0;
+}
+.multisteps-form__panel[data-animation="slideVert"] {
+  top: 30px;
+}
+.multisteps-form__panel[data-animation="slideVert"].js-active {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  top: 0;
+}
+.multisteps-form__panel[data-animation="fadeIn"].js-active {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+.multisteps-form__panel[data-animation="scaleIn"] {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.multisteps-form__panel[data-animation="scaleIn"].js-active {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+
 
 /******************* ----- DRAG & DROP ----------********************/
-/*------------------------------------------------ FIN MOBILE------------------------------------------------*/
+
 .btn-comment{
   text-align: left;
   text-decoration: none;
@@ -694,20 +1090,25 @@ ul {
 }
 
 .btn-comment{
-  margin-left: 10%;
+  margin-top: 10%;
+  margin-left: 5%;
 }
 
 textarea{
   padding-left: 10px;
   padding-top: 10px;
-  height: 100px;
-  width:80%;
+  height: 150px;
+  width:90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.5;
+  font-family: "Open-sans", sans-serif;
   /*border: none;*/
 }
 
+
+/*------------------------------------------------ FIN MOBILE------------------------------------------------*/
 /********************* INICIO MIN 768PX ***********************/
 
 @media (min-width:768px){
@@ -763,6 +1164,7 @@ textarea{
 }
 
 .jumbotron-header img{
+  display: inline;
   height:380px;
 }
 
@@ -791,7 +1193,7 @@ textarea{
 .jumbotron p{
     margin-left: 7%;
     font-size:0.9em;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 .button button{
@@ -799,7 +1201,7 @@ textarea{
   width:50%;
   letter-spacing: 2px;
   border:1px solid black;
-  border-radius:4%;
+  border-radius:5px;
   font-size:1.1em;
   margin:0 auto;
 }
@@ -808,6 +1210,9 @@ footer{
   height:5vh;
 }
 
+.alert-container{
+  margin-top: 20%;
+}
 
 /* TABS */
 
@@ -837,7 +1242,7 @@ footer{
 
 .tab1-cuadro{
   width:49%;
-  height:200px;
+  height:300px;
 }
 
 .tab2{
@@ -941,6 +1346,14 @@ footer{
   left: 25px;
 }
 
+/************************** TAB 50 A 69 **************************/
+
+.sin-tamizaje,
+.con-tamizaje{
+  width:70%;
+}
+
+
 }
 /*------------------------------------------------ FIN MIN 768PX------------------------------------------------*/
 
@@ -959,15 +1372,22 @@ footer{
   }
 
   .jumbotron-header-questions{
-    width:95%;
+    width:100%;
     margin: 0 auto;
+  }
+
+  .jumbotron-questions{
+    width:40%;
+  }
+
+  .jumbotron-header{
+    width:60%;
   }
 
   .jumbotron-header img{
     height:85vh;
-    width:620px;
+    width:730px;
   }
-
 
   footer{
     height: 15vh;
@@ -976,11 +1396,11 @@ footer{
 
   .jumbotron h1{
     font-size: 2.5em;
-    margin-top:7.5%;
+    margin-top:7%;
   }
 
   .jumbotron h2{
-    margin-top: 3%;
+    margin-top: 4%;
     margin-bottom: 3%;
     font-weight: 400;
     font-size: 1.8em;
@@ -989,8 +1409,6 @@ footer{
   .jumbotron p{
     font-size: 1.2em;
   }
-
-
 
 
 .button button{
@@ -1039,6 +1457,27 @@ footer{
   margin-top:5%;
 }
 
+/* mensaje inicial de atencion */
+
+.alert-container{
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+
+.alerta{
+  width:50%;
+  padding:2.5%;
+}
+
+.alert{
+  border-radius: 0;
+}
+
+.boton-alerta{
+  width:25%;
+}
+
+
 /* tabs */
 
 .mdl-cell--2-col{
@@ -1056,12 +1495,19 @@ footer{
     font-size: 0.75em !important;
 }
 
+
+
 .tab1-cuadro{
   width:24.5%;
   height:200px;
 }
 .tab1{
   margin-bottom: 16px;
+}
+
+.tab7-cuadro{
+  width:33%;
+  height:300px;
 }
 
 .tab2-fila1{
@@ -1097,13 +1543,33 @@ footer{
 }
 
 
-/****************** TAB ALGUNOS NUMEROS****************/
+/****************** TAB 50 a 69 ****************/
 
-.fa-info-circle{
-  font-size: 16px;
+.grafico50-69{
+  width:100%;
+  height:95vh;
+  margin-bottom: 5%;
 }
 
-.display-1 span {
+.container{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.con-tamizaje,
+.sin-tamizaje{
+  width:45%;
+  margin-top: 2%;;
+}
+
+.parlamento-imagen{
+  height:240px;
+}
+
+
+/* .display-1 span {
   padding: 5px;
   width:400px;
   font-size: 10px;
@@ -1126,17 +1592,54 @@ footer{
   position: relative;
   bottom: 160px;
   left: 230px;
-}
+} */ */
 
 /*********************** DRAG *************************/
 .drag-item {
   font-size: 13px;
-  height:70px;
+  height:90px;
 }
 
 .boton-reporte {
   width:25%;
 }
+
+.multisteps-form{
+  width:100%;
+  margin: 0 auto;
+}
+
 /******************* -----------------------------********************/
+
+/* SCROLL DE CONTENIDO DE TABS */
+body{
+  overflow: hidden
+}
+
+/* Scroll de contenido de las tabs */
+.parent{
+  height: 800px;
+  overflow: hidden;
+  display: flex;
+  flex-direction:column;
+}
+
+.scroller{
+  overflow: auto;
+  flex-grow:1;
+}
+
+.child-tab2,
+.child-tab3{
+  height: 1000px;
+}
+
+.child-tab4,
+.child-tab5,
+.child-tab6{
+  height: 2000px;
+}
+
+
 
 }/* ******** CIERRE MAIN

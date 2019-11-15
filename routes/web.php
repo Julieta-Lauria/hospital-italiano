@@ -23,3 +23,7 @@ Route::post('/pdf', 'ReportController@showpdf');
 Route::get('/principal', function(){
   return view('principal');
 });
+
+Route::get('/atencion', function(){
+  return view('atencion');
+});

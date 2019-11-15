@@ -35,149 +35,338 @@
 											      	      <span class="hollow-circle"></span>
 											            	Glosario
 											          </a>
-                                <!-- <a href="#tab7-panel" class="mdl-tabs__tab">
+                                <a href="#tab7-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
-											            	TRH - Riegos y beneficios
-											          </a> -->
+                                    Prevenir el cáncer de mama
+											          </a>
                                 <a href="#tab5-panel" class="mdl-tabs__tab">
                                   <span class="hollow-circle"></span>
                                   Lo más importante para vos
                                 </a>
                                 <a href="#tab8-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
-											            	Fuente
+											            	Referencias
 											          </a>
 											     </div>
 											   </div>
-											   <div class="mdl-cell mdl-cell--10-col">
-												      <div class="mdl-tabs__panel is-active" id="tab1-panel">
-                                <section>
-                                  <h3 class="tab-h3">Se puede elegir</h3>
-                                  <p>Frecuentemente las mujeres nos enfrentamos con la decisión de optar por un estudio para detectar precozmente el cáncer de mama:<strong> la mamografía.</strong> Puede ser porque:</p>
-                                    <div class="tab1">
-                                      <div class="tab1-cuadro"><img src="img/doctor.png" alt=""><p>Nos lo recomienda un profesional de la salud</p></div>
-                                      <div class="tab1-cuadro"><img src="img/advertising.png" alt=""><p>Lo vimos en una publicidad</p></div>
-                                      <div class="tab1-cuadro"><img src="img/chat.png" alt=""><p>Nos lo contó un/a amigo/a o familiar</p></div>
-                                      <div class="tab1-cuadro"><img src="img/work.png" alt=""><p>Lo tenemos incorporado como un chequeo de “rutina” y lo hacemos por costumbre</p></div>
-                                    </div>
-                                    <p class="tab1-p">Como toda decisión médica, tiene opciones, con sus ventajas y desventajas, y es importante que los conozcas para que puedas decidir cuál es la mejor opción para vos. <strong>Tanto realizar como no realizar un estudio de detección precoz del cáncer de mama son opciones razonables.</strong></p>
-                                  <div class="alert-container">
-                                    <div class="alert alert-primary">
-                                      <p><strong>Atención: </strong>Si pensás que hablar de los riesgos o desventajas de una intervención te puede generar ansiedad (por ejemplo leer el prospecto de los medicamentos) te recomendamos que no utilices esta herramienta.</p>
-                                    </div>
-                                  </div>
+											   <div class="mdl-cell mdl-cell--10-col parent">
+                             <div class="mdl-tabs__panel is-active" id="tab1-panel">
+                               <section>
+                                   <!-- <div class="mySlides1">
+                                     <section>
+                                       @yield("atencion")
+                                     </section>
+                                   </div>
+                                   <div class="mySlides1">
+                                     <section> -->
+                                       @yield("elegir")
+                                     <!-- </section>
+                                   </div> -->
                                 </section>
-												      </div>
-												      <div class="mdl-tabs__panel" id="tab2-panel">
-                                <section>
-                                  <h3 class="tab-h3">¿Qué es el cáncer de mama?</h3>
-                                  <p>Es una enfermedad causada por el crecimiento anormal de células de la mama que forman un tumor maligno. Las posibilidades de que aparezca aumentan con la edad, principalmente a partir de los 50 años.</p>
-                                  <p class="strong"><strong>¿Se puede prevenir?</strong></p>
-                                  <p>Hay factores que aumentan el riesgo de tener cáncer de mama que se pueden modificar:</p>
-                                  <div class="tab2">
-                                    <div class="tab2-fila1">
-                                      <div class="tab2-cuadro claro"><p>Sobrepeso</p><img src="img/obesity.png" alt=""></div>
-                                      <div class="tab2-cuadro oscuro"><img src="img/cigarette.png" alt=""><p>Tabaquismo</p></div>
-                                    </div>
-                                      <div class="tab2-fila2">
-                                        <div class="tab2-cuadro claro"><p>Sedentarismo</p><img src="img/watching-tv.png" alt=""></div>
-                                        <div class="tab2-cuadro oscuro"><img src="img/wine-bottle.png" alt=""><p>Consumo excesivo de alcohol </p></div>
-                                      </div>
-
-                                  </div>
-                                  <p class="strong"><strong>¿Qué es y por qué se ofrece el “chequeo” o tamizaje del cáncer de mama?</strong></p>
-                                  <p>El tamizaje consiste en examinar sistemáticamente a un grupo de <strong>personas que no tienen síntomas* </strong>con el fin de detectar precozmente una enfermedad y mejorar los resultados en salud. </p>
-                                  <div class="alert-container">
-                                    <div class="alert alert-primary">
-                                      <p><strong>* </strong>Si notás un cambio en tus mamas debés consultar al médico sin demora (un bulto palpable, cambios en la textura o enrojecimiento de la piel de las mamas o el pezón, secreción o
-                                      sangrado por el pezón).
-                                    </div></p>
-                                  </div>
+                                 </div>
+												      <div class="mdl-tabs__panel scroller" id="tab2-panel">
+                                <section class="child-tab2">
+                                      @yield("cancerdemama")
                                 </section>
       												</div>
-      												<div class="mdl-tabs__panel" id="tab3-panel">
-                                <h3 class="tab-h3">Mamografía</h3>
-                                <section>
-                                  <div class="tab3">
-                                    <p>El <strong>único</strong> método recomendado y que demostró ser efectivo para la detección precoz del cáncer de mama es la <strong>mamografía.</strong>
-                                    Durante la prueba la mama se comprime entre dos placas planas y se saca una radiografía. Algunas mujeres experimentan molestia o dolor según la sensibilidad de sus mamas.
-                                    </p>
-                                  </div>
-                                  <div class="beneficios-riesgos">
-                                    <div class="beneficios">
-                                      <h2>Posibles ventajas</h2>
-                                      <div class="beneficio">
-                                        <p class="benef"><i class="fas fa-thumbs-up"></i>Sensación de seguridad</p>
-                                        <p class="descripcion">Algunas mujeres sienten tranquilidad y satisfacción al recibir una mamografía con un resultado normal.</p>
-                                      </div>
-                                      <div class="beneficio" id="benef-2">
-                                          <p class="benef"><i class="fas fa-thumbs-up"></i>Reduce las muertes por cáncer de mama </p>
-                                        <p class="descripcion">Este es el objetivo del tamizaje con mamografía al detectar y tratar lesiones de forma temprana, aunque no evita el cáncer de mama.</p>
-                                      </div>
-                                      <div class="beneficio" id="benef-3">
-                                        <p class="benef"><i class="fas fa-thumbs-up"></i>Acceder a tratamientos menos invasivos</p>
-                                        <p class="descripcion">Al detectar el cáncer de mama en estadíos tempranos se puede tratar con cirugías más simples o conservadoras y requerir menos quimioterapia.</p>
+      												<div class="mdl-tabs__panel scroller" id="tab3-panel">
+                                <section class="child-tab3">
+                                  @yield("mamografia")
+                                </section>
+												      </div>
+                              <div class="mdl-tabs__panel scroller" id="tab4-panel">
+                                <section class="child-tab4">
+                                  @yield("40a49")
+                                </section>
+												      </div>
+                              <div class="mdl-tabs__panel scroller" id="tab9-panel">
+                                <section class="child-tab5">
+                                  @yield("50a69")
+                                </section>
+												      </div>
+                              <div class="mdl-tabs__panel scroller" id="tab5-panel">
+                                <div class="content child-tab6">
+                                  <!--content inner-->
+                                  <div class="content__inner">
+                                    <div class="container overflow-hidden">
+                                      <!--multisteps-form-->
+                                      <div class="multisteps-form">
+                                        <!--progress bar-->
+                                        <div class="row">
+                                          <div class="col-12 col-lg-11 ml-auto mr-auto mb-4">
+                                            <div class="multisteps-form__progress">
+                                              <button class="multisteps-form__progress-btn js-active" type="button" title="User Info">Datos</button>
+                                              <button class="multisteps-form__progress-btn" type="button" title="Address">Decisiones</button>
+                                              <!-- <button class="multisteps-form__progress-btn" type="button" title="Order Info">Comentarios</button> -->
+                                              <button class="multisteps-form__progress-btn" type="button" title="Comments">Comentarios</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <!--form panels-->
+                                        <div class="row">
+                                          <div class="col-12 col-lg-11 m-auto">
+                                            <form class="multisteps-form__form">
+                                              <!--single form panel-->
+                                              <section class="col-12">
+                                                @yield("form")
+                                              </section>
+                                              <!--single form panel-->
+                                              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                                <h3 class="multisteps-form__title"></h3>
+                                                <div class="multisteps-form__content">
+                                                  <section class="col-12">
+                                                    @yield("drag")
+                                                  </section>
+                                                  <div class="button-row d-flex mt-4">
+                                                    <div class="col text-center">
+                                                    <button class="btn btn-primary js-btn-prev btn-danger" type="button" title="Prev">Anterior</button>
+                                                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next">Siguiente</button>
+                                                  </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <!--single form panel-->
+                                              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+                                                <section class="col-12">
+                                                  @yield("comments")
+                                                </section>
+                                                <!-- <h3 class="multisteps-form__title">Comentarios del medico</h3>
+                                                <div class="multisteps-form__content">
+                                                  <div class="form-row mt-4">
+                                                    <textarea class="multisteps-form__textarea form-control" placeholder="Additional Comments and Requirements"></textarea>
+                                                  </div>
+                                                  <div class="button-row d-flex mt-4">
+                                                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev">Anterior</button>
+                                                    <button class="btn btn-success ml-auto" type="button" title="Send">Generar reporte</button>
+                                                  </div>
+                                                </div> -->
+                                              </div>
+                                            </form>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
-                                    <div class="riesgos">
-                                      <h2>Posibles desventajas</h2>
-                                      <div class="riesgo">
-                                        <p class="risk"><i class="fas fa-thumbs-down"></i>No detecta todos los cánceres</p>
-                                        <p class="descripcion">Algunos tumores crecen muy rápido y pueden aparecer inclusive al hacerse controles regulares y tener mamografías previas normales.</p>
-                                      </div>
-                                      <div class="riesgo">
-                                        <a class="display-3" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">falsas alarmas</strong></span></p></i><span class="">Cuando la mamografía muestra una anomalía que podría ser cáncer, hay que hacer otros estudios para aclarar. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Si se demuestra que la anomalía era benigna, decimos que fue una falsa alarma.</span></a>
-                                        <p class="descripcion">Algunas mujeres deberán repetir estudios por lesiones benignas que no quedan claras. Estos pueden demorar semanas y algunas mujeres experimentan angustia, ansiedad o temor.</p>
-                                      </div>
-                                      <div class="riesgo">
-                                        <a class="display-4" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong></span></p></i><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por los que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
-                                        <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante tu vida. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento".</p>
-                                      </div>
-                                    </div>
                                   </div>
-                                </section>
-												      </div>
-                              <div class="mdl-tabs__panel" id="tab4-panel">
-                                <section>
-                                  Les falta definir que va a ir aca
-                                </section>
-												      </div>
-                              <div class="mdl-tabs__panel" id="tab9-panel">
-                                <section>
-                                  @yield("diagram")
-                                </section>
-												      </div>
-                              <div class="mdl-tabs__panel" id="tab5-panel">
-                                <section>
-                                  @yield("drag")
-                                </section>
+                                </div>
 												      </div>
                               <div class="mdl-tabs__panel" id="tab6-panel">
                                 <section>
-                                  <h3 class="tab-h3">Glosario</h3>
-                                  <p><strong>Falsas alarmas:</strong></p>
-                                  <p>Cuando la mamografía muestra una anomalía que podría ser cáncer, hay que hacer otros estudios para aclarar. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Si se demuestra que la anomalía era benigna, decimos que fue una falsa alarma.</p>
-                                  <p><strong>Un diagnóstico de cáncer que no daña o “tumores inofensivos” (también llamado “sobrediagnóstico”):</strong></p>
-                                  <p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por los que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
+                                  @yield("glosario")
                                 </section>
 												      </div>
-                              <!-- <div class="mdl-tabs__panel" id="tab7-panel">
+                              <div class="mdl-tabs__panel" id="tab7-panel">
                                 <section>
-                                  @yield("grafico-2")
-                                </section> -->
+                                  @yield("prevenir")
+                                </section>
+                                </div>
                                 <div class="mdl-tabs__panel" id="tab8-panel">
                                   <section>
-                                    <h3 class="tab-h3">Fuente</h3>
-                                    <p><strong>Links:</strong></p>
-                                    <p><a href="http://www.msal.gob.ar/images/stories/bes/graficos/0000001138cnt-20180321-efectividad-tamizaje-mamografico-mortalidaden-cm.pdf">Efectividad del tamizaje mamográfico en la reducción de la mortalidad por cáncer de mama</a></p>
-                                    <p><a href="https://www.harding-center.mpg.de/en/fact-boxes/early-detection-of-cancer/breast-cancer-early-detection">Early detection of breast cancer by mammography screening</a></p>
+                                    @yield("referencias")
                                   </section>
   												      </div>
-												      </div>
-
+                                </div>
 											    </div>
 										  </div>
 									</div>
 <!-- partial -->
   <script src='https://storage.googleapis.com/code.getmdl.io/1.1.0/material.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script><script  src="./script.js"></script>
+
+  </body>
+
+  <!-- JAVASCRIPT DEL BOTON DE INGRESAR DEL CARTEL DE ATENCION -->
+  <script type="text/javascript">
+  var slideIndex1 = 1;
+  showDivs1(slideIndex1);
+
+  function plusDivs1(n) {
+  showDivs1(slideIndex1 += n);
+  }
+
+  function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex1 = 1}
+  if (n < 1) {slideIndex1 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex1-1].style.display = "block";
+  }
+  </script>
+
+
+<!-- JAVASCRIPT DEL MULTISTEP FORM DE LA TAB DEL DRAG -->
+
+<script type="text/javascript">
+//DOM elements
+const DOMstrings = {
+  stepsBtnClass: 'multisteps-form__progress-btn',
+  stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
+  stepsBar: document.querySelector('.multisteps-form__progress'),
+  stepsForm: document.querySelector('.multisteps-form__form'),
+  stepsFormTextareas: document.querySelectorAll('.multisteps-form__textarea'),
+  stepFormPanelClass: 'multisteps-form__panel',
+  stepFormPanels: document.querySelectorAll('.multisteps-form__panel'),
+  stepPrevBtnClass: 'js-btn-prev',
+  stepNextBtnClass: 'js-btn-next' };
+
+
+//remove class from a set of items
+const removeClasses = (elemSet, className) => {
+
+  elemSet.forEach(elem => {
+
+    elem.classList.remove(className);
+
+  });
+
+};
+
+//return exect parent node of the element
+const findParent = (elem, parentClass) => {
+
+  let currentNode = elem;
+
+  while (!currentNode.classList.contains(parentClass)) {
+    currentNode = currentNode.parentNode;
+  }
+
+  return currentNode;
+
+};
+
+//get active button step number
+const getActiveStep = elem => {
+  return Array.from(DOMstrings.stepsBtns).indexOf(elem);
+};
+
+//set all steps before clicked (and clicked too) to active
+const setActiveStep = activeStepNum => {
+
+  //remove active state from all the state
+  removeClasses(DOMstrings.stepsBtns, 'js-active');
+
+  //set picked items to active
+  DOMstrings.stepsBtns.forEach((elem, index) => {
+
+    if (index <= activeStepNum) {
+      elem.classList.add('js-active');
+    }
+
+  });
+};
+
+//get active panel
+const getActivePanel = () => {
+
+  let activePanel;
+
+  DOMstrings.stepFormPanels.forEach(elem => {
+
+    if (elem.classList.contains('js-active')) {
+
+      activePanel = elem;
+
+    }
+
+  });
+
+  return activePanel;
+
+};
+
+//open active panel (and close unactive panels)
+const setActivePanel = activePanelNum => {
+
+  //remove active class from all the panels
+  removeClasses(DOMstrings.stepFormPanels, 'js-active');
+
+  //show active panel
+  DOMstrings.stepFormPanels.forEach((elem, index) => {
+    if (index === activePanelNum) {
+
+      elem.classList.add('js-active');
+
+      setFormHeight(elem);
+
+    }
+  });
+
+};
+
+//set form height equal to current panel height
+const formHeight = activePanel => {
+
+  const activePanelHeight = activePanel.offsetHeight;
+
+  DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
+
+};
+
+const setFormHeight = () => {
+  const activePanel = getActivePanel();
+
+  formHeight(activePanel);
+};
+
+//STEPS BAR CLICK FUNCTION
+DOMstrings.stepsBar.addEventListener('click', e => {
+
+  //check if click target is a step button
+  const eventTarget = e.target;
+
+  if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
+    return;
+  }
+
+  //get active button step number
+  const activeStep = getActiveStep(eventTarget);
+
+  //set all steps before clicked (and clicked too) to active
+  setActiveStep(activeStep);
+
+  //open active panel
+  setActivePanel(activeStep);
+});
+
+//PREV/NEXT BTNS CLICK
+DOMstrings.stepsForm.addEventListener('click', e => {
+
+  const eventTarget = e.target;
+
+  //check if we clicked on `PREV` or NEXT` buttons
+  if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)))
+  {
+    return;
+  }
+
+  //find active panel
+  const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
+
+  let activePanelNum = Array.from(DOMstrings.stepFormPanels).indexOf(activePanel);
+
+  //set active step and active panel onclick
+  if (eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`)) {
+    activePanelNum--;
+
+  } else {
+
+    activePanelNum++;
+
+  }
+
+  setActiveStep(activePanelNum);
+  setActivePanel(activePanelNum);
+
+});
+
+//SETTING PROPER FORM HEIGHT ONLOAD
+window.addEventListener('load', setFormHeight, false);
+
+//SETTING PROPER FORM HEIGHT ONRESIZE
+window.addEventListener('resize', setFormHeight, false);
+
+</script>
+
 @endsection

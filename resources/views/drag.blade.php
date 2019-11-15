@@ -31,9 +31,10 @@
   </head>
   <body>
   <!-- partial:index.partial.html -->
-  <section class="section">
+  <section class="section drag-title">
     <h2 class="drag-h2">Lo más importante para vos: ¿Con cuál de estas afirmaciones te sentirías más identificada? </h2>
-    <p>Arrastrá cada afirmación debajo de alguna de las 3 columnas</p>
+    <p>Ordene las siguientes frases si está de acuerdo, en desacuerdo o ni de acuerdo o desacuerdo con estas afirmaciones.
+</p>
   </section>
 
   <form class="" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()">
@@ -49,11 +50,15 @@
   			<div class="drag-options" id="options1"></div>
         <ul class="drag-inner-list <?php echo $options_columns[0]; ?>" id="1">
           <li class="drag-item">Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
-          <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio.</li>
-          <li class="drag-item">El beneficio de la mamografía me parece bajo</li>
-          <li class="drag-item">El beneficio de la mamografía me parece alto</li>
-          <li class="drag-item">La desventaja de la mamografía me parece baja</li>
-          <li class="drag-item">La desventaja de la mamografía me parece alta</li>
+          <li class="drag-item">No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
+          <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
+          <li class="drag-item">Hacerme la mamografía me da tranquilidad</li>
+          <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
+          <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
+          <li class="drag-item">Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
+          <li class="drag-item">Me genera ansiedad o miedo repetirme estudios</li>
+          <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
+          <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
           <li class="drag-item">Prefiero que esta decisión la tome mi médico/a</li>
         </ul>
   		</li>
@@ -94,7 +99,7 @@
 
 
   </div>
-  <section class="comentarios-medico">
+  <!-- <section class="comentarios-medico">
     <p class="btn-comment">Comentarios del Médico</p>
     <textarea id="comment" name="comment" class="comment" placeholder="Escriba sus comentarios.."></textarea>
   </section>
@@ -104,7 +109,7 @@
 
   <section class="section">
     <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
-  </section>
+  </section> -->
 
 
 
