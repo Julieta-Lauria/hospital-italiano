@@ -52,7 +52,6 @@
           <li class="drag-item">Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
           <li class="drag-item">No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
           <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
-          <li class="drag-item">Hacerme la mamografía me da tranquilidad</li>
           <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
           <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
           <li class="drag-item">Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
