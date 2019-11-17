@@ -84,69 +84,10 @@
                                   @yield("50a69")
                                 </section>
 												      </div>
+
                               <div class="mdl-tabs__panel scroller" id="tab5-panel">
                                 <div class="content child-tab6">
-                                  <!--content inner-->
-                                  <div class="content__inner">
-                                    <div class="container overflow-hidden">
-                                      <!--multisteps-form-->
-                                      <div class="multisteps-form">
-                                        <!--progress bar-->
-                                        <div class="row">
-                                          <div class="col-12 col-lg-11 ml-auto mr-auto mb-4">
-                                            <div class="multisteps-form__progress">
-                                              <button class="multisteps-form__progress-btn js-active" type="button" title="User Info">Datos</button>
-                                              <button class="multisteps-form__progress-btn" type="button" title="Address">Decisiones</button>
-                                              <!-- <button class="multisteps-form__progress-btn" type="button" title="Order Info">Comentarios</button> -->
-                                              <button class="multisteps-form__progress-btn" type="button" title="Comments">Comentarios</button>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <!--form panels-->
-                                        <div class="row">
-                                          <div class="col-12 col-lg-11 m-auto">
-                                            <form class="multisteps-form__form">
-                                              <!--single form panel-->
-                                              <section class="col-12">
-                                                @yield("form")
-                                              </section>
-                                              <!--single form panel-->
-                                              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
-                                                <h3 class="multisteps-form__title"></h3>
-                                                <div class="multisteps-form__content">
-                                                  <section class="col-12">
-                                                    @yield("drag")
-                                                  </section>
-                                                  <div class="button-row d-flex mt-4">
-                                                    <div class="col text-center">
-                                                    <button class="btn btn-primary js-btn-prev btn-danger" type="button" title="Prev">Anterior</button>
-                                                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next">Siguiente</button>
-                                                  </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                              <!--single form panel-->
-                                              <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
-                                                <section class="col-12">
-                                                  @yield("comments")
-                                                </section>
-                                                <!-- <h3 class="multisteps-form__title">Comentarios del medico</h3>
-                                                <div class="multisteps-form__content">
-                                                  <div class="form-row mt-4">
-                                                    <textarea class="multisteps-form__textarea form-control" placeholder="Additional Comments and Requirements"></textarea>
-                                                  </div>
-                                                  <div class="button-row d-flex mt-4">
-                                                    <button class="btn btn-primary js-btn-prev" type="button" title="Prev">Anterior</button>
-                                                    <button class="btn btn-success ml-auto" type="button" title="Send">Generar reporte</button>
-                                                  </div>
-                                                </div> -->
-                                              </div>
-                                            </form>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
+                                  @include("tab5")
                                 </div>
 												      </div>
                               <div class="mdl-tabs__panel" id="tab6-panel">
