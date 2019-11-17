@@ -15,9 +15,12 @@
         </div>
       </div>
       <!--form panels-->
+
       <div class="row">
         <div class="col-12 col-lg-11 m-auto">
-          <form class="multisteps-form__form">
+          <form class="multisteps-form__form" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()">
+          @csrf
+
             <!--single form panel-->
             <section class="col-12">
               <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
@@ -119,9 +122,9 @@
                     <p>Ordene las siguientes frases si está de acuerdo, en desacuerdo o ni de acuerdo o desacuerdo con estas afirmaciones.
                 </p>
                   </section>
-<?php $options_columns = ['Afirmaciones', 'Nada identificada', 'Poco identificada', 'Muy identificada'] ?>
-                  <form class="" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()">
-                  @csrf
+
+                  <?php $options_columns = ['Afirmaciones', 'Nada identificada', 'Poco identificada', 'Muy identificada'] ?>
+
                   <div class="drag-container" id="divform">
                     <ul class="drag-list">
 
@@ -181,21 +184,7 @@
 
 
                   </div>
-                  <!-- <section class="comentarios-medico">
-                    <p class="btn-comment">Comentarios del Médico</p>
-                    <textarea id="comment" name="comment" class="comment" placeholder="Escriba sus comentarios.."></textarea>
-                  </section>
 
-                  <input id="form_html" name="form_html" type="hidden">
-
-
-                  <section class="section">
-                    <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
-                  </section> -->
-
-
-
-                  </form>
                 </section>
                 <div class="button-row d-flex mt-4">
                   <div class="col text-center">
