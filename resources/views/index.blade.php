@@ -11,7 +11,7 @@
       <!-- <div class="jumbotron-header">
         <! <img src="img/vector.png" alt=""> -->
         <!-- <img src="img/Mujeres-50-70-portada.JPG" alt=""> -->
-      <!-- </div> --> -->
+      <!-- </div> --> 
       <div class="jumbotron-questions">
         <h1>DETECCIÓN PRECOZ DEL <span>CÁNCER DE MAMA</span></h1>
         <h2>Ayudándote a decidir:</h2>
