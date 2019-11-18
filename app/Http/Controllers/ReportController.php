@@ -8,8 +8,9 @@ use App\Consulta;
 class ReportController extends Controller
 {
 
-        public function showpdf2(Request $request){
+        public function showpdf(Request $request){
            $input = $request->all();
+           $this->saveData($request);
            $data = $input['form_html'];
            $comment = $input['comment'];
            $date = date('d-m-Y');
@@ -23,7 +24,7 @@ class ReportController extends Controller
 
 
 
-         public function showpdf(Request $request){
+         public function saveData(Request $request){
            $input = $request->all();
            //dd($input);
            $newConsulta = new Consulta();
@@ -48,7 +49,7 @@ class ReportController extends Controller
            $newConsulta->form_html = $input['form_html'];
 
            $newConsulta -> save();
-           return dd($newConsulta);
+        
         }
 
 }
