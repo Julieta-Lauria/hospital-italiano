@@ -11,44 +11,27 @@ dragula([
 	// add 'is-moving' class to element being dragged
 	el.classList.add('is-moving');
 })
+
 .on('dragend', function(el) {
 
 	// remove 'is-moving' class from element after dragging has stopped
 	el.classList.remove('is-moving');
 
-///////////////////////// agregar la clase que tenga el titulo de la comlumna.. muy identidicada etc..
-x = el.parentNode.id;
-//var clasetitulo = document.querySelector(".afirmaciones");
-console.log(x)
-//el.classList.add('')
+	////////////////// agregar la clase que tenga el titulo de la comlumna.. muy identidicada etc..
+	x = el.parentNode.id;
+	console.log(el.firstChild)
 
-
-
-////////////////////
-
-
-
-	// add the 'is-moved' class for 600ms then remove it
-	window.setTimeout(function() {
-		el.classList.add('is-moved');
+		// add the 'is-moved' class for 600ms then remove it
 		window.setTimeout(function() {
-			el.classList.remove('is-moved');
-		}, 600);
-	}, 100);
+			el.classList.add('is-moved');
+			window.setTimeout(function() {
+				el.classList.remove('is-moved');
+			}, 600);
+		}, 100);
 
-//agregando el id del ul tomado en X, se agrega como ID al LI
-el.setAttribute("id", x);
-
-console.log(el)
-
-
-
-//y = document.getElementById('form1');
-//z = y.innerHTML;
-//console.log(y)
-
-
-
+	//agregando el id del ul tomado en X, se agrega como ID al LI
+	el.firstChild.setAttribute("value", x);
+	//console.log(el)
 
 });
 

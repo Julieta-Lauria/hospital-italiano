@@ -123,38 +123,36 @@
                 </p>
                   </section>
 
-                  <?php $options_columns = ['Afirmaciones', 'Nada identificada', 'Poco identificada', 'Muy identificada'] ?>
-
-                  <div class="drag-container" id="divform">
+                <div class="drag-container" id="divform">
                     <ul class="drag-list">
 
-
-                      <li class="drag-column drag-column-on-hold">
+                    <li class="drag-column drag-column-on-hold">
                         <span class="drag-column-header">
-                          <h2 class="afirmaciones">Afirmaciones</h2>
+                          <h2 class="afirmaciones">Pensamientos</h2>
                         </span>
                         <div class="drag-options" id="options1"></div>
-                        <ul class="drag-inner-list <?php echo $options_columns[0]; ?>" id="1">
-                          <li class="drag-item">Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
-                          <li class="drag-item">No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
-                          <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
-                          <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
-                          <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
-                          <li class="drag-item">Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
-                          <li class="drag-item">Me genera ansiedad o miedo repetirme estudios</li>
-                          <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
-                          <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
-                          <li class="drag-item">Prefiero que esta decisión la tome mi médico/a</li>
+                        <ul class="drag-inner-list" id="1">
+                          <li class="drag-item"><input name="afirmacion1" value="default" hidden>GADU Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
+                          <li class="drag-item"><input name="afirmacion2" value="default" hidden>No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
+                          <li class="drag-item"><input name="afirmacion3" value="default" hidden>La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
+                          <li class="drag-item"><input name="afirmacion4" value="default" hidden>La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
+                          <li class="drag-item"><input name="afirmacion5" value="default" hidden>La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
+                          <li class="drag-item"><input name="afirmacion6" value="default" hidden>Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
+                          <li class="drag-item"><input name="afirmacion7" value="default" hidden>Me genera ansiedad o miedo repetirme estudios</li>
+                          <li class="drag-item"><input name="afirmacion8" value="default" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
+                          <li class="drag-item"><input name="afirmacion9" value="default" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
+                          <li class="drag-item"><input name="afirmacion10" value="default" hidden>Prefiero que esta decisión la tome mi médico/a</li>
+                          <li class="drag-item"><input name="afirmacion11" value="default" hidden>Hacerme la mamografía me da tranquilidad</li>
                         </ul>
                       </li>
 
 
                       <li class="drag-column drag-column-in-progress">
                         <span class="drag-column-header">
-                          <h2>Nada identificada</h2>
+                          <h2>En Desacuerdo</h2>
                         </span>
                         <div class="drag-options" id="options2"></div>
-                        <ul class="drag-inner-list <?php echo $options_columns[1]; ?>" id="2">
+                        <ul class="drag-inner-list" id="2">
                           <!-- <li class="drag-item"></li> -->
                         </ul>
                       </li>
@@ -162,10 +160,10 @@
 
                       <li class="drag-column drag-column-needs-review">
                         <span class="drag-column-header">
-                          <h2>Un poco identificada</h2>
+                          <h2>Ni acuerdo, ni desacuerdo</h2>
                         </span>
                         <div class="drag-options" id="options3"></div>
-                        <ul class="drag-inner-list <?php echo $options_columns[2]; ?>" id="3">
+                        <ul class="drag-inner-list" id="3">
                           <!-- <li class="drag-item"></li> -->
                         </ul>
                       </li>
@@ -173,10 +171,10 @@
 
                       <li class="drag-column drag-column-approved">
                         <span class="drag-column-header">
-                          <h2>Muy identificada</h2>
+                          <h2>De acuerdo</h2>
                         </span>
                         <div class="drag-options" id="options4"></div>
-                        <ul class="drag-inner-list <?php echo $options_columns[3]; ?>" id="4">
+                        <ul class="drag-inner-list" id="4">
                           <!-- <li class="drag-item"></li> -->
                         </ul>
                       </li>
@@ -234,166 +232,168 @@
     }
 </script>
 
+
 <script type="text/javascript">
 //DOM elements
 const DOMstrings = {
-  stepsBtnClass: 'multisteps-form__progress-btn',
-  stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
-  stepsBar: document.querySelector('.multisteps-form__progress'),
-  stepsForm: document.querySelector('.multisteps-form__form'),
-  stepsFormTextareas: document.querySelectorAll('.multisteps-form__textarea'),
-  stepFormPanelClass: 'multisteps-form__panel',
-  stepFormPanels: document.querySelectorAll('.multisteps-form__panel'),
-  stepPrevBtnClass: 'js-btn-prev',
-  stepNextBtnClass: 'js-btn-next' };
+    stepsBtnClass: 'multisteps-form__progress-btn',
+    stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
+    stepsBar: document.querySelector('.multisteps-form__progress'),
+    stepsForm: document.querySelector('.multisteps-form__form'),
+    stepsFormTextareas: document.querySelectorAll('.multisteps-form__textarea'),
+    stepFormPanelClass: 'multisteps-form__panel',
+    stepFormPanels: document.querySelectorAll('.multisteps-form__panel'),
+    stepPrevBtnClass: 'js-btn-prev',
+    stepNextBtnClass: 'js-btn-next'
+};
 
 
 //remove class from a set of items
 const removeClasses = (elemSet, className) => {
 
-  elemSet.forEach(elem => {
+      elemSet.forEach(elem => {
 
-    elem.classList.remove(className);
+        elem.classList.remove(className);
 
-  });
+      });
 
 };
 
 //return exect parent node of the element
 const findParent = (elem, parentClass) => {
 
-  let currentNode = elem;
+      let currentNode = elem;
 
-  while (!currentNode.classList.contains(parentClass)) {
-    currentNode = currentNode.parentNode;
-  }
+      while (!currentNode.classList.contains(parentClass)) {
+        currentNode = currentNode.parentNode;
+      }
 
-  return currentNode;
+      return currentNode;
 
 };
 
 //get active button step number
 const getActiveStep = elem => {
-  return Array.from(DOMstrings.stepsBtns).indexOf(elem);
+      return Array.from(DOMstrings.stepsBtns).indexOf(elem);
 };
 
 //set all steps before clicked (and clicked too) to active
 const setActiveStep = activeStepNum => {
 
   //remove active state from all the state
-  removeClasses(DOMstrings.stepsBtns, 'js-active');
+      removeClasses(DOMstrings.stepsBtns, 'js-active');
 
-  //set picked items to active
-  DOMstrings.stepsBtns.forEach((elem, index) => {
+      //set picked items to active
+      DOMstrings.stepsBtns.forEach((elem, index) => {
 
-    if (index <= activeStepNum) {
-      elem.classList.add('js-active');
-    }
+          if (index <= activeStepNum) {
+            elem.classList.add('js-active');
+          }
 
-  });
+      });
 };
 
 //get active panel
 const getActivePanel = () => {
 
-  let activePanel;
+      let activePanel;
 
-  DOMstrings.stepFormPanels.forEach(elem => {
+      DOMstrings.stepFormPanels.forEach(elem => {
 
-    if (elem.classList.contains('js-active')) {
+          if (elem.classList.contains('js-active')) {
 
-      activePanel = elem;
+            activePanel = elem;
 
-    }
+          }
 
-  });
+      });
 
-  return activePanel;
+      return activePanel;
 
 };
 
 //open active panel (and close unactive panels)
 const setActivePanel = activePanelNum => {
 
-  //remove active class from all the panels
-  removeClasses(DOMstrings.stepFormPanels, 'js-active');
+    //remove active class from all the panels
+    removeClasses(DOMstrings.stepFormPanels, 'js-active');
 
-  //show active panel
-  DOMstrings.stepFormPanels.forEach((elem, index) => {
-    if (index === activePanelNum) {
+    //show active panel
+    DOMstrings.stepFormPanels.forEach((elem, index) => {
+        if (index === activePanelNum) {
 
-      elem.classList.add('js-active');
+          elem.classList.add('js-active');
 
-      setFormHeight(elem);
+          setFormHeight(elem);
 
-    }
-  });
+      }
+    });
 
 };
 
 //set form height equal to current panel height
 const formHeight = activePanel => {
 
-  const activePanelHeight = activePanel.offsetHeight;
+    const activePanelHeight = activePanel.offsetHeight;
 
-  DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
+    DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
 
 };
 
 const setFormHeight = () => {
-  const activePanel = getActivePanel();
+    const activePanel = getActivePanel();
 
-  formHeight(activePanel);
+    formHeight(activePanel);
 };
 
 //STEPS BAR CLICK FUNCTION
 DOMstrings.stepsBar.addEventListener('click', e => {
 
-  //check if click target is a step button
-  const eventTarget = e.target;
+      //check if click target is a step button
+      const eventTarget = e.target;
 
-  if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
-    return;
-  }
+      if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
+        return;
+      }
 
-  //get active button step number
-  const activeStep = getActiveStep(eventTarget);
+      //get active button step number
+      const activeStep = getActiveStep(eventTarget);
 
-  //set all steps before clicked (and clicked too) to active
-  setActiveStep(activeStep);
+      //set all steps before clicked (and clicked too) to active
+      setActiveStep(activeStep);
 
-  //open active panel
-  setActivePanel(activeStep);
+      //open active panel
+      setActivePanel(activeStep);
 });
 
 //PREV/NEXT BTNS CLICK
 DOMstrings.stepsForm.addEventListener('click', e => {
 
-  const eventTarget = e.target;
+      const eventTarget = e.target;
 
-  //check if we clicked on `PREV` or NEXT` buttons
-  if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)))
-  {
-    return;
-  }
+      //check if we clicked on `PREV` or NEXT` buttons
+      if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)))
+      {
+        return;
+      }
 
-  //find active panel
-  const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
+      //find active panel
+      const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
 
-  let activePanelNum = Array.from(DOMstrings.stepFormPanels).indexOf(activePanel);
+      let activePanelNum = Array.from(DOMstrings.stepFormPanels).indexOf(activePanel);
 
-  //set active step and active panel onclick
-  if (eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`)) {
-    activePanelNum--;
+      //set active step and active panel onclick
+      if (eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`)) {
+        activePanelNum--;
 
-  } else {
+      } else {
 
-    activePanelNum++;
+        activePanelNum++;
 
-  }
+      }
 
-  setActiveStep(activePanelNum);
-  setActivePanel(activePanelNum);
+      setActiveStep(activePanelNum);
+      setActivePanel(activePanelNum);
 
 });
 
