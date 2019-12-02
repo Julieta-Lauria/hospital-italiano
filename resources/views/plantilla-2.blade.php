@@ -31,10 +31,6 @@
 											      	      <span class="hollow-circle"></span>
                                     Mujeres de 50 a 69 años
 											          </a>
-                                <a href="#tab6-panel" class="mdl-tabs__tab">
-											      	      <span class="hollow-circle"></span>
-											            	Glosario
-											          </a>
                                 <a href="#tab7-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
                                     Prevenir el cáncer de mama
@@ -43,6 +39,10 @@
                                   <span class="hollow-circle"></span>
                                   Lo más importante para vos
                                 </a>
+                                <a href="#tab6-panel" class="mdl-tabs__tab">
+											      	      <span class="hollow-circle"></span>
+											            	Glosario
+											          </a>
                                 <a href="#tab8-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
 											            	Referencias
@@ -95,13 +95,13 @@
                                   @yield("glosario")
                                 </section>
 												      </div>
-                              <div class="mdl-tabs__panel" id="tab7-panel">
-                                <section>
+                              <div class="mdl-tabs__panel scroller" id="tab7-panel">
+                                <section class="child-tab7">
                                   @yield("prevenir")
                                 </section>
                                 </div>
-                                <div class="mdl-tabs__panel" id="tab8-panel">
-                                  <section>
+                                <div class="mdl-tabs__panel scroller" id="tab8-panel">
+                                  <section class="child-tab8">
                                     @yield("referencias")
                                   </section>
   												      </div>

@@ -281,6 +281,9 @@ hr{
   width:35%;
 }
 
+.asterisco{
+  font-size: 9px;
+}
 
 #tab8-panel a{
   color:#F86641;
@@ -421,21 +424,18 @@ i{
 .display-3 span {
   display: none;
   position: absolute;
-  color: #fff;
-  background: #000;
+  color: #000;
+  background: #d3dce5;
   padding: 3px;
   width:400px;
   font-size: 10px;
 }
 
-.underline{
-  border-bottom: 2px solid currentColor;
-}
 
 .display-3 {
   position: relative;
   bottom: 3px;
-  left: 3px;
+  /* left: 3px; */
 }
 
 .display-3:hover  span {
@@ -446,8 +446,8 @@ i{
 .display-4 span {
   display: none;
   position: absolute;
-  color: #fff;
-  background: #000;
+  color: #000;
+  background: #d3dce5;
   padding: 3px;
   width:400px;
   font-size: 10px;
@@ -456,7 +456,7 @@ i{
 .display-4 {
   position: relative;
   bottom: 3px;
-  left: 3px;
+  /* left: 3px; */
 }
 
 .display-4:hover  span {
@@ -464,11 +464,78 @@ i{
   text-align: center;
 }
 
-/*************TAB PREVENIR ***********/
-.tab7-cuadro{
-  height:300px;
+.fa-info-circle{
+  margin-left: 5px;
 }
 
+/*************TAB PREVENIR ***********/
+.tab7-h6{
+  position: relative;
+  background-color: #f86641;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.h6-habitos{
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.tab7-cuadro{
+  height:250px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tab7-cuadro-titulo{
+  margin-top: -5% !important;
+  font-size: 1em;
+}
+
+.tab7-cuadro-titulo-tabaco{
+    margin-top: 0 !important;
+    font-size: 1em;
+}
+
+.tab7-cuadro-titulo-lactancia{
+    margin-top: -13% !important;
+    font-size: 1em;
+}
+
+.tab7-porcentaje{
+  font-size: 4.2em;
+  font-weight: bolder;
+  color:#CF5668;
+}
+
+.porcentaje-menor{
+  color:#02771f;
+}
+
+.tab7-cuadro-contenido{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tab7-cuadro-contenido-texto{
+  width:40%;
+}
+
+/* .tab7-cuadro-contenido-texto p{
+  margin-right:0 !important;
+} */
+
+.tab7-img{
+  width:40%;
+}
 
 /************** TAB 50 a 69 **********/
 .grafico50-69{
@@ -580,11 +647,6 @@ i{
   padding-bottom: 15px;
 }
 
-.panel-fuente{
-  font-size: 0.7em;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 
 .btn-danger{
   margin-bottom: 3%;
@@ -607,8 +669,30 @@ i{
 }
 
 .panel-1{
-  height: 270px;
+  height: 290px;
 }
+
+.display-5 span {
+  display: none;
+  position: absolute;
+  color: #000;
+  background: #d3dce5;
+  padding: 3px;
+  width:600px;
+  font-size: 8px;
+}
+
+.display-5 {
+  position: relative;
+  bottom: 3px;
+  /* left: 3px; */
+}
+
+.display-5:hover  span {
+  display: block;
+  text-align: center;
+}
+
 
 
 /* .display-1 span {
@@ -1218,12 +1302,12 @@ footer{
 
 .mdl-cell--2-col{
   width:30% !important;
-  margin-top:12% !important;
+  margin-top:100px !important;
 }
 
 .mdl-cell--10-col{
   width:70% !important;
-  margin-top:12% !important;
+  margin-top:100px !important;
 }
 
 .vertical-mdl-tabs .mdl-tabs__tab {
@@ -1351,6 +1435,32 @@ footer{
 .sin-tamizaje,
 .con-tamizaje{
   width:70%;
+}
+
+/************************** TAB PREVENCION **************************/
+.h6-habitos{
+  left:30%;
+}
+
+.tab7-cuadro{
+  width:100%;
+}
+
+.tab7-cuadro-contenido-texto{
+  width:50%;
+}
+
+.tab7-img{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.tab7-cuadro-titulo-tabaco{
+    margin-top:-3% !important;
+}
+
+.tab7-cuadro-titulo-lactancia{
+  margin-top:-5% !important;
 }
 
 
@@ -1505,10 +1615,7 @@ footer{
   margin-bottom: 16px;
 }
 
-.tab7-cuadro{
-  width:33%;
-  height:300px;
-}
+
 
 .tab2-fila1{
   width: 50%;
@@ -1609,6 +1716,32 @@ footer{
   margin: 0 auto;
 }
 
+/*********************** TAB PREVENCION *************************/
+.h6-habitos{
+  left:50%;
+}
+
+.tab7-cuadro{
+  width:33%;
+  height:270px;
+}
+
+.tab7-cuadro-titulo-tabaco{
+  margin-top: 0 !important;
+}
+
+.tab7-cuadro-titulo-lactancia{
+  margin-top: -9% !important;
+}
+
+.habito-disminuye{
+  width:49.7%;
+}
+
+.contenido-habito-disminuye{
+  width:70%;
+}
+
 /******************* -----------------------------********************/
 
 /* SCROLL DE CONTENIDO DE TABS */
@@ -1630,13 +1763,19 @@ body{
 }
 
 .child-tab2,
-.child-tab3{
+.child-tab3
+{
   height: 1000px;
+}
+
+.child-tab8{
+  height: 1500px;
 }
 
 .child-tab4,
 .child-tab5,
-.child-tab6{
+.child-tab6,
+.child-tab7{
   height: 2000px;
 }
 
