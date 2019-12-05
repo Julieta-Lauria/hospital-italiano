@@ -497,7 +497,7 @@ i{
 }
 
 .tab7-cuadro-titulo-tabaco{
-    margin-top: 0 !important;
+    margin-top: -10% !important;
     font-size: 1em;
 }
 
@@ -507,7 +507,7 @@ i{
 }
 
 .tab7-porcentaje{
-  font-size: 4.2em;
+  font-size: 2.6em;
   font-weight: bolder;
   color:#CF5668;
 }
@@ -518,15 +518,15 @@ i{
 
 .tab7-cuadro-contenido{
   width: 100%;
-  margin: 0 auto;
+  margin-left:15%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .tab7-cuadro-contenido-texto{
-  width:40%;
+  width:65%;
 }
 
 /* .tab7-cuadro-contenido-texto p{
@@ -534,7 +534,7 @@ i{
 } */
 
 .tab7-img{
-  width:40%;
+  width:35%;
 }
 
 /************** TAB 50 a 69 **********/
@@ -821,12 +821,16 @@ ul {
 }
 
 .drag-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  padding-top: 5px;
-  font-size: 13px;
-  line-height:18px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 12px;
+  line-height:15px;
   margin: 10px;
-  height: 110px;
+  height: 70px;
   background: rgba(255,255, 255, 0.8);
   transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -1446,6 +1450,10 @@ footer{
   width:100%;
 }
 
+.tab7-cuadro-contenido{
+  margin-left: 0;
+}
+
 .tab7-cuadro-contenido-texto{
   width:50%;
 }
@@ -1540,7 +1548,7 @@ footer{
   padding-bottom:10px !important;
   width:100%;
   /* align-self: flex-start; */
-  justify-content: flex-start;
+   justify-content: flex-start;
 }
 
 .logo-fundacion{
@@ -1551,7 +1559,7 @@ footer{
 }
 
 .logo-hospital{
-  border-right: 1px solid black;
+  /* border-right: 1px solid black; */
   height:70px;
 }
 
@@ -1703,7 +1711,7 @@ footer{
 
 /*********************** DRAG *************************/
 .drag-item {
-  font-size: 13px;
+  font-size: 12px;
   height:90px;
 }
 
@@ -1716,9 +1724,22 @@ footer{
   margin: 0 auto;
 }
 
+.col-lg-11{
+  width:100%;
+}
+
+
 /*********************** TAB PREVENCION *************************/
 .h6-habitos{
   left:50%;
+}
+
+.tab7-cuadro-contenido{
+  margin-left: -5% !important;
+}
+
+.tab7-cuadro-contenido-texto{
+  width:65%;
 }
 
 .tab7-cuadro{
@@ -1727,7 +1748,11 @@ footer{
 }
 
 .tab7-cuadro-titulo-tabaco{
-  margin-top: 0 !important;
+  margin-top: -12% !important;
+}
+
+.tab7-cuadro-titulo-actividad{
+  margin-top: -8% !important;
 }
 
 .tab7-cuadro-titulo-lactancia{

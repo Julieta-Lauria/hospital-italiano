@@ -311,7 +311,7 @@ x[slideIndex-1].style.display = "block";
       <div class="tab7-cuadro-contenido">
         <img src="img/bathroom-scale.png" alt="" class="tab7-img">
         <div class="tab7-cuadro-contenido-texto">
-          <p>Se asocia a:<br><br><span class="tab7-porcentaje">8,4%</span><br>del total de cánceres de mama (1800 casos anuales)</p>
+          <p>Se asocia a:<br><br><span class="tab7-porcentaje">8,4%⬆</span><br><br>del total de cánceres de mama (1800 casos anuales)</p>
         </div>
       </div>
     </div>
@@ -319,7 +319,7 @@ x[slideIndex-1].style.display = "block";
       <div class="tab7-cuadro-contenido">
         <img src="img/wine-bottle-128.png" alt="" class="tab7-img">
         <div class="tab7-cuadro-contenido-texto">
-          <p>Se asocia a:<br><br><span class="tab7-porcentaje">8,6%</span><br>del total de cánceres de mama (1750 casos anuales)</p>
+          <p>Se asocia a:<br><br><span class="tab7-porcentaje">8,6%⬆</span><br><br>del total de cánceres de mama (1750 casos anuales)</p>
         </div>
       </div>
     </div>
@@ -327,7 +327,7 @@ x[slideIndex-1].style.display = "block";
       <div class="tab7-cuadro-contenido">
         <img src="img/cigarette-128.png" alt="" class="tab7-img">
         <div class="tab7-cuadro-contenido-texto">
-          <p>Se asocia a:<br><br><span class="tab7-porcentaje">35-40%</span><br>mayor riesgo de tener cáncer de mama</p>
+          <p>Se asocia a:<br><br><span class="tab7-porcentaje">35-40%⬆</span><br><br>mayor riesgo de <br>tener cáncer de mama</p>
         </div>
       </div>
     </div>
@@ -336,11 +336,11 @@ x[slideIndex-1].style.display = "block";
     <h6 class="h6-habitos">Hábitos que disminuyen el riesgo:</h6>
   </div>
   <div class="tab1">
-    <div class="tab1-cuadro tab7-cuadro habito-disminuye"><p class="tab7-cuadro-titulo-tabaco">ACTIVIDAD FÍSICA REGULAR</p>
+    <div class="tab1-cuadro tab7-cuadro habito-disminuye"><p class="tab7-cuadro-titulo-actividad">ACTIVIDAD FÍSICA REGULAR</p>
       <div class="tab7-cuadro-contenido contenido-habito-disminuye">
         <img src="img/bicycle.png" alt="" class="tab7-img">
         <div class="tab7-cuadro-contenido-texto">
-          <p>Se asocia a:<br><br><span class="tab7-porcentaje porcentaje-menor">12-31%</span><br>menor riesgo de tener cáncer de mama</p>
+          <p>Se asocia a:<br><br><span class="tab7-porcentaje porcentaje-menor">12-31%⬇</span><br><br>menor riesgo de <br>tener cáncer de mama</p>
         </div>
       </div>
     </div>
@@ -348,7 +348,7 @@ x[slideIndex-1].style.display = "block";
       <div class="tab7-cuadro-contenido contenido-habito-disminuye">
         <img src="img/breastfeeding.png" alt="" class="tab7-img">
         <div class="tab7-cuadro-contenido-texto">
-          <p>Se asocia a:<br><br><span class="tab7-porcentaje porcentaje-menor">4,3%</span><br>menor riesgo de tener cáncer de mama</p>
+          <p>Se asocia a:<br><br><span class="tab7-porcentaje porcentaje-menor">4,3%⬇</span><br><br>menor riesgo de <br>tener cáncer de mama</p>
         </div>
       </div>
     </div>

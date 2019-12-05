@@ -71,8 +71,9 @@
       <div class="col-12 col-sm-6 mt-4 mt-sm-0">
         <select class="multisteps-form__input form-control" name="">
           <option value="">País</option>
-          <option value="">Argentina</option>
-          <option value="">otros</option>
+          <option value="">a</option>
+          <option value="">b</option>
+          <option value="">c</option>
         </select>
         <!-- <input class="multisteps-form__input form-control" type="email" placeholder="Email"/> -->
       </div>
