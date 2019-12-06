@@ -24,7 +24,6 @@
           </div> -->
 
             <div id="invoice">
-              <!-- <h1>Informe {{ $invoice }}</h1> -->
               <div class="date">Fecha: {{ $date }}</div>
             </div>
 
@@ -45,7 +44,11 @@
 <br>
           <h2>Infografia con riesgos y beneficios</h2>
             <div class="grafico1pdf">
+              @if ($edad > 55)
               <img src="img/grafico2000.png" style = "width: 700px;" style = "height: 400px;">
+              @else
+              <h2> Hola Mundao </h2>
+              @endif
             </div>
 
 

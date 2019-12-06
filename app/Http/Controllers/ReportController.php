@@ -13,9 +13,10 @@ class ReportController extends Controller
            $this->saveData($request);
            $data = $input['form_html'];
            $comment = $input['comment'];
+           $edad = $input['edad'];
            $date = date('d-m-Y');
-           $invoice = "Nombre del Paciente";
-           $view =  \View::make('pdfprint', compact('data', 'date', 'invoice', 'comment' ))->render();
+          // $invoice = "Nombre del Paciente";
+           $view =  \View::make('pdfprint', compact('data', 'date', 'edad', 'comment' ))->render();
            $pdf = \App::make('dompdf.wrapper');
            $pdf->loadHTML($view);
            return $pdf->stream('reporte.pdf');
@@ -49,7 +50,7 @@ class ReportController extends Controller
            $newConsulta->form_html = $input['form_html'];
 
            $newConsulta -> save();
-        
+
         }
 
 }
