@@ -9,3 +9,22 @@
 <section class="section">
   <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
 </section>
+
+
+
+
+<!-- SE INCLUYEN LOS ARCHIVOS DE LAS 3 PARTES DE LA TAB DEL DRAG -->
+<!-- FORMULARIO -->
+@section("form")
+  @include('form')
+@endsection
+
+<!-- DRAG -->
+@section("drag")
+  @include('drag')
+@endsection
+
+<!-- COMNETARIOS -->
+@section("comments")
+  @include('comments')
+@endsection

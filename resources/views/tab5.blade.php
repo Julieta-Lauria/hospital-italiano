@@ -18,7 +18,7 @@
 
       <div class="row">
         <div class="col-12 col-lg-11 m-auto">
-          <form class="multisteps-form__form" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()">
+          <form class="multisteps-form__form" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()" enctype="multipart/form-data">
           @csrf
 
             <!--single form panel-->
@@ -28,8 +28,8 @@
                 <div class="multisteps-form__content">
                   <div class="form-row mt-4">
                     <div class="col-12 col-sm-6">
-                      <select class="multisteps-form__input form-control" name="edad">
-                        <option value="">Edad de la paciente</option>
+                      <select class="multisteps-form__input form-control" name="edad" id="edad" required>
+                        <option value="null">Edad de la paciente</option>
                         <option value="41">41</option>
                         <option value="42">42</option>
                         <option value="43">43</option>
@@ -70,8 +70,8 @@
                       <!-- <input class="multisteps-form__input form-control" type="text" placeholder="First Name"/> -->
                     </div>
                     <div class="col-12 col-sm-6 mt-4 mt-sm-0">
-                      <select class="multisteps-form__input form-control" name="medico">
-                        <option value="">Profesional de la salud</option>
+                      <select class="multisteps-form__input form-control" name="medico" id="medico">
+                        <option value="null">Profesional de la salud</option>
                         <optgroup label="Médico/a">
                           <option value="Médico/a de familia/general">Médico/a de familia/general</option>
                           <option value="Ginecólogo/a">Ginecólogo/a</option>
@@ -86,16 +86,16 @@
                   </div>
                   <div class="form-row mt-4">
                     <div class="col-12 col-sm-6">
-                      <select class="multisteps-form__input form-control" name="ambito">
-                        <option value="">Lugar de atención</option>
+                      <select class="multisteps-form__input form-control" name="ambito" id="ambito">
+                        <option value="null">Lugar de atención</option>
                         <option value="Privado">Privado</option>
                         <option value="Público">Público</option>
                       </select>
                       <!-- <input class="multisteps-form__input form-control" type="text" placeholder="Login"/> -->
                     </div>
                     <div class="col-12 col-sm-6 mt-4 mt-sm-0">
-                      <select class="multisteps-form__input form-control" name="pais">
-                        <option value="">País</option>
+                      <select class="multisteps-form__input form-control" name="pais" id="pais">
+                        <option value="null">País</option>
                         <option value="Argentina" id="AR">Argentina</option>
                         <option value="Afganistán" id="AF">Afganistán</option>
                         <option value="Albania" id="AL">Albania</option>
@@ -339,7 +339,7 @@
                   </div>
                   <div class="button-row d-flex mt-4">
                     <div class="col text-center">
-                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next">Siguiente</button>
+                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next" onclick="validatorJS()">Siguiente</button>
                   </div>
                   </div>
                 </div>
@@ -465,6 +465,27 @@
       document.getElementById("form_html").value=y;
 // ---------
     }
+</script>
+
+<script type="text/javascript">
+
+    function validatorJS(){
+
+      var edad = document.getElementById("edad").value;
+      var medico = document.getElementById("medico").value;
+      var ambito = document.getElementById("ambito").value;
+      var pais = document.getElementById("pais").value;
+
+      if (edad == "50" || edad == "null") {
+        document.getElementById("edad").style.border = "1px solid red";
+        return false;
+      } else {
+        document.getElementById("edad").style.border = "1px solid green"
+        return true;
+      }
+
+    }
+
 </script>
 
 
@@ -602,15 +623,23 @@ DOMstrings.stepsBar.addEventListener('click', e => {
 });
 
 //PREV/NEXT BTNS CLICK
+
+
 DOMstrings.stepsForm.addEventListener('click', e => {
+
+  //verificar true el validator js para avanzar.
+  if (validatorJS()) {
+
 
       const eventTarget = e.target;
 
       //check if we clicked on `PREV` or NEXT` buttons
-      if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)))
-      {
-        return;
-      }
+
+
+          if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)))
+          {
+            return;
+          }
 
       //find active panel
       const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
@@ -630,7 +659,11 @@ DOMstrings.stepsForm.addEventListener('click', e => {
       setActiveStep(activePanelNum);
       setActivePanel(activePanelNum);
 
+    } //cierre del if primero del validatoe js
+
+
 });
+
 
 //SETTING PROPER FORM HEIGHT ONLOAD
 window.addEventListener('load', setFormHeight, false);

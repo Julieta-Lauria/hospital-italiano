@@ -31,8 +31,8 @@ class CreateConsultasTable extends Migration
             $table->integer('afirmacion9')->nullable();
             $table->integer('afirmacion10')->nullable();
             $table->integer('afirmacion11')->nullable();
-            $table->longText('comentario');
-            $table->longText('form_html');
+            $table->longText('comentario')->nullable();
+            $table->longText('form_html')->nullable();
 
         });
     }

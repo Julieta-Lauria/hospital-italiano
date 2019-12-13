@@ -18,9 +18,12 @@ class ReportController extends Controller
           // $invoice = "Nombre del Paciente";
            $view =  \View::make('pdfprint', compact('data', 'date', 'edad', 'comment' ))->render();
            $pdf = \App::make('dompdf.wrapper');
-           $pdf->loadHTML($view);
-           return $pdf->stream('reporte.pdf');
+           //$pdf->loadHTML($view);
+           return $pdf->loadHTML($view)->stream('reporte.pdf');
+           //return $pdf->stream('reporte.pdf');
            //return $pdf->download('reporte.pdf');
+
+           //return view('index');
          }
 
 

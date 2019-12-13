@@ -4,6 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ ltrim(public_path('css/ppdf.css'), '/') }}" />
     <title>Reporte Informativo hospital italiano</title>
+    <?php
+
+        header('Content-type: application/pdf');//with header Content type  
+
+    ?>
     <?php $options_columns = ['Opciones sin mover', 'Nada identificada', 'Poco identificada', 'Muy identificada'] ?>
   </head>
   <body>
