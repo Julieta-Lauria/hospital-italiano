@@ -349,22 +349,22 @@ i{
 .drag-column-on-hold .drag-column-header,
 .drag-column-on-hold .is-moved,
 .drag-column-on-hold .drag-options {
-  background: #ba98b6;
+  background: #fba792;
 }
 .drag-column-in-progress .drag-column-header,
 .drag-column-in-progress .is-moved,
 .drag-column-in-progress .drag-options {
-  background: #b1ba98;
+  background: #f8dbdf;
 }
 .drag-column-needs-review .drag-column-header,
 .drag-column-needs-review .is-moved,
 .drag-column-needs-review .drag-options {
-  background: #7c826a;
+  background:#fcce78;
 }
 .drag-column-approved .drag-column-header,
 .drag-column-approved .is-moved,
 .drag-column-approved .drag-options {
-  background: #ba9b98;
+  background:#2ad3ce ;
 }
 
 
