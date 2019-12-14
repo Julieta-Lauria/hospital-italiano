@@ -47,7 +47,7 @@ h3 {
 }
 
 .date {
-  font-size: 12px;
+  font-size: 11px;
   color: grey;
  margin-top: 85px;
 }
@@ -145,7 +145,7 @@ footer{
 
 footer p{
   padding-top:5px;
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
 
 hr{
@@ -318,7 +318,7 @@ i{
 /******************* -----------------------------********************/
 
 .drag-container {
-  max-width: 95%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -334,17 +334,18 @@ i{
 /*     fondo afirmaciones de cajas de items      */
 .drag-column {
   flex: 1;
-  margin: 0 10px;
+  margin: 0 5px;
   position: relative;
   background: rgba(0, 0, 0, 0.0);
   overflow: hidden;
 }
 
 .drag-column h2 {
-  font-size: 0.8rem;
-  margin: 0;
+  font-size: 0.7rem;
   text-transform: uppercase;
   font-weight: 600;
+  padding: 0;
+  margin: 0;
 }
 .drag-column-on-hold .drag-column-header,
 .drag-column-on-hold .is-moved,
@@ -372,7 +373,8 @@ i{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .drag-inner-list {
@@ -380,9 +382,10 @@ i{
 }
 /*     Fondo de texto de items      */
 .drag-item {
-  margin: 10px;
-  height: 35px;
-  background: rgba(0, 0, 0, 0.09);
+  margin: 5px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.08);
+  font-size: 14px;
 }
 /*.drag-item.is-moving {
   -webkit-transform: scale(1.5);
@@ -469,6 +472,10 @@ i{
 }
 /******************* ----- DRAG & DROP ----------********************/
 
+p {
+  font-size: 13px;
+  color: black;
+}
 
 
 
