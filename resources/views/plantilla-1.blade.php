@@ -39,19 +39,29 @@
       </a>
       </div>
     </div>
-      <div class="container-fluid-desktop">
+      <!-- <div class="container-fluid-desktop">
         <div class="navbar-header">
           <a href="http://www.hospitalitaliano.org.ar" target="_blank">
           <img src="img/logo-hospital.jpg" alt="" class="logo-hospital">
           </a>
           <ul class="nav navbar-nav ">
-            <li class="active"><a href="{{ url('/tabs')}}">Herramienta para la toma de decisiones compartidas</a></li>
+            <li class="active" ><a href="{{ url('/tabs')}}" class="navbar-title">Herramienta para la toma de decisiones compartidas</a></li>
           </ul>
+          <a href="https://www.fundacionmf.org.ar/" target="_blank">
+            <img src="img/logo-fundacion.jpg" alt="" class="logo-fundacion">
+          </a>
       </div>
+  </div> -->
+  <div class="container-header">
+    <div class="desktop-header">
+      <a href="http://www.hospitalitaliano.org.ar" target="_blank">
+      <img src="img/logo-hospital.jpg" alt="" class="logo-hospital">
+      </a>
+      <a href="{{ url('/tabs')}}" class="navbar-title">Herramienta para la toma de decisiones compartidas</a>
       <a href="https://www.fundacionmf.org.ar/" target="_blank">
         <img src="img/logo-fundacion.jpg" alt="" class="logo-fundacion">
       </a>
-
+    </div>
 
   </div>
 </nav>
