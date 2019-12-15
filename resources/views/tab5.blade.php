@@ -475,16 +475,117 @@
       var medico = document.getElementById("medico").value;
       var ambito = document.getElementById("ambito").value;
       var pais = document.getElementById("pais").value;
+      var valoresNull = 0;
 
-      if (edad == "50" || edad == "null") {
-        document.getElementById("edad").style.border = "1px solid red";
-        return false;
-      } else {
-        document.getElementById("edad").style.border = "1px solid green"
-        return true;
-      }
+
+          if (edad == "null") {
+            document.getElementById("edad").style.border = "1px solid red";
+            valoresNull = valoresNull + 1;
+          } else {
+            document.getElementById("edad").style.border = "1px solid green"
+          }
+          if (medico == "null") {
+            document.getElementById("medico").style.border = "1px solid red";
+            valoresNull = valoresNull + 1;
+          } else {
+            document.getElementById("medico").style.border = "1px solid green"
+          }
+          if (ambito == "null") {
+            document.getElementById("ambito").style.border = "1px solid red";
+            valoresNull = valoresNull + 1;
+          } else {
+            document.getElementById("ambito").style.border = "1px solid green"
+          }
+          if (pais == "null") {
+            document.getElementById("pais").style.border = "1px solid red";
+            valoresNull = valoresNull + 1;
+          } else {
+            document.getElementById("pais").style.border = "1px solid green"
+          }
+
+          if (valoresNull == 0) {
+            return true;
+          }else {
+            return false;
+          }
 
     }
+
+
+// if (valoresNull) {
+//
+//       if (edad == "null") {
+//         document.getElementById("edad").style.border = "1px solid red";
+//         //var valoresNull = true;
+//         return false
+//       } else if (medico == "null") {
+//         document.getElementById("medico").style.border = "1px solid red";
+//         //var valoresNull = true;
+//         return false
+//       } else if (ambito == "null") {
+//         document.getElementById("ambito").style.border = "1px solid red";
+//         //var valoresNull = true;
+//         return false
+//       } else if (pais == "null") {
+//         document.getElementById("pais").style.border = "1px solid red";
+//         //var valoresNull = true;
+//         return false
+//       } else {
+//         if (edad != "null") {
+//           document.getElementById("edad").style.border = "1px solid green";
+//           //var valoresNull = true;
+//         } else if (medico != "null") {
+//           document.getElementById("edad").style.border = "1px solid green";
+//           //var valoresNull = true;
+//         } else if (ambito != "null") {
+//           document.getElementById("ambito").style.border = "1px solid green";
+//           //var valoresNull = true;
+//         } else if (pais != "null") {
+//           document.getElementById("pais").style.border = "1px solid green";
+//           //var valoresNull = true;
+//         }
+//         return true;
+//       }
+//
+// }
+
+
+
+  //
+  //       document.getElementById("edad").style.border = "1px solid green"
+  //       return valoresNull = ;
+  //     }
+  //
+  //     if (medico == "null") {
+  //       document.getElementById("medico").style.border = "1px solid red";
+  //       return false;
+  //     } else {
+  //       document.getElementById("medico").style.border = "1px solid green"
+  //       return true;
+  //     }
+  //
+  //     if (ambito == "null") {
+  //       document.getElementById("ambito").style.border = "1px solid red";
+  //       return false;
+  //     } else {
+  //       document.getElementById("ambito").style.border = "1px solid green"
+  //       return true;
+  //     }
+  //
+  //     if (pais == "null") {
+  //       document.getElementById("pais").style.border = "1px solid red";
+  //       return false;
+  //     } else {
+  //       document.getElementById("pais").style.border = "1px solid green"
+  //       return true;
+  //     }
+  //
+  //     return true
+  //   } else {
+  //     return false
+  //   }
+  //
+  //}
 
 </script>
 
