@@ -54,13 +54,18 @@
   </div> -->
   <div class="container-header">
     <div class="desktop-header">
-      <a href="http://www.hospitalitaliano.org.ar" target="_blank">
-      <img src="img/logo-hospital.jpg" alt="" class="logo-hospital">
-      </a>
+      <div class="logo-hospital-container">
+        <a href="http://www.hospitalitaliano.org.ar" target="_blank">
+        <img src="img/logo-hospital.jpg" alt="" class="logo-hospital">
+        </a>
+      </div>
       <a href="{{ url('/tabs')}}" class="navbar-title">Herramienta para la toma de decisiones compartidas</a>
-      <a href="https://www.fundacionmf.org.ar/" target="_blank">
-        <img src="img/logo-fundacion.jpg" alt="" class="logo-fundacion">
-      </a>
+      <div class="logo-fundacion-container">
+        <a href="https://www.fundacionmf.org.ar/" target="_blank">
+          <img src="img/logo-fundacion.jpg" alt="" class="logo-fundacion">
+        </a>
+      </div>
+
     </div>
 
   </div>

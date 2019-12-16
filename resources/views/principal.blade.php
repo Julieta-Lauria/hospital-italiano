@@ -357,6 +357,6 @@ x[slideIndex-1].style.display = "block";
   <p>Public Health Agency Of Canada. Information on Mammography for Women Aged 40 and Older : A Decision Aid for Breast Cancer Screening in Canada. 2009. 1–32 p.</p>
   <p>Shield, K. D., Soerjomataram, I., & Rehm, J. (2016). Alcohol Use and Breast Cancer: A Critical Review. Alcoholism, Clinical and Experimental Research, 40(6), 1166-1181. PMID:27130687</p>
   <p>Warner E. Clinical Practice Breast Cancer Screening. N Engl J Med 2011; 365:1025-1032</p>
-  <a href="https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/estadisticas/incidencia">Estadísticas - Incidencia</a><br>
-  <a href="https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/estadisticas/mortalidad">Estadísticas - Mortalidad</a>
+  <a href="https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/estadisticas/incidencia" target="_blank">Estadísticas - Incidencia</a><br>
+  <a href="https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/estadisticas/mortalidad" target="_blank">Estadísticas - Mortalidad</a>
   @endsection

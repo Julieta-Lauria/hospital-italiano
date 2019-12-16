@@ -1553,11 +1553,24 @@ footer{
  align-items: center;
 }
 
+.logo-fundacion-container{
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.logo-hospital-container{
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .logo-fundacion{
   padding-right:30px;
   padding-bottom:10px !important;
   height:85px;
-  width: 120px;
 }
 
 .navbar-title{
@@ -1799,10 +1812,14 @@ body{
   flex-grow:1;
 }
 
-.child-tab2,
-.child-tab3
+.child-tab2
 {
   height: 1000px;
+}
+
+.child-tab3
+{
+  height: 1200px;
 }
 
 .child-tab8{
