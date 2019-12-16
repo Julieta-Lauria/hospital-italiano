@@ -511,82 +511,6 @@
 
     }
 
-
-// if (valoresNull) {
-//
-//       if (edad == "null") {
-//         document.getElementById("edad").style.border = "1px solid red";
-//         //var valoresNull = true;
-//         return false
-//       } else if (medico == "null") {
-//         document.getElementById("medico").style.border = "1px solid red";
-//         //var valoresNull = true;
-//         return false
-//       } else if (ambito == "null") {
-//         document.getElementById("ambito").style.border = "1px solid red";
-//         //var valoresNull = true;
-//         return false
-//       } else if (pais == "null") {
-//         document.getElementById("pais").style.border = "1px solid red";
-//         //var valoresNull = true;
-//         return false
-//       } else {
-//         if (edad != "null") {
-//           document.getElementById("edad").style.border = "1px solid green";
-//           //var valoresNull = true;
-//         } else if (medico != "null") {
-//           document.getElementById("edad").style.border = "1px solid green";
-//           //var valoresNull = true;
-//         } else if (ambito != "null") {
-//           document.getElementById("ambito").style.border = "1px solid green";
-//           //var valoresNull = true;
-//         } else if (pais != "null") {
-//           document.getElementById("pais").style.border = "1px solid green";
-//           //var valoresNull = true;
-//         }
-//         return true;
-//       }
-//
-// }
-
-
-
-  //
-  //       document.getElementById("edad").style.border = "1px solid green"
-  //       return valoresNull = ;
-  //     }
-  //
-  //     if (medico == "null") {
-  //       document.getElementById("medico").style.border = "1px solid red";
-  //       return false;
-  //     } else {
-  //       document.getElementById("medico").style.border = "1px solid green"
-  //       return true;
-  //     }
-  //
-  //     if (ambito == "null") {
-  //       document.getElementById("ambito").style.border = "1px solid red";
-  //       return false;
-  //     } else {
-  //       document.getElementById("ambito").style.border = "1px solid green"
-  //       return true;
-  //     }
-  //
-  //     if (pais == "null") {
-  //       document.getElementById("pais").style.border = "1px solid red";
-  //       return false;
-  //     } else {
-  //       document.getElementById("pais").style.border = "1px solid green"
-  //       return true;
-  //     }
-  //
-  //     return true
-  //   } else {
-  //     return false
-  //   }
-  //
-  //}
-
 </script>
 
 
@@ -709,6 +633,10 @@ DOMstrings.stepsBar.addEventListener('click', e => {
       //check if click target is a step button
       const eventTarget = e.target;
 
+  if (validatorJS()) {
+    //verificar true el validator js para avanzar.
+
+
       if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
         return;
       }
@@ -721,6 +649,8 @@ DOMstrings.stepsBar.addEventListener('click', e => {
 
       //open active panel
       setActivePanel(activeStep);
+
+    }
 });
 
 //PREV/NEXT BTNS CLICK
