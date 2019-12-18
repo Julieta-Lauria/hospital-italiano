@@ -13,7 +13,7 @@
     <div class="tab1-cuadro"><img src="img/work.png" alt=""><p>Lo tenemos incorporado como un chequeo de “rutina”</p></div>
     <div class="tab1-cuadro"><img src="img/breast-cancer.png" alt=""><p>Tenemos miedo de tener cáncer de mama</p></div>
   </div>
-  <p class="tab1-p">Como toda decisión médica, tiene opciones, con sus ventajas y desventajas, y es importante que los conozcas para que puedas decidir cuál es la mejor opción para vos. <strong>Tanto realizar como no realizar un estudio de detección precoz del cáncer de mama son opciones razonables.</strong></p>
+  <p class="tab1-p">Como toda decisión médica, tiene opciones, con sus ventajas y desventajas, y es importante que las conozcas para que puedas decidir cuál es la mejor opción para vos. <strong>Tanto realizar como no realizar un estudio de detección precoz del cáncer de mama son opciones razonables.</strong></p>
   <div class="alert-container-tab1">
     <div class="alert alert-primary alerta-tab1">
       <p><strong>Atención: </strong>Si pensás que hablar de los riesgos o desventajas de una intervención te puede generar ansiedad (por ejemplo leer el prospecto de los medicamentos) te recomendamos que no utilices esta herramienta.</p>
@@ -84,7 +84,7 @@
         <p class="descripcion">Algunas mujeres necesitan repetir estudios por lesiones benignas que no quedan claras. Durante este proceso algunas mujeres experimentan preocupación, temor o angustia.</p>
       </div>
       <div class="riesgo">
-        <a class="display-4" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por los que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
+        <a class="display-4" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
         <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento".</p>
       </div>
     </div>
@@ -103,7 +103,7 @@
 </div>
 <div class="mySlides2">
   <h3 class="tab-h3">¿Cuánto representan 1000 mujeres?</h3>
-  <p class="strong">Imaginemos la platea Teatro Coliseo o el Mercedes Sosa llena:</p>
+  <p class="strong subtitulo-teatro">Imaginemos la platea Teatro Coliseo o el Mercedes Sosa llena:</p>
   <div class="container">
     <div class="con-tamizaje">
       <p class="strong titulo-color-naranja"><strong>1000 mujeres de 40 a 49 años con tamizaje a lo largo de 10 años</strong></p>
@@ -147,7 +147,7 @@
       <div class="panel-2">
         <h4 class="panel-title">15 Mueren, de las cuales: </h4>
         <div class="panel-item panel-subtitle">
-          <i class="fas fa-circle circle-6"></i><p> 3 mueren de cáncer de mama a pesar del tamizaje</p>
+          <i class="fas fa-circle circle-6"></i><p> 3 mueren de cáncer de mama</p>
         </div>
         <div class="panel-item">
           <i class="fas fa-circle circle-7"></i><p> 12 mueren de otras causas</p>
@@ -195,10 +195,10 @@ x[slideIndex2-1].style.display = "block";
 </div>
 <div class="mySlides">
   <h3 class="tab-h3">¿Cuánto representan 1000 mujeres?</h3>
-  <p class="strong">Imaginemos la platea del Teatro Coliseo o el Mercedes Sosa llena:</p>
+  <p class="strong subtitulo-teatro">Imaginemos la platea del Teatro Coliseo o el Mercedes Sosa llena:</p>
   <div class="container">
     <div class="con-tamizaje">
-      <p class="strong titulo-color-naranja"><strong>1000 mujeres de 50 a 69 años con tamizaje a lo largo de 10 años</strong></p>
+      <p class="strong titulo-color-naranja"><strong>1000 mujeres de 50 a 69 años con tamizaje a lo largo de 20 años</strong></p>
       <img class="parlamento-imagen" src="img/5069-con-tamizaje.png" alt="">
       <div class="panel-1">
         <h4 class="panel-title">885 Sobreviven, de las cuales:</h4>
@@ -227,7 +227,7 @@ x[slideIndex2-1].style.display = "block";
       </div>
     </div>
     <div class="sin-tamizaje">
-      <p class="strong titulo-color-turquesa"><strong>1000 mujeres de 50 a 69 años sin tamizaje a lo largo de 10 años</strong></p>
+      <p class="strong titulo-color-turquesa"><strong>1000 mujeres de 50 a 69 años sin tamizaje a lo largo de 20 años</strong></p>
       <img class="parlamento-imagen" src="img/5069-sin-tamizage.png" alt="">
       <div class="panel-1">
         <h4 class="panel-title">881 Sobreviven, de las cuales:</h4>
@@ -237,9 +237,9 @@ x[slideIndex2-1].style.display = "block";
         </div>
       </div>
       <div class="panel-2">
-        <h4 class="panel-title">115 Mueren, de las cuales: </h4>
+        <h4 class="panel-title">119 Mueren, de las cuales: </h4>
         <div class="panel-item panel-subtitle">
-          <i class="fas fa-circle circle-6"></i><p> 8 mueren de cáncer de mama a pesar del tamizaje</p>
+          <i class="fas fa-circle circle-6"></i><p> 12 mueren de cáncer de mama</p>
         </div>
         <div class="panel-item">
           <i class="fas fa-circle circle-7"></i><p> 107 mueren de otras causas</p>
@@ -281,7 +281,7 @@ x[slideIndex-1].style.display = "block";
 <p><strong>Falsas alarmas:</strong></p>
 <p>Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Algunas mujeres expresan que estas falsas alarmas les generan ansiedad y miedo.</p>
 <p><strong>Un diagnóstico de cáncer que no daña o “tumores inofensivos” (también llamado “sobrediagnóstico”):</strong></p>
-<p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por los que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
+<p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
 @endsection
 
 <!-- CONTENIDO DE LA TAB7 - Prevenir el cancer de mama -->

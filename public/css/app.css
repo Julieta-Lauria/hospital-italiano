@@ -564,6 +564,10 @@ i{
   height:180px;
 }
 
+.subtitulo-teatro{
+  font-size: 1.3em;
+}
+
 .titulo-color-naranja{
   text-align: center;
   color: #f86641;
@@ -678,8 +682,8 @@ i{
   color: #000;
   background: #d3dce5;
   padding: 3px;
-  width:600px;
-  font-size: 8px;
+  width:800px;
+  font-size: 10px;
 }
 
 .display-5 {

@@ -8,7 +8,7 @@
         <div class="col-12 col-lg-11 ml-auto mr-auto mb-4">
           <div class="multisteps-form__progress">
             <button class="multisteps-form__progress-btn js-active" type="button" title="User Info">Datos</button>
-            <button class="multisteps-form__progress-btn" type="button" title="Address">Decisiones</button>
+            <button class="multisteps-form__progress-btn" type="button" title="Address">Valores y Preferencias</button>
             <!-- <button class="multisteps-form__progress-btn" type="button" title="Order Info">Comentarios</button> -->
             <button class="multisteps-form__progress-btn" type="button" title="Comments">Comentarios</button>
           </div>
