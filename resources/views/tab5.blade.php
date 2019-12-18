@@ -468,6 +468,30 @@
 </script>
 
 <script type="text/javascript">
+// contenido_textarea = ""
+// num_caracteres_permitidos = 1000;
+// console.log(num_caracteres_permitidos);
+// console.log(contenido_textarea);
+//
+// function valida_longitud(){
+//    num_caracteres = document.forms[0].comment.value.length
+//
+//    if (num_caracteres >= num_caracteres_permitidos){
+//       //document.forms[0].caracteres.style.color="#ff0000";
+//       document.getElementById('enviar').style.border = "1px solid red";
+//       alert("retorno falso");
+//       return false;
+//    }else{
+//      document.getElementById('enviar').style.border = "1px solid green";
+//      //document.forms[0].caracteres.style.color="#ffffff";
+//      alert("retorno verdadero");
+//      return true;
+//    }
+// }
+
+</script>
+
+<script type="text/javascript">
 
     function validatorJS(){
 
@@ -661,11 +685,9 @@ DOMstrings.stepsForm.addEventListener('click', e => {
   //verificar true el validator js para avanzar.
   if (validatorJS()) {
 
-
       const eventTarget = e.target;
 
       //check if we clicked on `PREV` or NEXT` buttons
-
 
           if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)))
           {
