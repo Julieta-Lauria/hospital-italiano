@@ -6,7 +6,7 @@
     <title>Reporte Informativo hospital italiano</title>
     <?php
 
-        header('Content-type: application/pdf');//with header Content type  
+        header('Content-type: application/pdf');//with header Content type
 
     ?>
     <?php $options_columns = ['Opciones sin mover', 'Nada identificada', 'Poco identificada', 'Muy identificada'] ?>

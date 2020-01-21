@@ -7,10 +7,10 @@
       <div class="row">
         <div class="col-12 col-lg-11 ml-auto mr-auto mb-4">
           <div class="multisteps-form__progress">
-            <button class="multisteps-form__progress-btn js-active" type="button" title="User Info">Valores y Preferencias</button>
-            <button class="multisteps-form__progress-btn" type="button" title="Address">Datos</button>
+            <button class="multisteps-form__progress-btn js-active" type="button" title="User Info" id="barra_drag">Valores y Preferencias</button>
+            <button class="multisteps-form__progress-btn" type="button" title="Address" id="barra_datos">Datos</button>
             <!-- <button class="multisteps-form__progress-btn" type="button" title="Order Info">Comentarios</button> -->
-            <button class="multisteps-form__progress-btn" type="button" title="Comments">Comentarios</button>
+            <button class="multisteps-form__progress-btn" type="button" title="Comments" id="barra_reporte">Comentarios</button>
           </div>
         </div>
       </div>
@@ -18,12 +18,12 @@
 
       <div class="row">
         <div class="col-12 col-lg-11 m-auto">
-          <form class="multisteps-form__form" action="{{url('pdf')}}" id="" method="post" onsubmit="myFunction()" enctype="multipart/form-data">
+          <form class="multisteps-form__form" action="{{url('pdf')}}" name="form" id="form" method="post" onsubmit="myFunction()" enctype="multipart/form-data">
           @csrf
 
             <!--single form panel-->
             <section class="col-12">
-              <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+              <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn" id="panel_drag">
 
                 <h2 class="drag-h2">Lo más importante para vos: ¿Con cuál de estas afirmaciones te sentirías más identificada? </h2>
                 <p>Ordene las siguientes frases si está de acuerdo, en desacuerdo o ni de acuerdo o desacuerdo con estas afirmaciones.</p>
@@ -97,7 +97,7 @@
 
                   <div class="button-row d-flex mt-4">
                     <div class="col text-center">
-                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next">Siguiente</button>
+                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next" onclick="validatorJS()">Siguiente</button>
                   </div>
                   </div>
 
@@ -108,7 +108,7 @@
 
 
             <!--single form panel-->
-            <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+            <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn" id="panel_datos">
               <h3 class="multisteps-form__title"></h3>
               <div class="multisteps-form__content">
                 <section class="col-12">
@@ -187,7 +187,7 @@
     <!-- <input class="multisteps-form__input form-control" type="text" placeholder="Login"/> -->
   </div>
   <div class="col-12 col-sm-6 mt-4 mt-sm-0">
-    <select class="multisteps-form__input form-control" name="pais" id="pais">
+    <select class="multisteps-form__input form-control" name="pais" id="pais" required>
       <option value="null">País</option>
       <option value="Argentina" id="AR">Argentina</option>
       <option value="Afganistán" id="AF">Afganistán</option>
@@ -427,7 +427,6 @@
       <option value="Zambia" id="ZM">Zambia</option>
       <option value="Zimbabue" id="ZW">Zimbabue</option>
     </select>
-    <!-- <input class="multisteps-form__input form-control" type="email" placeholder="Email"/> -->
   </div>
 </div>
 
@@ -437,7 +436,7 @@
 
                 <div class="button-row d-flex mt-4">
                   <div class="col text-center">
-                  <button class="btn btn-primary js-btn-prev btn-danger" type="button" title="Prev">Anterior</button>
+                  <button class="btn btn-primary js-btn-prev btn-danger" type="button" title="Prev" id="prev" onclick="boton_anterior()">Anterior</button>
                   <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next">Siguiente</button>
                 </div>
                 </div>
@@ -446,7 +445,7 @@
             </div>
 
             <!--single form panel-->
-            <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn">
+            <div class="multisteps-form__panel shadow p-4 rounded bg-white" data-animation="scaleIn" id="panel_reporte">
               <section class="col-12">
                 <section class="comentarios-medico">
                   <p class="btn-comment tab-h3">Comentarios del Médico</p>
@@ -454,7 +453,6 @@
                 </section>
 
                 <input id="form_html" name="form_html" type="hidden">
-
 
                 <section class="section">
                   <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
@@ -520,9 +518,57 @@
           if (valoresNull == 0) {
             return true;
           }else {
-            return false;
-          }
+             var drag = document.getElementById('panel_drag');
+             if (drag.classList.contains("js-active")){
+                return true;
+              }else {
+                return false;
+                  }
+
+
+
+
+                  // var datap = document.getElementById('panel_datos');
+                  // var prev = document.getElementById('barra_datos');
+                  //
+                  // if (datap.classList.contains("js-active") || datap.classList.contains("js-btn-prev")){
+                  //   return false;
+                  // }else {
+                  //   return true;
+                  // }
+
+
+
+
+                  //   var datap = document.getElementById('panel_datos');
+                  // var drag = document.getElementById('panel_drag');
+                  //
+                  // if (drag.classList.contains("js-active")){
+                  //   return true;
+                  // }else {
+                  //   return false;
+                  // }
     }
+  }
+
+function boton_anterior(){
+
+    var dragp = document.getElementById('panel_drag');
+    var dragb = document.getElementById('barra_drag');
+    var datosp = document.getElementById('panel_datos');
+    var datosb = document.getElementById('barra_datos');
+
+    var btn = document.getElementById("prev");
+    btn.addEventListener("click", function(){
+
+      dragp.className += " js-active";
+      dragb.className += " js-active";
+      datosp.classList.remove("js-active");
+      datosb.classList.remove("js-active");
+
+    });
+}
+
 </script>
 
 
@@ -557,6 +603,7 @@ const findParent = (elem, parentClass) => {
 const getActiveStep = elem => {
       return Array.from(DOMstrings.stepsBtns).indexOf(elem);
 };
+
 //set all steps before clicked (and clicked too) to active
 const setActiveStep = activeStepNum => {
   //remove active state from all the state
@@ -578,6 +625,7 @@ const getActivePanel = () => {
       });
       return activePanel;
 };
+
 //open active panel (and close unactive panels)
 const setActivePanel = activePanelNum => {
     //remove active class from all the panels
@@ -603,7 +651,7 @@ const setFormHeight = () => {
 DOMstrings.stepsBar.addEventListener('click', e => {
       //check if click target is a step button
       const eventTarget = e.target;
-  //if (validatorJS()) {
+
     //verificar true el validator js para avanzar.
       if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
         return;
@@ -614,12 +662,12 @@ DOMstrings.stepsBar.addEventListener('click', e => {
       setActiveStep(activeStep);
       //open active panel
       setActivePanel(activeStep);
-    //}
+
 });
 //PREV/NEXT BTNS CLICK
 DOMstrings.stepsForm.addEventListener('click', e => {
   //verificar true el validator js para avanzar.
-//  if (validatorJS()) {
+  if (validatorJS()) {
       const eventTarget = e.target;
       //check if we clicked on `PREV` or NEXT` buttons
           if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`)))
@@ -637,7 +685,7 @@ DOMstrings.stepsForm.addEventListener('click', e => {
       }
       setActiveStep(activePanelNum);
       setActivePanel(activePanelNum);
-  //  } //cierre del if primero del validatoe js
+ } //cierre del if primero del validatoe js
 });
 //SETTING PROPER FORM HEIGHT ONLOAD
 window.addEventListener('load', setFormHeight, false);
