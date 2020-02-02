@@ -97,60 +97,66 @@ $result = $agent->isMobile();
 
   </div>
  @elseif ($result == true)
+ <div class="drag-container" id="divform">
+
  <li class="drag-item"><input name="afirmacion1" value="0" hidden>Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
- <input type="radio" name="afirmacion1" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion1" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion1" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion1" value="2" id="2"> En Desacuerdo<br>
+ <input type="radio" name="afirmacion1" value="3" id="3"> Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion1" value="4" id="4"> De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion2" value="0" hidden>No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
- <input type="radio" name="afirmacion2" value="1"> En Desacuerdo<br>
- <input type="radio" name="afirmacion2" value="2"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion2" value="3"> De acuerdo<br>
+ <input type="radio" name="afirmacion2" value="1" id="2"> En Desacuerdo<br>
+ <input type="radio" name="afirmacion2" value="2" id="3"> Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion2" value="3" id="4"> De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion3" value="0" hidden>La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
- <input type="radio" name="afirmacion3" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion3" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion3" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion3" value="2" id="2"> En Desacuerdo<br>
+ <input type="radio" name="afirmacion3" value="3" id="3"> Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion3" value="4" id="4"> De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion4" value="0" hidden>La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
- <input type="radio" name="afirmacion4" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion4" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion4" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion4" value="2" id="2"> En Desacuerdo<br>
+ <input type="radio" name="afirmacion4" value="3" id="3"> Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion4" value="4" id="4"> De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion5" value="0" hidden>La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
- <input type="radio" name="afirmacion5" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion5" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion5" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion5" value="2" id="2"> En Desacuerdo<br>
+ <input type="radio" name="afirmacion5" value="3" id="3"> Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion5" value="4" id="4"> De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion6" value="0" hidden>Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
- <input type="radio" name="afirmacion6" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion6" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion6" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion6" value="2" id="2"> En Desacuerdo<br>
+ <input type="radio" name="afirmacion6" value="3" id="3"> Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion6" value="4" id="4"> De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion7" value="0" hidden>Me genera ansiedad o miedo repetirme estudios</li>
- <input type="radio" name="afirmacion7" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion7" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion7" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion7" value="2" id="2" > En Desacuerdo<br>
+ <input type="radio" name="afirmacion7" value="3" id="3" > Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion7" value="4" id="4" > De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion8" value="0" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
- <input type="radio" name="afirmacion8" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion8" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion8" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion8" value="2" id="2" > En Desacuerdo<br>
+ <input type="radio" name="afirmacion8" value="3" id="3" > Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion8" value="4" id="4" > De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion9" value="0" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
- <input type="radio" name="afirmacion9" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion9" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion9" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion9" value="2" id="2" > En Desacuerdo<br>
+ <input type="radio" name="afirmacion9" value="3" id="3" > Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion9" value="4" id="4" > De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion10" value="0" hidden>Prefiero que esta decisión la tome mi médico/a</li>
- <input type="radio" name="afirmacion10" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion10" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion10" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion10" value="2" id="2" > En Desacuerdo<br>
+ <input type="radio" name="afirmacion10" value="3" id="3" > Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion10" value="4" id="4" > De acuerdo<br>
 
  <li class="drag-item"><input name="afirmacion11" value="0" hidden>Hacerme la mamografía me da tranquilidad</li>
- <input type="radio" name="afirmacion11" value="2"> En Desacuerdo<br>
- <input type="radio" name="afirmacion11" value="3"> Ni acuerdo, ni desacuerdo<br>
- <input type="radio" name="afirmacion11" value="4"> De acuerdo<br>
+ <input type="radio" name="afirmacion11" value="2" id="2" > En Desacuerdo<br>
+ <input type="radio" name="afirmacion11" value="3" id="3" > Ni acuerdo, ni desacuerdo<br>
+ <input type="radio" name="afirmacion11" value="4" id="4" > De acuerdo<br>
+
+</div>
+
+
 @endif
 
 
