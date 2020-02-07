@@ -49,7 +49,7 @@ class ReportController extends Controller
              $newConsulta->afirmacion9 = $input['afirmacion9'];
              $newConsulta->afirmacion10 = $input['afirmacion10'];
              $newConsulta->afirmacion11 = $input['afirmacion11'];
-           
+
 
 
            $newConsulta->comentario = $input['comment'];
