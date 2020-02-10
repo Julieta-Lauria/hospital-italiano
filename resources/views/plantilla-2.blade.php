@@ -90,8 +90,8 @@
                                   @include("tab5")
                                 </div>
 												      </div>
-                              <div class="mdl-tabs__panel" id="tab6-panel">
-                                <section>
+                              <div class="mdl-tabs__panel scroller" id="tab6-panel">
+                                <section class="child-tab8">
                                   @yield("glosario")
                                 </section>
 												      </div>

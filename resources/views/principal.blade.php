@@ -282,6 +282,10 @@ x[slideIndex-1].style.display = "block";
 <p>Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Algunas mujeres expresan que estas falsas alarmas les generan ansiedad y miedo.</p>
 <p><strong>Un diagnóstico de cáncer que no daña o “tumores inofensivos” (también llamado “sobrediagnóstico”):</strong></p>
 <p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
+<p>Fuentes de financiamiento: Esta herramienta fue realizada en el contexto de un proyecto de investigación financiado por una Beca del Consejo de Investigación del Hospital Italiano de Buenos Aires.</p>
+<p>Conflictos de interés: Lo/as autores de esta herramienta declaran no tener conflictos de interés.</p>
+<p>Año de publicación: 2020</p>
+<p>Próxima actualización: 2023</p>
 @endsection
 
 <!-- CONTENIDO DE LA TAB7 - Prevenir el cancer de mama -->
@@ -341,6 +345,9 @@ x[slideIndex-1].style.display = "block";
   </div>
   <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">En Argentina en 2018 según las estimaciones de la Agencia Internacional de Investigación sobre Cáncer (IARC) hubieron 125014 casos nuevos de cáncer, de los cuales 21558 son de mama. En el 2017 se registraron 6049 defunciones por cáncer de mama. En nuestra región se le atribuye al factor obesidad el 6,8% de todos los casos de cáncer. Globalmente se le atribuye al factor obesidad (sobretodo en la postmenopausia) el 8.4% de los casos de cáncer de mama, al factor del consumo excesivo de alcohol (más de dos tragos diarios) el 3.5% y el 8.1% de los casos de cáncer total y de mama respectivamente y el 7.3% de las muertes por cáncer de mama. En mujeres que fumaron al menos 5 años antes de tener su primer hijo y más de 20 paquetes por año tuvieron un riesgo de 35 a 40% mayor de cáncer de mama comparado con mujeres no fumadoras. Se observó una disminución del 4.3% del riesgo de cáncer de mama en mujeres que amamantaron por un año. Un meta-análisis demostró que las mujeres que realizaron más actividad física tuvieron menor riesgo que las que no, desde un 12% en general hasta un 31% en un subgrupo de mujeres que realizaban 5hs de actividad vigorosa semanal y que no habían recibido terapia de reemplazo hormonal.
 </span></a>
+<div class="spacer">
+
+</div>
   @endsection
 
   <!-- CONTENIDO DE LA TAB8 - Referencias -->

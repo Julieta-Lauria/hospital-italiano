@@ -682,7 +682,7 @@ i{
   color: #000;
   background: #d3dce5;
   padding: 3px;
-  width:800px;
+  width:350px;
   font-size: 10px;
 }
 
@@ -690,6 +690,10 @@ i{
   position: relative;
   bottom: 3px;
   /* left: 3px; */
+}
+
+.spacer{
+  height:500px;
 }
 
 .display-5:hover  span {
@@ -786,7 +790,7 @@ ul {
 }
 
 .drag-column h2 {
-  font-size: 0.8rem;
+  font-size: 11px;
   margin: 0;
   text-transform: uppercase;
   font-weight: 600;
@@ -818,6 +822,10 @@ ul {
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+
+.drag-icon{
+  margin-left: 5px;
 }
 
 .drag-inner-list {
@@ -1475,6 +1483,9 @@ footer{
   margin-top:-5% !important;
 }
 
+.display-5 span{
+  width:400px;
+}
 
 }
 /*------------------------------------------------ FIN MIN 768PX------------------------------------------------*/
@@ -1796,6 +1807,10 @@ footer{
   width:70%;
 }
 
+.display-5 span{
+  width:800px;
+}
+
 /******************* -----------------------------********************/
 
 /* SCROLL DE CONTENIDO DE TABS */
@@ -1833,11 +1848,14 @@ body{
 .child-tab4,
 .child-tab5,
 .child-tab6,
-.child-tab7{
+.child-tab7,
+{
   height: 2000px;
 }
 
-
+.child-tab7{
+  height:2000px;
+}
 
 }
 
@@ -1847,10 +1865,12 @@ body{
 
 .input-title{
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.5;
   font-weight: bold;
   width: 100%;
+  background-color: #d3dce5;
+  height:100px;
 }
 
 .radio-custom {
