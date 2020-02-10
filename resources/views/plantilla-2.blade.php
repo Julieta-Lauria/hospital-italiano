@@ -37,7 +37,7 @@
 											          </a>
                                 <a href="#tab5-panel" class="mdl-tabs__tab">
                                   <span class="hollow-circle"></span>
-                                  Lo más importante para vos
+                                  Lo más importante
                                 </a>
                                 <a href="#tab6-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
