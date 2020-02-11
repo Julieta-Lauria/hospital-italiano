@@ -155,8 +155,33 @@
       </div>
     </div>
   </div>
-    <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">Estos datos se basan en mujeres con riesgo promedio para cáncer de mama, que son la población blanco del rastreo poblacional. Esto excluye a mujeres con factores de riesgo mayores (que aumentan más de dos veces el riesgo relativo o RR) como antecedentes personales o familiares de cáncer de mama, ovario o peritoneal (en general 1 familiar de primer grado con cáncer de mama antes de los 50 años o múltiples familiares de primer grado confieren un RR mayor a 2), mutaciones de genes asociados al cáncer de mama -por ejemplo BCRA 1 y 2 (RR 10 a 32)-, antecedente de carcinoma ductal o lobar in situ (RR 4), que no hayan recibido radioterapia en el pecho antes de los 30 años (RR 7 a 17) o mujeres con mamas densas (RR 5). Algunas mujeres presentan factores de riesgo menores (que aumentan menos de dos veces el riesgo) de forma aislada, como nuliparidad o paridad luego de los 30 años (RR 1.2-1.7), menarca antes de los 12 años o menopausia luego de los 55 años (RR 1.2-1.3), haber recibido terapia de reemplazo hormonal combinada por más de 10 años (RR 1.5), un familiar de segundo grado con cáncer de mama (1.2-1.5) o un familiar de primer grado con cáncer de mama luego de los 50 años (1.5-2), obesidad en la post-menopausia (1.2-1.9), consumo de alcohol (dos tragos diarios, RR 1.2), fumar antes del primer embarazo (1.2-1.4) o sedentarismo (1.1-1.8). Si la mujer presenta varios de estos factores de riesgo menores combinados tiene un riesgo mayor de desarrollar cáncer de mama y puede ser que esta herramienta subestime su riesgo individual. Las estimaciones del sobrediagnóstico varían en un rango que oscila entre 1% y 50% dependiendo del tipo de cálculo utilizado, del tipo de estudios y de las poblaciones en las que se basan. Para estos gráficos, considerando el grupo etario, la duración del seguimiento y la frecuencia del tamizaje, nos basamos en los propuestos por Barratt (2005).
-</span></a>
+  <button class="accordion-1"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></button>
+    <div class="panel">
+  <p>Estos datos se basan en mujeres con riesgo promedio para cáncer de mama, que son la población blanco del rastreo poblacional. Esto excluye a mujeres con factores de riesgo mayores (que aumentan más de dos veces el riesgo relativo o RR) como antecedentes personales o familiares de cáncer de mama, ovario o peritoneal (en general 1 familiar de primer grado con cáncer de mama antes de los 50 años o múltiples familiares de primer grado confieren un RR mayor a 2), mutaciones de genes asociados al cáncer de mama -por ejemplo BCRA 1 y 2 (RR 10 a 32)-, antecedente de carcinoma ductal o lobar in situ (RR 4), que no hayan recibido radioterapia en el pecho antes de los 30 años (RR 7 a 17) o mujeres con mamas densas (RR 5). Algunas mujeres presentan factores de riesgo menores (que aumentan menos de dos veces el riesgo) de forma aislada, como nuliparidad o paridad luego de los 30 años (RR 1.2-1.7), menarca antes de los 12 años o menopausia luego de los 55 años (RR 1.2-1.3), haber recibido terapia de reemplazo hormonal combinada por más de 10 años (RR 1.5), un familiar de segundo grado con cáncer de mama (1.2-1.5) o un familiar de primer grado con cáncer de mama luego de los 50 años (1.5-2), obesidad en la post-menopausia (1.2-1.9), consumo de alcohol (dos tragos diarios, RR 1.2), fumar antes del primer embarazo (1.2-1.4) o sedentarismo (1.1-1.8). Si la mujer presenta varios de estos factores de riesgo menores combinados tiene un riesgo mayor de desarrollar cáncer de mama y puede ser que esta herramienta subestime su riesgo individual. Las estimaciones del sobrediagnóstico varían en un rango que oscila entre 1% y 50% dependiendo del tipo de cálculo utilizado, del tipo de estudios y de las poblaciones en las que se basan. Para estos gráficos, considerando el grupo etario, la duración del seguimiento y la frecuencia del tamizaje, nos basamos en los propuestos por Barratt (2005).
+  </p>
+  </div>
+  <script type="text/javascript">
+  var acc = document.getElementsByClassName("accordion-1");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+  /* Toggle between adding and removing the "active" class,
+  to highlight the button that controls the panel */
+  this.classList.toggle("active");
+
+  /* Toggle between hiding and showing the active panel */
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
+  }
+});
+}
+  </script>
+    <!-- <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">Estos datos se basan en mujeres con riesgo promedio para cáncer de mama, que son la población blanco del rastreo poblacional. Esto excluye a mujeres con factores de riesgo mayores (que aumentan más de dos veces el riesgo relativo o RR) como antecedentes personales o familiares de cáncer de mama, ovario o peritoneal (en general 1 familiar de primer grado con cáncer de mama antes de los 50 años o múltiples familiares de primer grado confieren un RR mayor a 2), mutaciones de genes asociados al cáncer de mama -por ejemplo BCRA 1 y 2 (RR 10 a 32)-, antecedente de carcinoma ductal o lobar in situ (RR 4), que no hayan recibido radioterapia en el pecho antes de los 30 años (RR 7 a 17) o mujeres con mamas densas (RR 5). Algunas mujeres presentan factores de riesgo menores (que aumentan menos de dos veces el riesgo) de forma aislada, como nuliparidad o paridad luego de los 30 años (RR 1.2-1.7), menarca antes de los 12 años o menopausia luego de los 55 años (RR 1.2-1.3), haber recibido terapia de reemplazo hormonal combinada por más de 10 años (RR 1.5), un familiar de segundo grado con cáncer de mama (1.2-1.5) o un familiar de primer grado con cáncer de mama luego de los 50 años (1.5-2), obesidad en la post-menopausia (1.2-1.9), consumo de alcohol (dos tragos diarios, RR 1.2), fumar antes del primer embarazo (1.2-1.4) o sedentarismo (1.1-1.8). Si la mujer presenta varios de estos factores de riesgo menores combinados tiene un riesgo mayor de desarrollar cáncer de mama y puede ser que esta herramienta subestime su riesgo individual. Las estimaciones del sobrediagnóstico varían en un rango que oscila entre 1% y 50% dependiendo del tipo de cálculo utilizado, del tipo de estudios y de las poblaciones en las que se basan. Para estos gráficos, considerando el grupo etario, la duración del seguimiento y la frecuencia del tamizaje, nos basamos en los propuestos por Barratt (2005).
+<!-- </span></a>  -->
   </p>
   <div class="col text-center">
     <!-- <button class="btn btn-primary" onclick="plusDivs(+1)">Siguiente</button><br> -->
@@ -247,8 +272,33 @@ x[slideIndex2-1].style.display = "block";
       </div>
     </div>
   </div>
-  <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">Estos datos se basan en mujeres con riesgo promedio para cáncer de mama, que son la población blanco del rastreo poblacional. Esto excluye a mujeres con factores de riesgo mayores (que aumentan más de dos veces el riesgo relativo o RR) como antecedentes personales o familiares de cáncer de mama, ovario o peritoneal (en general 1 familiar de primer grado con cáncer de mama antes de los 50 años o múltiples familiares de primer grado confieren un RR mayor a 2), mutaciones de genes asociados al cáncer de mama -por ejemplo BCRA 1 y 2 (RR 10 a 32)-, antecedente de carcinoma ductal o lobar in situ (RR 4), que no hayan recibido radioterapia en el pecho antes de los 30 años (RR 7 a 17) o mujeres con mamas densas (RR 5). Algunas mujeres presentan factores de riesgo menores (que aumentan menos de dos veces el riesgo) de forma aislada, como nuliparidad o paridad luego de los 30 años (RR 1.2-1.7), menarca antes de los 12 años o menopausia luego de los 55 años (RR 1.2-1.3), haber recibido terapia de reemplazo hormonal combinada por más de 10 años (RR 1.5), un familiar de segundo grado con cáncer de mama (1.2-1.5) o un familiar de primer grado con cáncer de mama luego de los 50 años (1.5-2), obesidad en la post-menopausia (1.2-1.9), consumo de alcohol (dos tragos diarios, RR 1.2), fumar antes del primer embarazo (1.2-1.4) o sedentarismo (1.1-1.8). Si la mujer presenta varios de estos factores de riesgo menores combinados tiene un riesgo mayor de desarrollar cáncer de mama y puede ser que esta herramienta subestime su riesgo individual. Las estimaciones del sobrediagnóstico varían en un rango que oscila entre 1% y 50% dependiendo del tipo de cálculo utilizado, del tipo de estudios y de las poblaciones en las que se basan. Para estos gráficos, considerando el grupo etario, la duración del seguimiento y la frecuencia del tamizaje, nos basamos en los propuestos por Barratt (2005).
-  </span></a>
+  <button class="accordion-2"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></button>
+    <div class="panel">
+  <p>Estos datos se basan en mujeres con riesgo promedio para cáncer de mama, que son la población blanco del rastreo poblacional. Esto excluye a mujeres con factores de riesgo mayores (que aumentan más de dos veces el riesgo relativo o RR) como antecedentes personales o familiares de cáncer de mama, ovario o peritoneal (en general 1 familiar de primer grado con cáncer de mama antes de los 50 años o múltiples familiares de primer grado confieren un RR mayor a 2), mutaciones de genes asociados al cáncer de mama -por ejemplo BCRA 1 y 2 (RR 10 a 32)-, antecedente de carcinoma ductal o lobar in situ (RR 4), que no hayan recibido radioterapia en el pecho antes de los 30 años (RR 7 a 17) o mujeres con mamas densas (RR 5). Algunas mujeres presentan factores de riesgo menores (que aumentan menos de dos veces el riesgo) de forma aislada, como nuliparidad o paridad luego de los 30 años (RR 1.2-1.7), menarca antes de los 12 años o menopausia luego de los 55 años (RR 1.2-1.3), haber recibido terapia de reemplazo hormonal combinada por más de 10 años (RR 1.5), un familiar de segundo grado con cáncer de mama (1.2-1.5) o un familiar de primer grado con cáncer de mama luego de los 50 años (1.5-2), obesidad en la post-menopausia (1.2-1.9), consumo de alcohol (dos tragos diarios, RR 1.2), fumar antes del primer embarazo (1.2-1.4) o sedentarismo (1.1-1.8). Si la mujer presenta varios de estos factores de riesgo menores combinados tiene un riesgo mayor de desarrollar cáncer de mama y puede ser que esta herramienta subestime su riesgo individual. Las estimaciones del sobrediagnóstico varían en un rango que oscila entre 1% y 50% dependiendo del tipo de cálculo utilizado, del tipo de estudios y de las poblaciones en las que se basan. Para estos gráficos, considerando el grupo etario, la duración del seguimiento y la frecuencia del tamizaje, nos basamos en los propuestos por Barratt (2005).
+  </p>
+  </div>
+  <script type="text/javascript">
+  var acc = document.getElementsByClassName("accordion-2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+  /* Toggle between adding and removing the "active" class,
+  to highlight the button that controls the panel */
+  this.classList.toggle("active");
+
+  /* Toggle between hiding and showing the active panel */
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
+  }
+});
+}
+  </script>
+  <!-- <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">Estos datos se basan en mujeres con riesgo promedio para cáncer de mama, que son la población blanco del rastreo poblacional. Esto excluye a mujeres con factores de riesgo mayores (que aumentan más de dos veces el riesgo relativo o RR) como antecedentes personales o familiares de cáncer de mama, ovario o peritoneal (en general 1 familiar de primer grado con cáncer de mama antes de los 50 años o múltiples familiares de primer grado confieren un RR mayor a 2), mutaciones de genes asociados al cáncer de mama -por ejemplo BCRA 1 y 2 (RR 10 a 32)-, antecedente de carcinoma ductal o lobar in situ (RR 4), que no hayan recibido radioterapia en el pecho antes de los 30 años (RR 7 a 17) o mujeres con mamas densas (RR 5). Algunas mujeres presentan factores de riesgo menores (que aumentan menos de dos veces el riesgo) de forma aislada, como nuliparidad o paridad luego de los 30 años (RR 1.2-1.7), menarca antes de los 12 años o menopausia luego de los 55 años (RR 1.2-1.3), haber recibido terapia de reemplazo hormonal combinada por más de 10 años (RR 1.5), un familiar de segundo grado con cáncer de mama (1.2-1.5) o un familiar de primer grado con cáncer de mama luego de los 50 años (1.5-2), obesidad en la post-menopausia (1.2-1.9), consumo de alcohol (dos tragos diarios, RR 1.2), fumar antes del primer embarazo (1.2-1.4) o sedentarismo (1.1-1.8). Si la mujer presenta varios de estos factores de riesgo menores combinados tiene un riesgo mayor de desarrollar cáncer de mama y puede ser que esta herramienta subestime su riesgo individual. Las estimaciones del sobrediagnóstico varían en un rango que oscila entre 1% y 50% dependiendo del tipo de cálculo utilizado, del tipo de estudios y de las poblaciones en las que se basan. Para estos gráficos, considerando el grupo etario, la duración del seguimiento y la frecuencia del tamizaje, nos basamos en los propuestos por Barratt (2005).
+  <!-- </span></a> -->
   <div class="col text-center">
     <!-- <button class="btn btn-primary" onclick="plusDivs(+1)">Siguiente</button><br> -->
     <button class="btn btn-danger" onclick="plusDivs(-1)">Anterior</button>
@@ -343,11 +393,36 @@ x[slideIndex-1].style.display = "block";
       </div>
     </div>
   </div>
-  <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">En Argentina en 2018 según las estimaciones de la Agencia Internacional de Investigación sobre Cáncer (IARC) hubieron 125014 casos nuevos de cáncer, de los cuales 21558 son de mama. En el 2017 se registraron 6049 defunciones por cáncer de mama. En nuestra región se le atribuye al factor obesidad el 6,8% de todos los casos de cáncer. Globalmente se le atribuye al factor obesidad (sobretodo en la postmenopausia) el 8.4% de los casos de cáncer de mama, al factor del consumo excesivo de alcohol (más de dos tragos diarios) el 3.5% y el 8.1% de los casos de cáncer total y de mama respectivamente y el 7.3% de las muertes por cáncer de mama. En mujeres que fumaron al menos 5 años antes de tener su primer hijo y más de 20 paquetes por año tuvieron un riesgo de 35 a 40% mayor de cáncer de mama comparado con mujeres no fumadoras. Se observó una disminución del 4.3% del riesgo de cáncer de mama en mujeres que amamantaron por un año. Un meta-análisis demostró que las mujeres que realizaron más actividad física tuvieron menor riesgo que las que no, desde un 12% en general hasta un 31% en un subgrupo de mujeres que realizaban 5hs de actividad vigorosa semanal y que no habían recibido terapia de reemplazo hormonal.
-</span></a>
-<div class="spacer">
+  <button class="accordion"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></button>
+    <div class="panel">
+  <p>En Argentina en 2018 según las estimaciones de la Agencia Internacional de Investigación sobre Cáncer (IARC) hubieron 125014 casos nuevos de cáncer, de los cuales 21558 son de mama. En el 2017 se registraron 6049 defunciones por cáncer de mama. En nuestra región se le atribuye al factor obesidad el 6,8% de todos los casos de cáncer. Globalmente se le atribuye al factor obesidad (sobretodo en la postmenopausia) el 8.4% de los casos de cáncer de mama, al factor del consumo excesivo de alcohol (más de dos tragos diarios) el 3.5% y el 8.1% de los casos de cáncer total y de mama respectivamente y el 7.3% de las muertes por cáncer de mama. En mujeres que fumaron al menos 5 años antes de tener su primer hijo y más de 20 paquetes por año tuvieron un riesgo de 35 a 40% mayor de cáncer de mama comparado con mujeres no fumadoras. Se observó una disminución del 4.3% del riesgo de cáncer de mama en mujeres que amamantaron por un año. Un meta-análisis demostró que las mujeres que realizaron más actividad física tuvieron menor riesgo que las que no, desde un 12% en general hasta un 31% en un subgrupo de mujeres que realizaban 5hs de actividad vigorosa semanal y que no habían recibido terapia de reemplazo hormonal.</p>
+  </div>
+  <script type="text/javascript">
+  var acc = document.getElementsByClassName("accordion");
+var i;
 
-</div>
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+  /* Toggle between adding and removing the "active" class,
+  to highlight the button that controls the panel */
+  this.classList.toggle("active");
+
+  /* Toggle between hiding and showing the active panel */
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
+  }
+});
+}
+  </script>
+
+  <!-- <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">En Argentina en 2018 según las estimaciones de la Agencia Internacional de Investigación sobre Cáncer (IARC) hubieron 125014 casos nuevos de cáncer, de los cuales 21558 son de mama. En el 2017 se registraron 6049 defunciones por cáncer de mama. En nuestra región se le atribuye al factor obesidad el 6,8% de todos los casos de cáncer. Globalmente se le atribuye al factor obesidad (sobretodo en la postmenopausia) el 8.4% de los casos de cáncer de mama, al factor del consumo excesivo de alcohol (más de dos tragos diarios) el 3.5% y el 8.1% de los casos de cáncer total y de mama respectivamente y el 7.3% de las muertes por cáncer de mama. En mujeres que fumaron al menos 5 años antes de tener su primer hijo y más de 20 paquetes por año tuvieron un riesgo de 35 a 40% mayor de cáncer de mama comparado con mujeres no fumadoras. Se observó una disminución del 4.3% del riesgo de cáncer de mama en mujeres que amamantaron por un año. Un meta-análisis demostró que las mujeres que realizaron más actividad física tuvieron menor riesgo que las que no, desde un 12% en general hasta un 31% en un subgrupo de mujeres que realizaban 5hs de actividad vigorosa semanal y que no habían recibido terapia de reemplazo hormonal.
+<!-- </span></a> -->
+<!-- <div class="spacer">
+
+</div> -->
   @endsection
 
   <!-- CONTENIDO DE LA TAB8 - Referencias -->

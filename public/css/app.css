@@ -250,7 +250,7 @@ hr{
 .drag-h2{
   font-size: 23px;
   color:#F86641;
-  margin-top: 0;
+  margin-top: 45px !important;
 }
 
 
@@ -692,15 +692,39 @@ i{
   /* left: 3px; */
 }
 
-.spacer{
-  height:500px;
-}
 
 .display-5:hover  span {
   display: block;
   text-align: center;
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion,
+.accordion-1,
+.accordion-2 {
+  background-color: #fff;
+  color: #f86641;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover, .accordion-1:hover, .accordion-2:hover {
+  background-color: #fff;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 10px;
+  background-color: #d3dce5;
+  display: none;
+  overflow: hidden;
+}
 
 
 /* .display-1 span {
@@ -790,7 +814,7 @@ ul {
 }
 
 .drag-column h2 {
-  font-size: 11px;
+  font-size: 11px !important;
   margin: 0;
   text-transform: uppercase;
   font-weight: 600;
@@ -1768,6 +1792,13 @@ footer{
   width:100%;
 }
 
+.drag-column h2 {
+  font-size: 10px !important;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 25px;
+}
 
 /*********************** TAB PREVENCION *************************/
 .h6-habitos{

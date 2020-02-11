@@ -38,7 +38,7 @@ $result = $agent->isMobile();
 
 
 @if ($result == false)
-<h5>Ordenar las siguientes frases si tu paciente está de acuerdo, en desacuerdo o ni de acuerdo o desacuerdo con estas afirmaciones. <br>Hacer click sobre cada afirmación para arrastrar y soltar en la columna que corresponda.</h5><br>
+<p>Ordenar las siguientes frases si tu paciente está de acuerdo, en desacuerdo o ni de acuerdo o desacuerdo con estas afirmaciones. <br>Hacer click sobre cada afirmación para arrastrar y soltar en la columna que corresponda.</p><br>
 <div class="drag-container" id="divform">
     <ul class="drag-list">
 
@@ -98,7 +98,7 @@ $result = $agent->isMobile();
 
   </div>
  @elseif ($result == true)
- <h5>Seleccione para cada afirmación la opción que considere:<br></h5>
+ <p>Seleccione para cada afirmación la opción que considere:<br></p>
  <div class="drag-container" id="divform">
 
  <li class="drag-item input-title"><input id="afirmacion1" value="0" hidden>Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
