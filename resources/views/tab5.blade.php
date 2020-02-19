@@ -98,6 +98,7 @@ $result = $agent->isMobile();
 
   </div>
  @elseif ($result == true)
+
  <p>Seleccione para cada afirmación la opción que considere:<br></p>
  <div class="drag-container" id="divform">
 
@@ -133,22 +134,22 @@ $result = $agent->isMobile();
 
  <li class="drag-item input-title"><input name="afirmacion7" value="0" id="m_afirmacion7" hidden>Me genera ansiedad o miedo repetirme estudios</li>
  <input type="radio" name="afirmacion7" value="2" id="radio-19" class="radio-custom" > <label for="radio-19" class="radio-custom-label">En Desacuerdo</label><br>
- <input type="radio" name="afirmacion7" value="3" id="radio-20" class="radio-custom" > <label for="radio-20" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label><br>
+ <input type="radio" name="afirmacion7" value="3" id="radio-20" class="radio-custom"> <label for="radio-20" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label><br>
  <input type="radio" name="afirmacion7" value="4" id="radio-21" class="radio-custom"><label for="radio-21" class="radio-custom-label">De acuerdo</label><br>
 
  <li class="drag-item input-title"><input name="afirmacion8" value="0" id="m_afirmacion8" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
  <input type="radio" name="afirmacion8" value="2" id="radio-22" class="radio-custom"> <label for="radio-22" class="radio-custom-label">En Desacuerdo</label><br>
- <input type="radio" name="afirmacion8" value="3" id="radio-23" class="radio-custom" > <label for="radio-23" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label><br>
+ <input type="radio" name="afirmacion8" value="3" id="radio-23" class="radio-custom"> <label for="radio-23" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label><br>
  <input type="radio" name="afirmacion8" value="4" id="radio-24" class="radio-custom"> <label for="radio-24" class="radio-custom-label">De acuerdo</label><br>
 
  <li class="drag-item input-title"><input name="afirmacion9" value="0" id="m_afirmacion9" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
  <input type="radio" name="afirmacion9" value="2" id="radio-25" class="radio-custom"> <label for="radio-25" class="radio-custom-label">En Desacuerdo</label><br>
- <input type="radio" name="afirmacion9" value="3" id="radio-26" class="radio-custom" > <label for="radio-26" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label> <br>
+ <input type="radio" name="afirmacion9" value="3" id="radio-26" class="radio-custom"> <label for="radio-26" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label> <br>
  <input type="radio" name="afirmacion9" value="4" id="radio-27" class="radio-custom"> <label for="radio-27" class="radio-custom-label">De acuerdo</label><br>
 
  <li class="drag-item input-title"><input name="afirmacion10" value="0" id="m_afirmacion10" hidden>Prefiero que esta decisión la tome mi médico/a</li>
  <input type="radio" name="afirmacion10" value="2" id="radio-28" class="radio-custom"> <label for="radio-28" class="radio-custom-label">En Desacuerdo</label><br>
- <input type="radio" name="afirmacion10" value="3" id="radio-29" class="radio-custom" > <label for="radio-29" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label><br>
+ <input type="radio" name="afirmacion10" value="3" id="radio-29" class="radio-custom"> <label for="radio-29" class="radio-custom-label">Ni acuerdo, ni desacuerdo</label><br>
  <input type="radio" name="afirmacion10" value="4" id="radio-30" class="radio-custom"> <label for="radio-30" class="radio-custom-label">De acuerdo</label> <br>
 
  <li class="drag-item input-title"><input name="afirmacion11" value="0" id="m_afirmacion11" hidden>Hacerme la mamografía me da tranquilidad</li>
@@ -168,7 +169,7 @@ $result = $agent->isMobile();
                     @if ($result == false)
                     <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next" onclick="validatorJS()">Siguiente</button>
                      @elseif ($result == true)
-                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next" onclick="validatorJS(); myFunctionMobile()">Sige</button>
+                    <button class="btn btn-primary ml-auto js-btn-next btn-danger" type="button" title="Next" onclick="validatorJS()">Siguiente</button>
                     @endif
                   </div>
                   </div>
@@ -543,20 +544,21 @@ $result = $agent->isMobile();
 <script  src="./js/script.js"></script>
 
 
+
 <script type="text/javascript">
-    function myFunctionMobile() {
-      //preparar form_html para mobile
-          var m_afirmacion1 = document.getElementById('afirmacion1').value;
-          var afirmacion1 = document.getElementsByName('afirmacion1');
-          //console.log(afirmacion1[2].checked);
-          for(i=0; i < afirmacion1.length; i++){
-            if(afirmacion1[i].checked == true){
-              //document.getElementById('m_afirmacion1').value = afirmacion1[i].value;
-              m_afirmacion1 = afirmacion1[i].value;
-              break;
-            }//if
-          }//for
-        }//function
+    // function myFunctionMobile() {
+    //   //preparar form_html para mobile
+    //       JSafirmacion1 = document.getElementsByName('afirmacion1');
+    //       //console.log(afirmacion1[2].checked);
+    //       for(i=0; i < afirmacion1.length; i++){
+    //         if(afirmacion1[i].checked == true){
+    //           //document.getElementById('m_afirmacion1').value = afirmacion1[i].value;
+    //           console.log(afirmacion1[i].value);
+    //           //m_afirmacion1 = afirmacion1[i].value;
+    //           break;
+    //         }//if
+    //       }//for
+    //     }//function
 </script>
 
 <script type="text/javascript">
