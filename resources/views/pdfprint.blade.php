@@ -75,6 +75,10 @@
     $agent = new \Jenssegers\Agent\Agent;
     $result = $agent->isMobile();
     //dd($result);
+
+
+
+
    ?>
 
 
@@ -91,87 +95,180 @@
               <div class="dragpdf">
 <!-- ?php echo $options_columns[$_POST['afirmacion1'] ?>
 {{$options_columns[$_POST['afirmacion1']]}} -->
+<?php
+
+  if (isset($_POST['afirmacion1'])) {
+    $respuestas[1][$_POST['afirmacion1']] = "<li class='drag-item'>Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>";
+  }else if ( $_POST['afirmacion1']== null || $_POST['afirmacion1']== 0 ) {
+    $respuestas[1][1] = "<li class='drag-item'>Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>";
+  }
+
+  if (isset($_POST['afirmacion2'])) {
+    $respuestas[2][$_POST['afirmacion2']] = "<li class='drag-item'>No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>";
+  }else if ( $_POST['afirmacion2']== null || $_POST['afirmacion2']== 0 )  {
+    $respuestas[2][1] = "<li class='drag-item'>No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>";
+  }
+
+  if (isset($_POST['afirmacion3'])) {
+    $respuestas[3][$_POST['afirmacion3']] = "<li class='drag-item'>La mamografía es muy molesta y la paso mal haciéndome el estudio</li>";
+  }else {
+    $respuestas[3][1] = "<li class='drag-item'>La mamografía es muy molesta y la paso mal haciéndome el estudio</li>";
+  }
+
+  if (isset($_POST['afirmacion4'])) {
+    $respuestas[4][$_POST['afirmacion4']] = "<li class='drag-item'>La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>";
+  }else {
+    $respuestas[4][1] = "<li class='drag-item'>La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>";
+  }
+
+  if (isset($_POST['afirmacion5'])) {
+    $respuestas[5][$_POST['afirmacion5']] = "<li class='drag-item'>La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>";
+  }else {
+    $respuestas[5][1] = "<li class='drag-item'>La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>";
+  }
+
+  if (isset($_POST['afirmacion6'])) {
+    $respuestas[6][$_POST['afirmacion6']] = "<li class='drag-item'>Me genera ansiedad o miedo esperar el resultado de la mamografía</li>";
+  }else {
+    $respuestas[6][1] = "<li class='drag-item'>Me genera ansiedad o miedo esperar el resultado de la mamografía</li>";
+  }
+
+  if (isset($_POST['afirmacion7'])) {
+    $respuestas[7][$_POST['afirmacion7']] = "<li class='drag-item'>Me genera ansiedad o miedo repetirme estudios</li>";
+  }else {
+    $respuestas[7][1] = "<li class='drag-item'>Me genera ansiedad o miedo repetirme estudios</li>";
+  }
+
+  if (isset($_POST['afirmacion8'])) {
+    $respuestas[8][$_POST['afirmacion8']] = "<li class='drag-item'>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>";
+  }else {
+    $respuestas[8][1] = "<li class='drag-item'>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>";
+  }
+
+  if (isset($_POST['afirmacion9'])) {
+    $respuestas[9][$_POST['afirmacion9']] = "<li class='drag-item'>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>";
+  }else {
+    $respuestas[9][1] = "<li class='drag-item'>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>";
+  }
+
+  if (isset($_POST['afirmacion10'])) {
+    $respuestas[10][$_POST['afirmacion10']] = "<li class='drag-item'>Prefiero que esta decisión la tome mi médico/a</li>";
+  }else {
+    $respuestas[10][1] = "<li class='drag-item'>Prefiero que esta decisión la tome mi médico/a</li>";
+  }
+
+  if (isset($_POST['afirmacion11'])) {
+    $respuestas[11][$_POST['afirmacion11']] = "<li class='drag-item'>Hacerme la mamografía me da tranquilidad</li>";
+  }else {
+    $respuestas[11][1] = "<li class='drag-item'>Hacerme la mamografía me da tranquilidad</li>";
+  }
+
+
+// $a1 = "Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo";
+// $a2 = "No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas";
+// $a3 = "La mamografía es muy molesta y la paso mal haciéndome el estudio";
+// $a4 = "La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA";
+// $a5 = "La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA";
+// $a6 = "Me genera ansiedad o miedo esperar el resultado de la mamografía";
+// $a7 = "Me genera ansiedad o miedo repetirme estudios";
+// $a8 = "La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA";
+// $a9 = "La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA";
+// $a10 = "Prefiero que esta decisión la tome mi médico/a";
+// $a11 = "Hacerme la mamografía me da tranquilidad";
+
+?>
 
 
 
-                <li class="drag-item">Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
-                <?php if (isset($_POST['afirmacion1'])) {
-                    echo $options_columns[$_POST['afirmacion1']];
-                } else {
-                    echo "No Responde";
-                } ?>
+                    <li class="drag-column drag-column-on-hold">
+                       <span class="drag-column-header">
+                         <h2 class="afirmaciones">No Responde</h2>
+                       </span>
+                       <div class="drag-options" id="options1"></div>
+                       <ul class="drag-inner-list Afirmaciones" id="1">
 
-                 <li class="drag-item">No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion2']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
 
-                 <li class="drag-item">La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion3']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
+                          <?php
 
-                 <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion4']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
+                          for ($i=1; $i <= 11 ; $i++) {
+                              if ( isset($respuestas[$i][1]) )  {
+                              echo $respuestas[$i][1];
+                            }
+                          }
+                          for ($i=1; $i <= 11 ; $i++) {
+                              if ( isset($respuestas[$i][0]) )  {
+                              echo $respuestas[$i][0];
+                            }
+                          }
 
-                 <li class="drag-item">La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion5']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
+                          ?>
 
-                 <li class="drag-item">Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion6']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
 
-                 <li class="drag-item">Me genera ansiedad o miedo repetirme estudios</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion7']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
+                       </ul>
+                     </li>
 
-                 <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion8']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
 
-                 <li class="drag-item">La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion9']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
+                     <li class="drag-column drag-column-in-progress">
+                       <span class="drag-column-header">
+                         <h2>En Desacuerdo</h2>
+                       </span>
+                       <div class="drag-options" id="options2"></div>
+                       <ul class="drag-inner-list Nada identificada" id="2">
 
-                 <li class="drag-item">Prefiero que esta decisión la tome mi médico/a</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion10']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
 
-                 <li class="drag-item">Hacerme la mamografía me da tranquilidad</li>
-                 <?php if (isset($_POST['afirmacion1'])) {
-                     echo $options_columns[$_POST['afirmacion11']];
-                 } else {
-                     echo "No Responde";
-                 } ?>
+                         <?php
 
-              </div>
+                         for ($i=1; $i <= 11 ; $i++) {
+                             if ( isset($respuestas[$i][2]) )  {
+                             echo $respuestas[$i][2];
+                           }
+                         }
+
+                          ?>
+
+                         </ul>
+                     </li>
+
+
+                     <li class="drag-column drag-column-needs-review">
+                       <span class="drag-column-header">
+                         <h2>Ni acuerdo, ni desacuerdo</h2>
+                       </span>
+                       <div class="drag-options" id="options3"></div>
+                       <ul class="drag-inner-list Poco identificada" id="3">
+
+                         <?php
+
+                         for ($i=1; $i <= 11 ; $i++) {
+                             if ( isset($respuestas[$i][3]) )  {
+                             echo $respuestas[$i][3];
+                           }
+                         }
+
+                          ?>
+                           </ul>
+                      </li>
+
+
+                     <li class="drag-column drag-column-approved">
+                       <span class="drag-column-header">
+                         <h2>De Acuerdo</h2>
+                       </span>
+                       <div class="drag-options" id="options4"></div>
+                       <ul class="drag-inner-list Muy identificada" id="4">
+                         <?php
+
+                         for ($i=1; $i <= 11 ; $i++) {
+                             if ( isset($respuestas[$i][4]) )  {
+                             echo $respuestas[$i][4];
+                           }
+                         }
+
+                          ?>
+                        </ul>
+                     </li>
+
+
             @endif
 
 <br>
