@@ -13,7 +13,7 @@
         <!-- <img src="img/Mujeres-50-70-portada.JPG" alt=""> -->
       <!-- </div> -->
       <div class="jumbotron-questions">
-        <h1>DETECCIÓN PRECOZ DEL <span>CÁNCER DE MAMA</span></h1>
+        <h1>DETECCIÓN PRECOZ DEL <br><span>CÁNCER DE MAMA</span></h1>
         <h2>Ayudándote a decidir:</h2>
         <p>¿Cuáles son mis opciones?</p>
         <p>¿Cuáles son son las posibles ventajas y desventajas de esas opciones?</p>

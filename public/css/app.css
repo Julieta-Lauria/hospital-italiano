@@ -713,18 +713,36 @@ i{
   transition: 0.4s;
 }
 
+.accordion-3,
+.accordion-4{
+  background-color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover, .accordion-1:hover, .accordion-2:hover {
+.active, .accordion:hover, .accordion-1:hover, .accordion-2:hover, .accordion-3:hover, .accordion-4:hover {
   background-color: #fff;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 10px;
+  width:85%;
   background-color: #d3dce5;
   display: none;
   overflow: hidden;
 }
+
+/* .panel p{
+  font-size: 10px;
+} */
 
 
 /* .display-1 span {
@@ -1534,7 +1552,7 @@ footer{
   }
 
   .jumbotron-questions{
-    width:40%;
+    width:39%;
   }
 
   .jumbotron-header{
@@ -1543,7 +1561,7 @@ footer{
 
   .jumbotron-header img{
     height:85vh;
-    width:730px;
+    width:840px;
   }
 
   footer{

@@ -79,14 +79,68 @@
         <p class="risk"><i class="fas fa-thumbs-down"></i>No detecta todos los cánceres</p>
         <p class="descripcion">Algunos tumores crecen muy rápido y podrían aparecer inclusive entre los controles regulares con mamografías previas normales.</p>
       </div>
-      <div class="riesgo">
+      <!-- <div class="riesgo">
         <a  class="display-3" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">falsas alarmas</strong><i class="fas fa-info-circle"></i></p><span class="">Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama).</span></a>
         <p class="descripcion">Algunas mujeres necesitan repetir estudios por lesiones benignas que no quedan claras. Durante este proceso algunas mujeres experimentan preocupación, temor o angustia.</p>
-      </div>
+      </div> -->
       <div class="riesgo">
+        <button class="accordion-3"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">falsas alarmas</strong><i class="fas fa-info-circle"></i></p></button>
+          <div class="panel">
+        <p>Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama).</p>
+        </div>
+        <p class="descripcion">Algunas mujeres necesitan repetir estudios por lesiones benignas que no quedan claras. Durante este proceso algunas mujeres experimentan preocupación, temor o angustia.</p>
+      </div>
+      <script type="text/javascript">
+      var acc = document.getElementsByClassName("accordion-3");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+      this.classList.toggle("active");
+
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+    }
+      </script>
+      <!-- <div class="riesgo">
         <a class="display-4" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
         <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento".</p>
+      </div> -->
+      <div class="riesgo">
+        <button class="accordion-4"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p></button>
+          <div class="panel">
+        <p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
+        </div>
+        <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento"</p>
       </div>
+      <script type="text/javascript">
+      var acc = document.getElementsByClassName("accordion-4");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+      this.classList.toggle("active");
+
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+    }
+      </script>
     </div>
   </div>
 </section>
