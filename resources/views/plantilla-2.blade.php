@@ -17,12 +17,16 @@
 											         </a>
 											         <a href="#tab2-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
-											      	      ¿Qué es el cáncer de mama?
+											      	      Factores predisponentes
 											          </a>
 											          <a href="#tab3-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
-											            	Mamografía
+											            	Detección precoz
 											          </a>
+                                <a href="#tab7-panel" class="mdl-tabs__tab">
+                                    <span class="hollow-circle"></span>
+                                    Ventajas y desventajas
+                                </a>
                                 <a href="#tab4-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
                                     Mujeres de 40 a 49 años
@@ -30,10 +34,6 @@
                                 <a href="#tab9-panel" class="mdl-tabs__tab">
 											      	      <span class="hollow-circle"></span>
                                     Mujeres de 50 a 69 años
-											          </a>
-                                <a href="#tab7-panel" class="mdl-tabs__tab">
-											      	      <span class="hollow-circle"></span>
-                                    Prevenir el cáncer de mama
 											          </a>
                                 <a href="#tab5-panel" class="mdl-tabs__tab">
                                   <span class="hollow-circle"></span>

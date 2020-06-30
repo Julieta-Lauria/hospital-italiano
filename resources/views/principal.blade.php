@@ -6,29 +6,121 @@
 <!-- CONTENIDO DE LA TAB1 - Se puede elegir -->
 @section("elegir")
 <h3 class="tab-h3">Se puede elegir</h3>
-<p>Frecuentemente las mujeres nos enfrentamos con la decisión de optar por un estudio para detectar precozmente el cáncer de mama:<strong> la mamografía.</strong> Puede ser porque:</p>
+<p>Frecuentemente las pacientes se enfrentan con la decisión de optar por un estudio para detectar precozmente el cáncer de mama:<strong> la mamografía.</strong> Puede ser porque:</p>
   <div class="tab1">
     <div class="tab1-cuadro"><img src="img/doctor-1.png" alt=""><p>Nos lo recomienda un profesional de la salud</p></div>
     <div class="tab1-cuadro"><img src="img/chat.png" alt=""><p>Vimos una publicidad o nos lo contó un amigo/a o familiar</p></div>
     <div class="tab1-cuadro"><img src="img/work.png" alt=""><p>Lo tenemos incorporado como un chequeo de “rutina”</p></div>
     <div class="tab1-cuadro"><img src="img/breast-cancer.png" alt=""><p>Tenemos miedo de tener cáncer de mama</p></div>
   </div>
-  <p class="tab1-p">Como toda decisión médica, tiene opciones, con sus ventajas y desventajas, y es importante que las conozcas para que puedas decidir cuál es la mejor opción para vos. <strong>Tanto realizar como no realizar un estudio de detección precoz del cáncer de mama son opciones razonables.</strong></p>
+  <p class="tab1-p">Como toda decisión médica tiene opciones: tanto realizar como no realizar la mamografía son opciones razonables. Cada opción tiene sus ventajas y desventajas, y es importante que las pacientes las conozcan para decidir bien informadas cuál es la mejor opción para ellas.</p>
   <div class="alert-container-tab1">
     <div class="alert alert-primary alerta-tab1">
-      <p><strong>Atención: </strong>Si pensás que hablar de los riesgos o desventajas de una intervención te puede generar ansiedad (por ejemplo leer el prospecto de los medicamentos) te recomendamos que no utilices esta herramienta.</p>
+      <p><strong>Atención: </strong>Si pensás que hablar de las desventajas de una intervención te puede generar ansiedad (por ejemplo leer el prospecto de los medicamentos) te recomendamos que no utilices esta herramienta.</p>
     </div>
   </div>
 @endsection
 
 
-<!-- CONTENIDO DE LA TAB2 - Que es el cancer de mama? -->
+<!-- CONTENIDO DE LA TAB2 - Factores predisponentes -->
 @section("cancerdemama")
-<h3 class="tab-h3">¿Qué es el cáncer de mama?</h3>
-<p>Es una enfermedad causada por el crecimiento anormal de células de la mama que forman un tumor maligno. Las posibilidades de que aparezca aumentan con la edad, principalmente a partir de los 50 años.</p>
-<p class="strong"><strong>¿Se puede prevenir?</strong></p>
-<p>Hay factores que aumentan el riesgo de tener cáncer de mama que se pueden modificar:</p>
-<div class="tab2">
+<h3 class="tab-h3">Factores predisponentes</h3>
+<div class="masinfo">
+  <span class="tab2-span">La mayoría de los cánceres de mama (CM) se producen en mujeres mayores de 50 años sin antecedentes familiares de la enfermedad. Además de la edad, hay muchos otros factores predisponentes. Algunos se pueden modificar y otros no.</span>
+  <button class="accordion-5"><span class="mas-info">Más información<i class="fas fa-info-circle"></i></span></button>
+    <div class="panel panel-5">
+  <p><strong>Factores NO modificables:</strong>
+<br>-Antecedentes familiares de CM, ovario o peritoneal: más probabilidades si se trata de hermanas, madres o hijas con CM antes de los 50 años o más de un familiar afectado (esto se considera probabilidad alta, no “promedio”).
+<br>-Haber recibido radioterapia en el pecho (esto se considera probabilidad alta, no “promedio”).
+<br>-Ciertas mutaciones genéticas (esto se considera probabilidad alta, no “promedio”).
+<br>-Que tienen biopsias previas con diagnóstico de “carcinoma ductal o lobar in situ” (esto se considera probabilidad alta, no “promedio”).
+<br>-Si la edad de la primera menstruación fue antes de los 12 años o de la última fue después de los 55 años.
+<br>-Si no se tuvo hijos o se los tuvo después de los 30 años.
+<br>-Haber recibido terapia de reemplazo hormonal.
+<br>-Mayor densidad mamaria.
+<br><br>
+<strong>Factores modificables:</strong>
+<br>-Obesidad en la postmenopausia
+<br>-Tabaquismo
+<br>-Sedentarismo
+<br>-Consumo excesivo de alcohol
+</p>
+</div>
+</div>
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion-5");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+/* Toggle between adding and removing the "active" class,
+to highlight the button that controls the panel */
+this.classList.toggle("active");
+
+/* Toggle between hiding and showing the active panel */
+var panel = this.nextElementSibling;
+if (panel.style.display === "block") {
+  panel.style.display = "none";
+} else {
+  panel.style.display = "block";
+}
+});
+}
+</script>
+<br>
+<p>Si querés calcular las probabilidades que tiene tu paciente de desarrollar CM hacé click acá <a href="https://bcrisktool.cancer.gov/calculator.html" target="_blank">Breast Cancer Risk Assessment Tool</a>. Recordá que lo que se considera “promedio” es tener entre un 12% y un 15% de probabilidad de tener un CM a lo largo de toda la vida.</p>
+<p>De los factores que se pueden modificar:</p>
+<div class="flip-card-container">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img/obesity-128.png" alt="Avatar" style="width:100px;height:100px">
+        <p><strong>Obesidad</strong></p>
+      </div>
+      <div class="flip-card-back">
+            <p><strong>Obesidad</strong></p>
+            <p class="flip-card-back-p">Se asocia a:</p><span class="tab7-porcentaje">8,4%⬆</span><p>del total de cánceres de mama (1800 casos anuales)</p>
+    </div>
+  </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img/cigarette-128.png" alt="Avatar" style="width:100px;height:100px">
+        <p><strong>Tabaquismo</strong></p>
+      </div>
+      <div class="flip-card-back">
+            <p><strong>Tabaquismo</strong></p>
+            <p class="flip-card-back-p">Se asocia a:</p><span class="tab7-porcentaje">35-40%⬆</span><p>mayor riesgo de tener cáncer de mama</p>
+    </div>
+  </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img/watching-tv-128.png" alt="Avatar" style="width:100px;height:100px">
+        <p><strong>Sedentarismo</strong></p>
+      </div>
+      <div class="flip-card-back">
+            <p><strong>Actividad física regular</strong></p>
+            <p class="flip-card-back-p">Se asocia a:</p><span class="tab7-porcentaje porcentaje-menor">12-31%⬇</span><p>menor riesgo de tener cáncer de mama</p>
+    </div>
+  </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img/wine-bottle-128.png" alt="Avatar" style="width:100px;height:100px">
+        <p><strong>Exceso de alcohol</strong></p>
+      </div>
+      <div class="flip-card-back">
+            <p><strong>Exceso de alcohol</strong></p>
+            <p class="flip-card-back-p">Se asocia a:</p><span class="tab7-porcentaje">8,1%⬆</span><p>del total de cánceres de mama (1750 casos anuales)</p>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- <div class="tab2">
   <div class="tab2-fila1">
     <div class="tab2-cuadro claro"><p>Obesidad</p><img src="img/obesity.png" alt=""></div>
     <div class="tab2-cuadro oscuro"><img src="img/cigarette.png" alt=""><p>Tabaquismo</p></div>
@@ -37,111 +129,26 @@
       <div class="tab2-cuadro claro"><p>Sedentarismo</p><img src="img/watching-tv.png" alt=""></div>
       <div class="tab2-cuadro oscuro"><img src="img/wine-bottle.png" alt=""><p>Consumo excesivo de alcohol </p></div>
     </div>
-</div>
-<p class="strong"><strong>¿Qué es y por qué se ofrece el “chequeo” o tamizaje del cáncer de mama?</strong></p>
-<p>El tamizaje consiste en examinar sistemáticamente a un grupo de <strong>personas que no tienen síntomas* </strong>con el fin de detectar precozmente una enfermedad y mejorar los resultados en salud. </p>
-<div class="tab2-alert-container">
-  <div class="alert alert-primary tab2-alerta">
-    <p><strong>* </strong>Si notás un cambio en tus mamas debés consultar al médico sin demora (un bulto palpable, cambios en la textura o enrojecimiento de la piel de las mamas o el pezón, secreción o
-    sangrado por el pezón).
-  </div></p>
-</div>
+</div> -->
 @endsection
 
-<!-- CONTENIDO DE LA TAB3 - Mamografia -->
+<!-- CONTENIDO DE LA TAB3 - Detección precoz -->
 @section("mamografia")
 <h3 class="tab-h3">Mamografía</h3>
 <section>
-  <div class="tab3">
-    <p>El <strong>único</strong> método recomendado y que demostró ser efectivo para la detección precoz del cáncer de mama es la <strong>mamografía.</strong>El Programa Nacional de Control de Cáncer de Mama del Instituto Nacional del Cáncer de Argentina recomienda realizarla <strong>cada 2 años en mujeres de 50 a 69 años.</strong>
-    Durante la prueba la mama se comprime entre dos placas planas y se saca una radiografía. Algunas mujeres experimentan molestia o dolor según la sensibilidad de sus mamas.
-    </p>
+  <!-- <div class="tab3"> -->
+    <p class="strong"><strong>¿Qué es y por qué se ofrece la detección precoz con mamografía?</strong></p>
+    <p>Algunas enfermedades como el cáncer de mama (CM) se pueden detectar precozmente cuando todavía no aparecieron síntomas<strong>*</strong> y así mejorar los resultados en salud, por ejemplo reducir las chances de morir por la enfermedad. El único método diagnóstico que demostró lograr esto es la mamografía.</p>
+    <div class="tab2-alert-container">
+      <div class="alert alert-primary tab2-alerta">
+        <p>El Instituto Nacional del Cáncer de Argentina recomienda realizar una mamografía cada 2 años en mujeres de 50 a 69 años.
+      </div></p>
   </div>
-  <div class="beneficios-riesgos">
-    <div class="beneficios">
-      <h2>Posibles ventajas</h2>
-      <div class="beneficio">
-        <p class="benef"><i class="fas fa-thumbs-up"></i>Sensación de seguridad</p>
-        <p class="descripcion">Algunas mujeres sienten tranquilidad y satisfacción al recibir una mamografía con un resultado normal.</p>
-      </div>
-      <div class="beneficio" id="benef-2">
-          <p class="benef"><i class="fas fa-thumbs-up"></i>Reduce las muertes por cáncer de mama </p>
-        <p class="descripcion">Este es el objetivo del tamizaje con mamografía al detectar y tratar lesiones de forma temprana, aunque no evita el cáncer de mama.</p>
-      </div>
-      <div class="beneficio" id="benef-3">
-        <p class="benef"><i class="fas fa-thumbs-up"></i>Acceder a tratamientos menos invasivos</p>
-        <p class="descripcion">Al detectar el cáncer de mama en estadíos tempranos se podría tratar con cirugías más simples o conservadoras y requerir menos quimioterapia.</p>
-      </div>
-    </div>
-    <div class="riesgos">
-      <h2>Posibles desventajas</h2>
-      <div class="riesgo">
-        <p class="risk"><i class="fas fa-thumbs-down"></i>No detecta todos los cánceres</p>
-        <p class="descripcion">Algunos tumores crecen muy rápido y podrían aparecer inclusive entre los controles regulares con mamografías previas normales.</p>
-      </div>
-      <!-- <div class="riesgo">
-        <a  class="display-3" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">falsas alarmas</strong><i class="fas fa-info-circle"></i></p><span class="">Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama).</span></a>
-        <p class="descripcion">Algunas mujeres necesitan repetir estudios por lesiones benignas que no quedan claras. Durante este proceso algunas mujeres experimentan preocupación, temor o angustia.</p>
-      </div> -->
-      <div class="riesgo">
-        <button class="accordion-3"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">falsas alarmas</strong><i class="fas fa-info-circle"></i></p></button>
-          <div class="panel">
-        <p>Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama).</p>
-        </div>
-        <p class="descripcion">Algunas mujeres necesitan repetir estudios por lesiones benignas que no quedan claras. Durante este proceso algunas mujeres experimentan preocupación, temor o angustia.</p>
-      </div>
-      <script type="text/javascript">
-      var acc = document.getElementsByClassName("accordion-3");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      /* Toggle between adding and removing the "active" class,
-      to highlight the button that controls the panel */
-      this.classList.toggle("active");
-
-      /* Toggle between hiding and showing the active panel */
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-    }
-      </script>
-      <!-- <div class="riesgo">
-        <a class="display-4" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
-        <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento".</p>
-      </div> -->
-      <div class="riesgo">
-        <button class="accordion-4"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p></button>
-          <div class="panel">
-        <p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
-        </div>
-        <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento"</p>
-      </div>
-      <script type="text/javascript">
-      var acc = document.getElementsByClassName("accordion-4");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      /* Toggle between adding and removing the "active" class,
-      to highlight the button that controls the panel */
-      this.classList.toggle("active");
-
-      /* Toggle between hiding and showing the active panel */
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-    }
-      </script>
-    </div>
+  <p>Durante la prueba la mama se comprime entre dos placas planas y se saca una radiografía. Algunas mujeres experimentan dolor o molestias durante el procedimiento.</p>
+  <div class="tab2-alert-container">
+    <div class="alert alert-primary tab2-alerta">
+      <p><strong>*</strong>Recordale a tu paciente que si nota un cambio en sus mamas debe consultar a un médico sin demora (un bulto palpable, cambios en la textura o enrojecimiento de la piel de las mamas, secreción o sangrado por el pezón).
+    </div></p>
   </div>
 </section>
 @endsection
@@ -149,30 +156,30 @@
 <!-- CONTENIDO DE LA TAB4 - Mujeres de 40 a 49 -->
 @section("40a49")
 <div class="mySlides2">
-<img src="img/grafico40-49.svg" alt="" class="grafico50-69">
+<img src="img/grafico40-49-nuevo.svg" alt="" class="grafico50-69">
 <div class="col text-center">
   <button class="btn btn-danger" onclick="plusDivs2(+1)">Siguiente</button><br>
   <!-- <button class="btn btn-primary" onclick="plusDivs(-1)">Anterior</button> -->
 </div>
 </div>
 <div class="mySlides2">
-  <h3 class="tab-h3">¿Cuánto representan 1000 mujeres?</h3>
+  <h3 class="tab-h3">¿Cuánto representan 1000 mujeres de 40 a 49 años?</h3>
   <p class="strong subtitulo-teatro">Imaginemos la platea Teatro Coliseo o el Mercedes Sosa llena:</p>
   <div class="container">
     <div class="con-tamizaje">
-      <p class="strong titulo-color-naranja"><strong>1000 mujeres de 40 a 49 años con tamizaje a lo largo de 10 años</strong></p>
+      <p class="strong titulo-color-naranja"><strong>Con mamografía cada 2 años a lo largo de 10 años</strong></p>
       <img class="parlamento-imagen" src="img/4049-con-tamizaje.png" alt="">
       <div class="panel-1">
         <h4 class="panel-title">986 Sobreviven, de las cuales:</h4>
-        <p class="strong panel-subtitle"><strong> 21 tienen diagnóstico de cáncer de mama (por tamizaje o síntomas):</strong></p>
+        <p class="strong panel-subtitle"><strong> 21 tienen diagnóstico de cáncer de mama (por mamografía o síntomas):</strong></p>
         <div class="panel-item">
-          <i class="fas fa-circle circle-3"></i><p> 11 sobreviven al cáncer de mama con o sin tamizaje</p>
+          <i class="fas fa-circle circle-3"></i><p> 11 sobreviven al cáncer de mama con o sin mamografía</p>
           </div>
           <div class="panel-item">
-            <i class="fas fa-circle circle-4"></i><p> 1 evita morirse de cáncer de mama gracias al tamizaje</p>
+            <i class="fas fa-circle circle-4"></i><p> 1 evita morirse de cáncer de mama gracias a la mamografía</p>
           </div>
           <div class="panel-item">
-            <i class="fas fa-circle circle-5"></i><p> 7 son sobrediagnosticadas por el tamizaje</p>
+            <i class="fas fa-circle circle-5"></i><p> 7 son sobrediagnosticadas por la mamografía</p>
           </div>
           <div class="panel-item">
             <i class="fas fa-circle circle-1"></i><p> 239 tienen falsas alarmas</p>
@@ -181,7 +188,7 @@
       <div class="panel-2">
         <h4 class="panel-title">14 Mueren, de las cuales: </h4>
         <div class="panel-item panel-subtitle">
-          <i class="fas fa-circle circle-6"></i><p> 2 mueren de cáncer de mama a pesar del tamizaje</p>
+          <i class="fas fa-circle circle-6"></i><p> 2 mueren de cáncer de mama a pesar de la mamografía</p>
         </div>
         <div class="panel-item">
           <i class="fas fa-circle circle-7"></i><p> 12 mueren de otras causas</p>
@@ -189,13 +196,13 @@
       </div>
     </div>
     <div class="sin-tamizaje">
-      <p class="strong titulo-color-turquesa"><strong>1000 mujeres de 40 a 49 años sin tamizaje a lo largo de 10 años</strong></p>
+      <p class="strong titulo-color-turquesa"><strong>Sin mamografía a lo largo de 10 años</strong></p>
       <img class="parlamento-imagen" src="img/4049-sin-tamizaje.png" alt="">
       <div class="panel-1">
         <h4 class="panel-title">985 Sobreviven, de las cuales:</h4>
         <p class="strong panel-subtitle"><strong> 14 tienen diagnóstico de cáncer de mama (por síntomas):</strong></p>
         <div class="panel-item">
-          <i class="fas fa-circle circle-3"></i><p> 11 sobreviven al cáncer de mama con o sin tamizaje</p>
+          <i class="fas fa-circle circle-3"></i><p> 11 sobreviven al cáncer de mama con o sin mamografía</p>
         </div>
       </div>
       <div class="panel-2">
@@ -266,30 +273,30 @@ x[slideIndex2-1].style.display = "block";
 <!-- CONTENIDO DE LA TAB5 - Mujeres de 50 a 69 -->
 @section("50a69")
 <div class="mySlides">
-<img src="img/grafico50-69.svg" alt="" class="grafico50-69">
+<img src="img/grafico50-69-nuevo.svg" alt="" class="grafico50-69">
 <div class="col text-center">
   <button class="btn btn-danger" onclick="plusDivs(+1)">Siguiente</button><br>
   <!-- <button class="btn btn-primary" onclick="plusDivs(-1)">Anterior</button> -->
 </div>
 </div>
 <div class="mySlides">
-  <h3 class="tab-h3">¿Cuánto representan 1000 mujeres?</h3>
+  <h3 class="tab-h3">¿Cuánto representan 1000 mujeres de 50 a 69 años?</h3>
   <p class="strong subtitulo-teatro">Imaginemos la platea del Teatro Coliseo o el Mercedes Sosa llena:</p>
   <div class="container">
     <div class="con-tamizaje">
-      <p class="strong titulo-color-naranja"><strong>1000 mujeres de 50 a 69 años con tamizaje a lo largo de 20 años</strong></p>
+      <p class="strong titulo-color-naranja"><strong>Con mamografía cada 2 años a lo largo de 20 años</strong></p>
       <img class="parlamento-imagen" src="img/5069-con-tamizaje.png" alt="">
       <div class="panel-1">
         <h4 class="panel-title">885 Sobreviven, de las cuales:</h4>
-        <p class="strong panel-subtitle"><strong> 73 tienen diagnóstico de cáncer de mama (por tamizaje o síntomas):</strong></p>
+        <p class="strong panel-subtitle"><strong> 73 tienen diagnóstico de cáncer de mama (por mamografía o síntomas):</strong></p>
         <div class="panel-item">
-          <i class="fas fa-circle circle-3"></i><p> 42 sobreviven al cáncer de mama con o sin tamizaje</p>
+          <i class="fas fa-circle circle-3"></i><p> 42 sobreviven al cáncer de mama con o sin mamografía</p>
           </div>
           <div class="panel-item">
-            <i class="fas fa-circle circle-4"></i><p> 4 evitan morirse de cáncer de mama gracias al tamizaje</p>
+            <i class="fas fa-circle circle-4"></i><p> 4 evitan morirse de cáncer de mama gracias a la mamografía</p>
           </div>
           <div class="panel-item">
-            <i class="fas fa-circle circle-5"></i><p> 19 son sobrediagnosticadas por el tamizaje</p>
+            <i class="fas fa-circle circle-5"></i><p> 19 son sobrediagnosticadas por la mamografía</p>
           </div>
           <div class="panel-item">
             <i class="fas fa-circle circle-1"></i><p> 412 tienen falsas alarmas</p>
@@ -298,7 +305,7 @@ x[slideIndex2-1].style.display = "block";
       <div class="panel-2">
         <h4 class="panel-title">115 Mueren, de las cuales: </h4>
         <div class="panel-item panel-subtitle">
-          <i class="fas fa-circle circle-6"></i><p> 8 mueren de cáncer de mama a pesar del tamizaje</p>
+          <i class="fas fa-circle circle-6"></i><p> 8 mueren de cáncer de mama a pesar de la mamografía</p>
         </div>
         <div class="panel-item">
           <i class="fas fa-circle circle-7"></i><p> 107 mueren de otras causas</p>
@@ -306,13 +313,13 @@ x[slideIndex2-1].style.display = "block";
       </div>
     </div>
     <div class="sin-tamizaje">
-      <p class="strong titulo-color-turquesa"><strong>1000 mujeres de 50 a 69 años sin tamizaje a lo largo de 20 años</strong></p>
+      <p class="strong titulo-color-turquesa"><strong>Sin mamografía a lo largo de 20 años</strong></p>
       <img class="parlamento-imagen" src="img/5069-sin-tamizage.png" alt="">
       <div class="panel-1">
         <h4 class="panel-title">881 Sobreviven, de las cuales:</h4>
         <p class="strong panel-subtitle"><strong> 54 tienen diagnóstico de cáncer de mama (por síntomas):</strong></p>
         <div class="panel-item">
-          <i class="fas fa-circle circle-3"></i><p> 42 sobreviven al cáncer de mama con o sin tamizaje</p>
+          <i class="fas fa-circle circle-3"></i><p> 42 sobreviven al cáncer de mama con o sin mamografía</p>
         </div>
       </div>
       <div class="panel-2">
@@ -392,10 +399,104 @@ x[slideIndex-1].style.display = "block";
 <p>Próxima actualización: 2023</p>
 @endsection
 
-<!-- CONTENIDO DE LA TAB7 - Prevenir el cancer de mama -->
+<!-- CONTENIDO DE LA TAB7 - Ventajas y desventajas -->
 @section("prevenir")
-<h3 class="tab-h3"> Prevenir el cáncer de mama</h3>
-<p>Como comentamos antes, la mamografía ayuda a detectar precozmente cánceres de mama pero no previene la aparición de la enfermedad.</p>
+<h3 class="tab-h3"> Ventajas y desventajas</h3>
+<div class="beneficios-riesgos">
+  <div class="beneficios">
+    <h2>Posibles ventajas</h2>
+    <div class="beneficio" id="benef-2">
+        <p class="benef"><i class="fas fa-thumbs-up"></i>Reduce las muertes por cáncer de mama </p>
+      <p class="descripcion">Este es el objetivo del tamizaje con mamografía al detectar y tratar lesiones de forma temprana, aunque no evita el cáncer de mama.</p>
+    </div>
+    <div class="beneficio" id="benef-3">
+      <p class="benef"><i class="fas fa-thumbs-up"></i>Acceder a tratamientos menos invasivos</p>
+      <p class="descripcion">Al detectar el cáncer de mama en estadíos tempranos se podría tratar con cirugías más simples o conservadoras y requerir menos quimioterapia.</p>
+    </div>
+    <div class="beneficio">
+      <p class="benef"><i class="fas fa-thumbs-up"></i>Sensación de seguridad</p>
+      <p class="descripcion">Algunas mujeres sienten tranquilidad y satisfacción al recibir una mamografía con un resultado normal.</p>
+    </div>
+  </div>
+  <div class="riesgos">
+    <h2>Posibles desventajas</h2>
+    <div class="riesgo">
+      <p class="risk"><i class="fas fa-thumbs-down"></i>No detecta todos los cánceres</p>
+      <p class="descripcion">Algunos tumores crecen muy rápido y podrían aparecer inclusive entre los controles regulares con mamografías previas normales.</p>
+    </div>
+    <!-- <div class="riesgo">
+      <a  class="display-3" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">falsas alarmas</strong><i class="fas fa-info-circle"></i></p><span class="">Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama).</span></a>
+      <p class="descripcion">Algunas mujeres necesitan repetir estudios por lesiones benignas que no quedan claras. Durante este proceso algunas mujeres experimentan preocupación, temor o angustia.</p>
+    </div> -->
+    <div class="riesgo">
+      <button class="accordion-3"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">falsas alarmas</strong><i class="fas fa-info-circle"></i></p></button>
+        <div class="panel">
+      <p>Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama).</p>
+      </div>
+      <p class="descripcion">Algunas mujeres necesitan repetir estudios por lesiones benignas que no quedan claras. Durante este proceso algunas mujeres experimentan preocupación, temor o angustia.</p>
+    </div>
+    <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion-3");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+  }
+    </script>
+    <!-- <div class="riesgo">
+      <a class="display-4" href="#"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p><span class="">Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</span></a>
+      <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento".</p>
+    </div> -->
+    <div class="riesgo">
+      <button class="accordion-4"><p class="risk"><i class="fas fa-thumbs-down"></i>Genera <strong class="underline">tratamientos innecesarios</strong><i class="fas fa-info-circle"></i></p></button>
+        <div class="panel">
+      <p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
+      </div>
+      <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento"</p>
+    </div>
+    <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion-4");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+  }
+    </script>
+  </div>
+</div>
+<div class="tab2-alert-container">
+  <div class="alert alert-primary tab2-alerta">
+<p>La exposición a la radiación es una preocupación de muchas mujeres, aunque ésta es muy baja comparada con otros estudios o con la que confiere el medioambiente:
+<br>-Hacerse 1 mamografía cada 2 años durante 20 años equivale a hacerse 3 radiografías de columna o 2 tomografías de cerebro.
+<br>-Hacerse 1 mamografía equivale aproximadamente a 7 semanas de exposición a la radiación del medioambiente.
+</p>
+</div>
+</div>
+<!-- <p>Como comentamos antes, la mamografía ayuda a detectar precozmente cánceres de mama pero no previene la aparición de la enfermedad.</p>
 <p>Hay diferentes factores que influyen en el riesgo de tener cáncer de mama. Algunos son modificables y se relacionan con el estilo de vida. ¿Qué impacto tienen estos factores?</p>
 <div class="tab7-h6">
   <h6 class="h6-habitos">Hábitos que aumentan el riesgo:</h6>
@@ -470,7 +571,7 @@ acc[i].addEventListener("click", function() {
   }
 });
 }
-  </script>
+  </script> -->
 
   <!-- <a  class="display-5" href="#"><h6 class="">Más información sobre estos datos<i class="fas fa-info-circle"></i></h6><span class="">En Argentina en 2018 según las estimaciones de la Agencia Internacional de Investigación sobre Cáncer (IARC) hubieron 125014 casos nuevos de cáncer, de los cuales 21558 son de mama. En el 2017 se registraron 6049 defunciones por cáncer de mama. En nuestra región se le atribuye al factor obesidad el 6,8% de todos los casos de cáncer. Globalmente se le atribuye al factor obesidad (sobretodo en la postmenopausia) el 8.4% de los casos de cáncer de mama, al factor del consumo excesivo de alcohol (más de dos tragos diarios) el 3.5% y el 8.1% de los casos de cáncer total y de mama respectivamente y el 7.3% de las muertes por cáncer de mama. En mujeres que fumaron al menos 5 años antes de tener su primer hijo y más de 20 paquetes por año tuvieron un riesgo de 35 a 40% mayor de cáncer de mama comparado con mujeres no fumadoras. Se observó una disminución del 4.3% del riesgo de cáncer de mama en mujeres que amamantaron por un año. Un meta-análisis demostró que las mujeres que realizaron más actividad física tuvieron menor riesgo que las que no, desde un 12% en general hasta un 31% en un subgrupo de mujeres que realizaban 5hs de actividad vigorosa semanal y que no habían recibido terapia de reemplazo hormonal.
 <!-- </span></a> -->

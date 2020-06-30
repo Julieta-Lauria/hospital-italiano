@@ -31,14 +31,14 @@ $result = $agent->isMobile();
             <section class="col-12">
               <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn" id="panel_drag">
 
-                <h2 class="drag-h2">Lo más importante para tu paciente: ¿Con cuál de estas afirmaciones se siente más identificada? </h2>
+                <h2 class="drag-h2">Lo más importante para tu paciente:</h2>
 
 
                 <div class="multisteps-form__content">
 
 
 @if ($result == false)
-<p>Ordenar las siguientes frases si tu paciente está de acuerdo, en desacuerdo o ni de acuerdo o desacuerdo con estas afirmaciones. <br>Hacer click sobre cada afirmación para arrastrar y soltar en la columna que corresponda.</p><br>
+<p>Esta sección tiene por objetivo ayudarte a vos y tu paciente a identificar qué es lo más importante para ella porque cada persona valora la información de forma diferente. Para saber con cuál de estas afirmaciones se siente más identificada les proponemos ordenarlas en la columna que corresponda si tu paciente está “En desacuerdo”, “Ni de acuerdo, ni desacuerdo” o “De acuerdo” con las mismas.<br>Hacer click sobre cada afirmación para arrastrar y soltar en la columna que corresponda.</p><br>
 <div class="drag-container" id="divform">
     <ul class="drag-list">
 
