@@ -134,7 +134,7 @@ if (panel.style.display === "block") {
 
 <!-- CONTENIDO DE LA TAB3 - Detección precoz -->
 @section("mamografia")
-<h3 class="tab-h3">Mamografía</h3>
+<h3 class="tab-h3">Detección precoz</h3>
 <section>
   <!-- <div class="tab3"> -->
     <p class="strong"><strong>¿Qué es y por qué se ofrece la detección precoz con mamografía?</strong></p>

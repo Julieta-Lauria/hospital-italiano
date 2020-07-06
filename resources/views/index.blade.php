@@ -27,7 +27,7 @@
       </div>
       <div class="jumbotron-header">
         <!-- <img src="img/vector.png" alt=""> -->
-        <img src="img/Mujeres-50-70-portada.JPG" alt="">
+        <img src="img/portada-nueva.JPG" alt="">
       </div>
     </div>
   </div>
