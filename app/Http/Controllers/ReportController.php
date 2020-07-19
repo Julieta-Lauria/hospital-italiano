@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Jenssegers\Agent\Agent;
 use Illuminate\Http\Request;
 use App\Consulta;
+use Mail;
 
 class ReportController extends Controller
 {
@@ -16,16 +17,18 @@ class ReportController extends Controller
            $comment = $input['comment'];
            $edad = $input['edad'];
            $date = date('d-m-Y');
-          // $invoice = "Nombre del Paciente";
-           $view =  \View::make('pdfprint', compact('data', 'date', 'edad', 'comment' ))->render();
+           $view =  \View::make('pdfprint2', compact('data', 'date', 'edad', 'comment' ))->render();
            $pdf = \App::make('dompdf.wrapper');
-           //$pdf->loadHTML($view);
-           return $pdf->loadHTML($view)->stream('reporte.pdf');
-           //return $pdf->stream('reporte.pdf');
-           //return $pdf->download('reporte.pdf');
+           $pdf->loadHTML($view);
+           $email = $input['send-mail'];
+              if ( $email!=null ) {
+                $this->sendMail($email, $pdf, $view);
+              }
 
-           //return view('index');
-         }
+          return $pdf->stream('reporte.pdf');
+
+
+      }
 
 
 
@@ -56,6 +59,17 @@ class ReportController extends Controller
            $newConsulta->form_html = $input['form_html'];
 
            $newConsulta -> save();
+
+        }
+
+         public function sendMail($ema, $doc, $vist){
+
+             Mail::send('pdfprint2', [], function($message) use ($ema, $doc, $vist)
+               {
+                   $message->to($ema)->subject('This is test e-mail');
+                   $message->attachData($doc->loadHTML($vist)->output(),'reporte-mail.pdf');
+                   // $pdf->loadHTML($view)->stream('reporte.pdf');
+               });
 
         }
 

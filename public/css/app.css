@@ -2056,3 +2056,15 @@ body{
 .radio-custom:focus + .radio-custom-label {
   outline: 1px solid #f86641; /* focus style */
    width:97.5%;
+ }
+
+#btn-send-mail{
+    line-height: 2;
+    background-color: black;
+    color:white;
+    letter-spacing: 2px;
+    border:1px solid black;
+    border-radius:5px;
+    font-size:0.9em;
+    text-transform: uppercase;
+  }

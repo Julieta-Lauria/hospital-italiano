@@ -9,20 +9,17 @@
         header('Content-type: application/pdf');//with header Content type
 
     ?>
-    <?php $options_columns = ['No Responde','No Responde', 'En Desacuerdo', 'Ni acuerdo, ni desacuerdo', 'De Acuerdo'] ?>
   </head>
   <body>
 
         <main>
 
           <div class="divtitulo">
-            <!-- <img class="titulopdf" src="{!! asset('img/titulopdf.png') !!}"> -->
           </div>
 
 
 
             <div id="invoice">
-              <!-- <div class="date">Fecha: {{ $date }}</div> -->
             </div>
 
 
@@ -31,15 +28,7 @@
 
           <h2>Infografía con riesgos y beneficios</h2>
           <br>
-            <!-- <div class="grafico1pdf">
-              @if ($edad < 50)
-              <img src="{!! asset('img/grafico-pdf-40-1.png') !!}" style = "width: 700px;" style = "height: 400px;">
-              <img src="{!! asset('img/grafico-pdf-40-2.png') !!}" style = "width: 700px;" style = "height: 400px;">
-              @else
-              <img src="{!! asset('img/grafico-pdf-50-1.png') !!}" style = "width: 700px;" style = "height: 400px;">
-              <img src="{!! asset('img/grafico-pdf-50-2.png') !!}" style = "width: 700px;" style = "height: 400px;">
-              @endif
-            </div> -->
+
 <br><br><br>
 <br><br><br>
 <br><br><br>
@@ -68,7 +57,6 @@
 
             @if ($result == false)
               <div class="dragpdf">
-              <!-- <?php echo $data ?> -->
               </div>
 
 
@@ -254,7 +242,6 @@
 <br>
             <h2>Comentarios:</h2>
               <div class="dragpdf">
-              <!-- <p>{{ $comment }} </p> -->
               </div>
 
 

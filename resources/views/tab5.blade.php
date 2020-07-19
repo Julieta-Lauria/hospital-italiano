@@ -1,9 +1,9 @@
+<script type="text/javascript" src="js/jqmain.js"></script>
 <?php
 $agent = new \Jenssegers\Agent\Agent;
 $result = $agent->isMobile();
 //dd($result);
 ?>
-
 <!--content inner-->
 <div class="content__inner">
   <div class="container overflow-hidden">
@@ -529,6 +529,11 @@ $result = $agent->isMobile();
 
                 <section class="section">
                   <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
+                  <input type="button" name="form-mail" id="form-mail" class="boton-reporte" value="Enviar por Email">
+                  <form class="" action="/sendmail" method="post" id="formmail">
+                    <input type="email" name="send-mail" id="send-mail" class="shut" value="" placeholder="email@dominio.com">
+                    <input type="submit" name="btn-send-mail" id="btn-send-mail" class="shut" value="Enviar">
+                  </form>
                 </section>
               </section>
             </div>
