@@ -17,7 +17,7 @@ class ReportController extends Controller
            $comment = $input['comment'];
            $edad = $input['edad'];
            $date = date('d-m-Y');
-           $view =  \View::make('pdfprint2', compact('data', 'date', 'edad', 'comment' ))->render();
+           $view =  \View::make('pdfprint', compact('data', 'date', 'edad', 'comment' ))->render();
            $pdf = \App::make('dompdf.wrapper');
            $pdf->loadHTML($view);
            $email = $input['send-mail'];
