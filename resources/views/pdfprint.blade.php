@@ -28,21 +28,60 @@
 
 
 <br>
+          <h2>Esta decisión no es una urgencia</h2>
+          <p>Decidir si una quiere realizarse o no una mamografía preventiva no es una urgencia. Hay tiempo para pensarlo, para charlarlo con familiares o amigo/as si es necesario. La decisión tampoco es estática, puede cambiar a lo largo del tiempo y querer volver a charlar este tema con su médico/a cuando lo desee.
 
+          </p>
+          <h2>Propósito del reporte</h2>
+          <p>Este reporte resume información sobre los posibles beneficios y daños de la mamografía y sirve como complemento a lo charlado con su médico/a. Recibir información sanitaria clara y completa sobre intervenciones o estudios se enmarca dentro de la Ley 26.529 de Derechos del Paciente. Esto no representa un consentimiento informado, sino que intenta mejorar la información sanitaria que se brinda a las pacientes.</p>
+          <p>Fomentar estas discusiones de ningún modo busca impedir o retrasar el acceso a la mamografía, sino brindar más autonomía e información para tomar decisiones a lo/as pacientes que así lo deseen. Si usted llegara a decidir que quiere hacerse una mamografía luego de retirarse de la consulta puede enviarle un mensaje a su médico de cabecera de lunes a viernes de 8 a 20 llamando al 4959-5050 o ingresando a su Portal de Salud (https://www1.hospitalitaliano.org.ar/#!/home/plan/salud) y seleccionando la opción “Mensajería”. Las órdenes de estudios son electrónicas de modo que no es necesario que pida un nuevo turno o se acerque a retirar ninguna orden para poder realizarse el estudio.</p>
+          <h2>¿Qué es el cáncer de mama?</h2>
+          <p>Es una enfermedad causada por el crecimiento anormal de células de la mama que forman un tumor maligno. La mayoría de los cánceres de mama (CM) se producen en mujeres mayores de 50 años sin antecedentes familiares de la enfermedad. Además de la edad, hay muchos otros factores predisponentes. Algunos se pueden modificar y otros no.</p>
+          <h2>Factores predisponentes</h2>
+          <p><strong>No modificables:</strong>
+            <br>
+            -Antecedentes familiares de CM, ovario o peritoneal: más probabilidades si se trata de hermanas, madres o hijas con CM antes de los 50 años o más de un familiar afectado (esto se considera probabilidad alta, no “promedio”).
+            <br>
+            -Haber recibido radioterapia en el pecho (esto se considera probabilidad alta, no “promedio”).
+            <br>
+            -Ciertas mutaciones genéticas (esto se considera probabilidad alta, no “promedio”).
+            <br>
+            -Que tienen biopsias previas con diagnóstico de “carcinoma ductal o lobar in situ” (esto se considera probabilidad alta, no “promedio”).
+            <br>
+            -Si la edad de la primera menstruación fue antes de los 12 años o de la última fue después de los 55 años.
+            <br>
+            -Si no se tuvo hijos o se los tuvo después de los 30 años.
+            <br>
+            -Haber recibido terapia de reemplazo hormonal.
+            <br>
+            -Mayor densidad mamaria.
+          </p>
+          <p><strong>Modificables:</strong>
+            <br>
+            -Obesidad en la postmenopausia: se asocia a 8,4% del total de CM (1800 casos anuales)
+            <br>
+            -Consumo excesivo de alcohol: se asocia a 8,1% del total de CM (1750 casos anuales)
+            <br>
+            -Tabaquismo: se asocia a un 35-40% más de riesgo de tener CM en mujeres que fumaron por al menos 5 años un paquete por día antes del primer embarazo.
+            <br>
+            -Sedentarismo: hacer actividad física reduce entre un 12-31% el riesgo de CM. Hacer cualquier actividad (por ejemplo subir escaleras por 10’ o caminar por 25’) fue mejor que la inactividad, pero a mayor intensidad de ejercicio se observó un mayor impacto.
+          </p>
           <h2>Infografía con riesgos y beneficios</h2>
+          <br>
           <br>
             <div class="grafico1pdf">
               @if ($edad < 50)
-              <!-- <img src="{!! asset('img/grafico-pdf-40-1.png') !!}" style = "width: 700px;" style = "height: 400px;">
-              <img src="{!! asset('img/grafico-pdf-40-2.png') !!}" style = "width: 700px;" style = "height: 400px;"> -->
+              <img src="img/grafico-40-1.png" alt="" style ="width: 700px;" style = "height: 400px;">
+              <img src="img/grafico-40-2.png" alt="" style ="width: 700px;" style = "height: 400px;">
+              <!-- <img src="{!! asset('img/grafico-40-1.png') !!}" style = "width: 700px;" style = "height: 400px;">
+              <img src="{!! asset('img/grafico-40-2.png') !!}" style = "width: 700px;" style = "height: 400px;"> -->
               @else
-              <!-- <img src="{!! asset('img/grafico-pdf-50-1.png') !!}" style = "width: 700px;" style = "height: 400px;">
-              <img src="{!! asset('img/grafico-pdf-50-2.png') !!}" style = "width: 700px;" style = "height: 400px;"> -->
+              <img src="img/grafico-50-1.png" alt="" style ="width: 700px;" style = "height: 400px;">
+              <img src="img/grafico-50-2.png" alt="" style ="width: 700px;" style = "height: 400px;">
+              <!-- <img src="{!! asset('img/grafico-50-1.png') !!}" style = "width: 700px;" style = "height: 400px;">
+              <img src="{!! asset('img/grafico-50-2.png') !!}" style = "width: 700px;" style = "height: 400px;"> -->
               @endif
             </div>
-<br><br><br>
-<br><br><br>
-<br><br><br>
             <h2>Definiciones</h2>
               <div class="definiciones">
                 <p><strong>Falsas alarmas:</strong><br><br>Cuando la mamografía muestra un hallazgo que aumenta el nivel de sospecha y motiva a realizar más estudios hasta que finalmente se determina que se trata de una condición benigna. Estos estudios pueden ser desde una ecografía, otra mamografía con una técnica distinta, y hasta una biopsia (tomar una muestra del tejido de la mama). Algunas mujeres expresan que estas falsas alarmas les generan ansiedad y miedo.</p>
@@ -60,7 +99,7 @@
    ?>
 
 
-            <h2>Tabla de decisiones:</h2>
+            <h2>Lo más importante para vos</h2>
             <br>
 
             @if ($result == false)

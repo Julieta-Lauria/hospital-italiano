@@ -25,8 +25,8 @@
 
 
 <br>
-
-          <h2>Infografía con riesgos y beneficios</h2>
+          <p>Podés encontrar en adjunto reporte emitido a través de la web www.decidirmamografia.com.ar</p>
+          <!-- <h2>Infografía con riesgos y beneficios</h2>
           <br>
 
 <br><br><br>
@@ -39,7 +39,7 @@
               </div>
 
 
-              <br>
+              <br> -->
 
 <?php
     $agent = new \Jenssegers\Agent\Agent;
@@ -52,7 +52,7 @@
    ?>
 
 
-            <h2>Tabla de decisiones:</h2>
+            <!-- <h2>Tabla de decisiones:</h2> -->
             <br>
 
             @if ($result == false)
@@ -240,7 +240,7 @@
             @endif
 
 <br>
-            <h2>Comentarios:</h2>
+            <!-- <h2>Comentarios:</h2> -->
               <div class="dragpdf">
               </div>
 

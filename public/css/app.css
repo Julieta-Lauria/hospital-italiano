@@ -1055,7 +1055,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 4;
+  line-height: 3;
   width:70%;
   background-color: black;
   color:white;
@@ -1289,6 +1289,11 @@ ul {
 
 
 /******************* ----- DRAG & DROP ----------********************/
+
+.boton-reporte{
+  display: inline-block;
+}
+
 
 .btn-comment{
   text-align: left;
@@ -1982,7 +1987,7 @@ body{
 }
 
 .child-tab5,
-.child-tab6,
+/* .child-tab6, */
 .child-tab7,
 {
   height: 2000px;
@@ -1992,6 +1997,10 @@ body{
 .child-tab5,
 .child-tab7{
   height:2000px;
+}
+
+.child-tab6{
+  height:1700px;
 }
 
 }
@@ -2059,7 +2068,7 @@ body{
  }
 
 #btn-send-mail{
-    line-height: 2;
+    line-height: 3;
     background-color: black;
     color:white;
     letter-spacing: 2px;
@@ -2067,4 +2076,6 @@ body{
     border-radius:5px;
     font-size:0.9em;
     text-transform: uppercase;
+    padding-left: 3%;
+    padding-right: 3%;
   }

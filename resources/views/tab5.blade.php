@@ -528,8 +528,8 @@ $result = $agent->isMobile();
                 <input id="form_html" name="form_html" type="hidden">
 
                 <section class="section">
-                  <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
-                  <input type="button" name="form-mail" id="form-mail" class="boton-reporte" value="Enviar por Email">
+                    <input name="enviar" type="submit" value='Generar Reporte' id="enviar" class="boton-reporte">
+                    <input type="button" name="form-mail" id="form-mail" class="boton-reporte" value="Enviar por Email">
                   <form class="" action="/sendmail" method="post" id="formmail">
                     <input type="email" name="send-mail" id="send-mail" class="shut" value="" placeholder="email@dominio.com">
                     <input type="submit" name="btn-send-mail" id="btn-send-mail" class="shut" value="Enviar">
