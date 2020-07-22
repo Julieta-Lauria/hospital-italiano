@@ -51,12 +51,12 @@ $result = $agent->isMobile();
           <li class="drag-item"><input name="afirmacion1" value="0" hidden>Estoy dispuesta a hacer todo lo que pueda para detectar un cáncer de mama a tiempo</li>
           <li class="drag-item"><input name="afirmacion2" value="0" hidden>No me gusta hacerme estudios ni venir al médico si estoy sana o no tengo síntomas</li>
           <li class="drag-item"><input name="afirmacion3" value="0" hidden>La mamografía es muy molesta y la paso mal haciéndome el estudio</li>
-          <li class="drag-item"><input name="afirmacion4" value="0" hidden>La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li>
+          <!-- <li class="drag-item"><input name="afirmacion4" value="0" hidden>La cantidad de muertes que se podrían evitar con la mamografía me parece BAJA</li> -->
           <li class="drag-item"><input name="afirmacion5" value="0" hidden>La cantidad de muertes que se podrían evitar con la mamografía me parece ALTA</li>
           <li class="drag-item"><input name="afirmacion6" value="0" hidden>Me genera ansiedad o miedo esperar el resultado de la mamografía</li>
           <li class="drag-item"><input name="afirmacion7" value="0" hidden>Me genera ansiedad o miedo repetirme estudios</li>
           <li class="drag-item"><input name="afirmacion8" value="0" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece BAJA</li>
-          <li class="drag-item"><input name="afirmacion9" value="0" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li>
+          <!-- <li class="drag-item"><input name="afirmacion9" value="0" hidden>La cantidad de tratamientos innecesarios que se podrían generar con la mamografía me parece ALTA</li> -->
           <li class="drag-item"><input name="afirmacion10" value="0" hidden>Prefiero que esta decisión la tome mi médico/a</li>
           <li class="drag-item"><input name="afirmacion11" value="0" hidden>Hacerme la mamografía me da tranquilidad</li>
         </ul>

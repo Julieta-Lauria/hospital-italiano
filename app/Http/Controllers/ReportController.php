@@ -44,12 +44,12 @@ class ReportController extends Controller
              $newConsulta->afirmacion1 = $input['afirmacion1'];
              $newConsulta->afirmacion2 = $input['afirmacion2'];
              $newConsulta->afirmacion3 = $input['afirmacion3'];
-             $newConsulta->afirmacion4 = $input['afirmacion4'];
+             // $newConsulta->afirmacion4 = $input['afirmacion4'];
              $newConsulta->afirmacion5 = $input['afirmacion5'];
              $newConsulta->afirmacion6 = $input['afirmacion6'];
              $newConsulta->afirmacion7 = $input['afirmacion7'];
              $newConsulta->afirmacion8 = $input['afirmacion8'];
-             $newConsulta->afirmacion9 = $input['afirmacion9'];
+             // $newConsulta->afirmacion9 = $input['afirmacion9'];
              $newConsulta->afirmacion10 = $input['afirmacion10'];
              $newConsulta->afirmacion11 = $input['afirmacion11'];
 
