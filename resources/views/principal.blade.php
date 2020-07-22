@@ -16,7 +16,7 @@
   <p class="tab1-p">Como toda decisión médica tiene opciones: tanto realizar como no realizar la mamografía son opciones razonables. Cada opción tiene sus ventajas y desventajas, y es importante que las pacientes las conozcan para decidir bien informadas cuál es la mejor opción para ellas.</p>
   <div class="alert-container-tab1">
     <div class="alert alert-primary alerta-tab1">
-      <p><strong>Atención: </strong>Si pensás que hablar de las desventajas de una intervención te puede generar ansiedad (por ejemplo leer el prospecto de los medicamentos) te recomendamos que no utilices esta herramienta.</p>
+      <p><strong>Atención: </strong>Si pensás que hablar de las desventajas de una intervención le puede generar ansiedad a tu paciente (por ejemplo si leer el prospecto de los medicamentos le genera preocupación o malestar) te recomendamos que no utilices esta herramienta con ella.</p>
     </div>
   </div>
 @endsection
@@ -68,17 +68,17 @@ if (panel.style.display === "block") {
 }
 </script>
 <br>
-<p>Si querés calcular las probabilidades que tiene tu paciente de desarrollar CM hacé click acá <a href="https://bcrisktool.cancer.gov/calculator.html" target="_blank">Breast Cancer Risk Assessment Tool</a>. Recordá que lo que se considera “promedio” es tener entre un 12% y un 15% de probabilidad de tener un CM a lo largo de toda la vida.</p>
-<p>De los factores que se pueden modificar:</p>
+<p>Si querés calcular las probabilidades que tiene tu paciente de desarrollar CM hacé click en esta<a href="https://bcrisktool.cancer.gov/calculator.html" target="_blank">Calculadora de riesgo.</a>. Recordá que lo que se considera “promedio” es tener entre un 12% y un 15% de probabilidad de tener un CM a lo largo de toda la vida.</p>
+<p>De los factores que se pueden modificar (pasá el cursor por cada imagen para revelar más información):</p>
 <div class="flip-card-container">
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
         <img src="img/obesity-128.png" alt="Avatar" style="width:100px;height:100px">
-        <p><strong>Obesidad</strong></p>
+        <p><strong>Obesidad en la postmenopausia</strong></p>
       </div>
       <div class="flip-card-back">
-            <p><strong>Obesidad</strong></p>
+            <p><strong>Obesidad en la postmenopausia</strong></p>
             <p class="flip-card-back-p">Se asocia a:</p><span class="tab7-porcentaje">8,4%⬆</span><p>del total de cánceres de mama (1800 casos anuales)</p>
     </div>
   </div>
@@ -103,6 +103,7 @@ if (panel.style.display === "block") {
       </div>
       <div class="flip-card-back">
             <p><strong>Actividad física regular</strong></p>
+            <img src="img/bicycle.png" alt="" style="width:30px;height:30px">
             <p class="flip-card-back-p">Se asocia a:</p><span class="tab7-porcentaje porcentaje-menor">12-31%⬇</span><p>menor riesgo de tener cáncer de mama</p>
     </div>
   </div>
@@ -407,7 +408,7 @@ x[slideIndex-1].style.display = "block";
     <h2>Posibles ventajas</h2>
     <div class="beneficio" id="benef-2">
         <p class="benef"><i class="fas fa-thumbs-up"></i>Reduce las muertes por cáncer de mama </p>
-      <p class="descripcion">Este es el objetivo del tamizaje con mamografía al detectar y tratar lesiones de forma temprana, aunque no evita el cáncer de mama.</p>
+      <p class="descripcion">Este es el objetivo de la detección precoz con mamografía al encontrar y tratar lesiones de forma temprana, aunque no evita el cáncer de mama.</p>
     </div>
     <div class="beneficio" id="benef-3">
       <p class="benef"><i class="fas fa-thumbs-up"></i>Acceder a tratamientos menos invasivos</p>
@@ -464,7 +465,7 @@ x[slideIndex-1].style.display = "block";
         <div class="panel">
       <p>Algunos tipos de cánceres de mama que se detectan por el tamizaje crecen tan lento que nunca llegarían a ser un problema de salud. Algunos inclusive desaparecen solos sin tratamiento. Hasta el momento no tenemos forma de diferenciar estos tipos de cánceres de los que realmente dañan a la mujer, por lo que se ofrece tratamiento a todos los diagnósticos de cáncer de mama. Esto quiere decir que algunas mujeres con un cáncer de mama detectado por el tamizaje pueden recibir tratamientos innecesarios. Esto se conoce como sobrediagnóstico y sobretratamiento.</p>
       </div>
-      <p class="descripcion">El tamizaje encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento"</p>
+      <p class="descripcion">La mamografía encuentra algunos cánceres de mama que no hubieran producido síntomas o daño durante la vida de las mujeres. Esto conlleva cirugías, radioterapia y quimioterapia innecesarias. Es lo que llamamos “sobrediagnóstico” y “sobretratamiento"</p>
     </div>
     <script type="text/javascript">
     var acc = document.getElementsByClassName("accordion-4");

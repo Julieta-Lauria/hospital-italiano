@@ -16,7 +16,7 @@
         <h1>DETECCIÓN PRECOZ DEL <br><span>CÁNCER DE MAMA</span></h1>
         <h2>Ayudándote a decidir:</h2>
         <p>¿Cuáles son mis opciones?</p>
-        <p>¿Cuáles son son las posibles ventajas y desventajas de esas opciones?</p>
+        <p>¿Cuáles son las posibles ventajas y desventajas de esas opciones?</p>
         <p>¿Con qué frecuencia se presentan las posibles ventajas y desventajas de cada una de ellas?</p>
         <form class="" action="" method="get">
           <div>
